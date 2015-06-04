@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<out>
+<out_Menu>
+<e1>gestión de perfil</e1>
+<e2>lista de los salarios</e2>
+<e3>gestión de utilizadores</e3>
+<e4>la cantidad que se agrega a la cantidad de factura es mayor impéyée</e4>
+<e5>asignación de dinero enviado por el cliente</e5>
+<e6>gestión de utilizadores</e6>
+<e7>Pon en una lista los encargos no confirmado</e7>
+<e8>informatios sobre la operación</e8>
+<e9>Lista del Biens du Société</e9>
+<e10>Acogida</e10>
+<e11>él ya un probléme en su fichero backup</e11>
+<e12>el puesto a día de su aplicación a verano hecho con succés</e12>
+<e13>Lista de los Equipos</e13>
+<e14>alquiler de los equipos </e14>
+<e15>Lista de almacenaje</e15>
+<e16>Lista logística de los servicios</e16>
+<e17>La fecha del factura siempre inferior a la fecha pago</e17>
+<e18>La fecha de factura Siempre superior a la fecha principio de período</e18>
+<e19>La fecha de factura Siempre inferior a la fecha finales de período</e19>
+<e20>Actualizado Oferta</e20>
+<e21> la asignación de dinero enviado por el proveedor </e21>
+<e22> la cantidad que se agrega a la orden excede la cantidad de impéyée </e22>
+<e23> la cantidad que agrega es estrictamente mayor que el valor del dinero enviado por el Proveedor </e23>
+</out_Menu>
+<verification_donne>
+  <e1>Ref</e1>
+  <e2>Expediente</e2>
+  <e3>Cliente</e3>
+  <e4>LTA / BL / AWB</e4>
+  <e5>ETD</e5>
+  <e6>ETA</e6>
+  <e7>Origen</e7>
+  <e8>Destinación</e8>
+  <e9>Tipo</e9>
+  <e10>Acciones</e10>
+  <e11>status</e11>
+  <e12>N ° expediente</e12>
+  <e13>cliente</e13>
+  <e14>Debit</e14>
+  <e15>Crédito</e15>
+   <e16>P/L</e16>
+  <e17>Acciones</e17>
+  <e18>todos las facturas y los órdenes de pedido de la operación</e18>
+  <e19>operación</e19>
+  <e20>Factura / B.Comm</e20>
+  <e21>Flujo</e21>
+  <e22>Crédito</e22>
+  <e23>Flujo</e23>
+  <e24>Crédito</e24>
+  <e24>Crédito</e24>
+  <e25>P/L</e25>
+  <e26>no hay ninguna transacción sobre esta operación</e26>
+  <e27>Exportar modelos</e27>
+  <e28>Creation of printed matters</e28>
+    <e29>Detaille</e29>
+  </verification_donne>
+  </out>

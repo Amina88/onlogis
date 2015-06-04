@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<Pay>
+<PY>
+<e1>nice, France </e1>
+<e2>Afghanistan </e2>
+<e3>Afrique Centrale </e3>
+<e4>Afrique du Sud </e4> 
+<e5>Albanie </e5>
+<e6>Algerie </e6>
+<e7>Allemagne </e7>
+<e8>Andorre </e8>
+<e9>Angola </e9>
+<e10>Anguilla </e10>
+<e11>Arabie Saoudite </e11>
+<e12>Argentine </e12>
+<e13>Armenie </e13> 
+<e14>Australie </e14>
+<e15>Autriche </e15>
+<e16>Azerbaidjan </e16>
+<e17>Bahamas </e17>
+<e18>Bangladesh </e18>
+<e19>Barbade </e19>
+<e20>Bahrein </e20>
+<e21>Belgique </e21>
+<e22>Belize </e22>
+<e23>Benin </e23>
+<e24>Bermudes </e24>
+<e25>Bielorussie </e25>
+<e26>Bolivie </e26>
+<e27>Botswana </e27>
+<e28>Bhoutan </e28>
+<e29>Boznie Herzegovine </e29>
+<e30>Bresil </e30>
+<e31>Brunei </e31>
+<e32>Bulgarie </e32>
+<e33>Burkina Faso </e33>
+<e34>Burundi </e34>
+<e35>Caiman </e35>
+<e36>Cambodge </e36>
+<e37>Cameroun </e37>
+<e38>Canada </e38>
+<e39>Canaries </e39>
+<e40>Cap Vert </e40>
+<e41>Chili </e41>
+<e42>Chine </e42> 
+<e43>Chypre </e43> 
+<e44>Colombie </e44>
+<e45>Colombie </e45>
+<e46>Congo </e46>
+<e47>Congo democratique </e47>
+<e48>Cook </e48>
+<e49>Coree du Nord </e49>
+<e50>Coree du Sud </e50>
+<e51>Costa Rica </e51>
+<e52>Cote d Ivoire </e52>
+<e53>Croatie </e53>
+<e54>Cuba </e54>
+<e55>Danemark </e55>
+<e56>Djibouti </e56>
+<e57>Dominique </e57>
+<e58>Egypte </e58> 
+<e59>Emirats Arabes Unis </e59>
+<e60>Equateur </e60>
+<e61>Erythree </e61>
+<e62>Espagne </e62>
+<e63>Estonie </e63>
+<e64>Etats Unis </e64>
+<e65>Ethiopie </e65>
+<e66>Falkland </e66>
+<e67>Feroe </e67>
+<e68>Fidji </e68>
+<e69>Finlande </e69>
+<e70>France </e70>
+<e71>Gabon </e71>
+<e72>Gambie </e72>
+<e73>Georgie </e73>
+<e74>Ghana </e74>
+<e75>Gibraltar </e75>
+<e76>Grece </e76>
+<e77>Grenade </e77>
+<e78>Groenland </e78>
+<e79>Guadeloupe </e79>
+<e80>Guam </e80>
+<e81>Guatemala</e81>
+<e82>Guernesey </e82>
+<e83>Guinee </e83>
+<e84>Guinee Bissau </e84>
+<e85>Guinee Equatoriale </e85>
+<e86>Guyana </e86>
+<e87>Guyane Francaise </e87>
+<e88>Haiti </e88>
+<e89>Hawaii </e89> 
+<e90>Honduras </e90>
+<e91>Hong Kong </e91>
+<e92>Hongrie </e92>
+<e93>Inde </e93>
+<e94>Indonesie </e94>
+<e95>Iran </e95>
+<e96>Iraq </e96>
+<e97>Irlande </e97>
+<e98>Islande </e98>
+<e99>Israel </e99>
+<e100>italie </e100>
+<e101>Jamaique </e101>
+<e102>Jan Mayen </e102>
+<e103>Japon </e103>
+<e104>Jersey </e104>
+<e105>Jordanie </e105>
+<e106>Kazakhstan </e106>
+<e107>Kenya </e107>
+<e108>Kirghizistan </e108>
+<e109>Kiribati </e109>
+<e110>Koweit </e110>
+<e111>Laos </e111>
+<e112>Lesotho </e112>
+<e113>Lettonie </e113>
+<e114>Liban </e114>
+<e115>Liberia </e115>
+<e116>Liechtenstein </e116>
+<e117>Lituanie </e117> 
+<e118>Luxembourg </e118>
+<e119>Lybie </e119>
+<e120>Macao </e120>
+<e121>Macedoine </e121>
+<e122>Madagascar </e122>
+<e123>Madere </e123>
+<e124>Malaisie </e124>
+<e125>Malawi </e125>
+<e126>Maldives </e126>
+<e127>Mali </e127>
+<e128>Malte </e128>
+<e129>Man </e129>
+<e130>Mariannes du Nord </e130>
+<e131>Maroc </e131>
+<e132>Marshall </e132>
+<e133>Martinique </e133>
+<e134>Maurice </e134>
+<e135 >Mauritanie </e135>
+<e136>Mayotte </e136>
+<e137>Mexique </e137>
+<e138>Micronesie </e138>
+<e139>Midway </e139>
+<e140>Moldavie </e140>
+<e141>Monaco </e141>
+<e142>Mongolie </e142>
+<e143>Montserrat </e143>
+<e144>Mozambique </e144>
+<e145>Namibie </e145>
+<e146>Nauru </e146>
+<e147>Nepal </e147>
+<e148>Nicaragua </e148>
+<e149>Niger </e149>
+<e150>Nigeria </e150>
+<e151>Niue </e151>
+<e152>Norfolk </e152>
+<e153>Norvege </e153>
+<e154>Nouvelle Caledonie </e154>
+<e155>Nouvelle Zelande </e155>
+<e156>Oman </e156>
+<e157>Ouganda </e157>
+<e158>Ouzbekistan </e158>
+<e159>Pakistan </e159>
+<e160>Palau </e160>
+<e161>Palestine </e161>
+<e162>Panama </e162>
+<e163>Papouasie Nouvelle Guinee </e163>
+<e164>Paraguay </e164>
+<e165>Pays Bas </e165>
+<e166>Perou </e166>
+<e167>Philippines </e167> 
+<e168>Pologne </e168>
+<e169>Polynesie </e169>
+<e170>Porto Rico </e170>
+<e171>Portugal </e171>
+<e172>Qatar </e172>
+<e173>Republique Dominicaine </e173>
+<e174>Republique Tcheque </e174>
+<e175>Reunion </e175>
+<e176>Roumanie </e176>
+<e177>Royaume Uni </e177>
+<e178>Russie </e178>
+<e179>Rwanda </e179>
+<e180>Sahara Occidental </e180>
+<e181>Sainte Lucie </e181>
+<e182>Saint Marin </e182>
+<e183>Salomon </e183>
+<e184>Salvador </e184>
+<e185>Samoa Occidentales</e185>
+<e186>Samoa Americaine </e186>
+<e187>Sao Tome et Principe </e187> 
+<e188>Senegal </e188> 
+<e189>Seychelles </e189>
+<e190>Sierra Leone </e190>
+<e191>Singapour </e191>
+<e192>Slovaquie </e192>
+<e193>Slovenie</e193>
+<e194>Somalie </e194>
+<e195>Soudan </e195> 
+<e196>Sri Lanka </e196> 
+<e197>Suede </e197>
+<e198>Suisse </e198>
+<e199>Surinam </e199>
+<e200>Swaziland </e200>
+<e201>Syrie </e201>
+<e202>Tadjikistan </e202>
+<e203>Taiwan </e203>
+<e204>Tonga </e204>
+<e205>Tanzanie </e205>
+<e206>Tchad </e206>
+<e207>Thailande </e207>
+<e208>Tibet </e208>
+<e209>Timor Oriental </e209>
+<e210>Togo </e210> 
+<e211>Trinite et Tobago </e211>
+<e212>Tristan de cuncha </e212>
+<e213>Tunisie </e213>
+<e214>Turmenistan </e214> 
+<e215>Turquie </e215>
+<e216>Ukraine </e216>
+<e217>Uruguay </e217>
+<e218>Vanuatu </e218>
+<e219>Vatican </e219>
+<e220>Venezuela </e220>
+<e221>Vierges Americaines </e221>
+<e222>Vierges Britanniques </e222>
+<e223>Vietnam </e223>
+<e224>Wake </e224>
+<e225>Wallis et Futuma </e225>
+<e226>Yemen </e226>
+<e227>Yougoslavie </e227>
+<e228>Zambie </e228>
+<e229>Zimbabwe </e229>
+
+</PY></Pay>

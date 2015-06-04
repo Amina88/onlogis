@@ -1,0 +1,15 @@
+Plan Comptable;;;
+Libellé;N° Compte;Nature;Sens
+;;;
+Client;1255;PL;Client
+Capital ;100;Capital;Capital
+Revenue;200;Revenue;Revenue
+Caisse Bureau NKC(MRO);2325;Caisse NKC;Caisse
+Depense fix;300;Charge;Charge
+Depense Admin;301;Charge;Charge
+Depense Telecom;302;Charge;Charge
+Depense carburant;303;Charge;Charge
+Depense Operationnel;310;Charge;Charge
+Salaire;320;Charge;Charge
+Fournisseur;56565;BC;Fournisseur
+TAXES;700505;BC;Couts

@@ -1,0 +1,6 @@
+if(isset($type[1])){
+					?>
+					<a href="MenuUtilisation.php?valeur=DetailOperationExport.php&page=<?php echo $type;?>&titre=<?php echo $dmin[14].' ('.$admin[11].','.;?> &type_operation=<?php echo $type_op[0]; ?> Export&id=<?php echo $admin[11]; ?>&url=<?php echo $url.".".$N19 ?>" >
+					<?php }else{ ?>
+					<a href="MenuUtilisation.php?valeur=detailleoperation.php&tb=import&type_operation=<?php echo $type_op[0];?>&page=<?php echo $type_op[0];?>&id=<?php echo $admin[11]; ?>&titre=<?php echo $titre; ?>&url=<?php echo $url.'.'.$N19; ?>" >
+					<?php } ?>

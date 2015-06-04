@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+<MenuUtilisation>
+<e1> You have errors. Please check below. </e1>
+<e2> Details </e2>
+<e3> Sign Out </e3>
+<e4> Operation </e4>
+<e5> Files </e5>
+<e6> Add Folder </e6>
+<e7> folder list </e7>
+<e8> Operations </e8>
+<e9> All shipments </e9>
+<e10> Add Sending </e10>
+<e11> Purchase Order </e11>
+<e12> Validated Controls </e12>
+<e13> Commands Not validated </e13>
+<e14> Commercial </e14>
+<e15> Clients </e15>
+<e16> Add Client </e16>
+<e17> List cliens </e17>
+<e18> Offer </e18>
+<e19> Finance </e19>
+<e20> Billing </e20>
+<e21> Add invoice </e21>
+<e22> All Invoices </e22>
+<e23> Funds </e23>
+<e24> Add Account </e24>
+<e25> Bank Account </e25>
+<e26> Silver ENV / REC </e26>
+<e27> Payment </e27>
+<e28> Expenses </e28>
+<e29> Add required </e29>
+<e30> List of needs </e30>
+<e31> Expenses </e31>
+<e32> Provider </e32>
+<e33> Add Provider </e33>
+<e34> Suppliers </e34>
+<e35> Administration </e35>
+<e36> Configuration </e36>
+<e37> Profile </e37>
+<e38> Users </e38>
+<e39> Codes </e39>
+<e40> Notification </e40>
+<e41> Add Command </e41>
+<e42> All rights reserved © </e42>
+<e43> do you really want to delete this item </e43>
+<e44> Dashboard </e44>
+<e45> Add order </e45>
+<e46> Command List </e46>
+<e47> List of unconfirmed orders </e47>
+<e48> Add Client </e48>
+<e49> Client List </e49>
+<e50> Add Invoice </e50>
+<e51> List of Invoices </e51>
+<e52> Creation of the Banking Accounts </e52>
+<e53> the bank accounts are </e53>
+<e54> Money Management </e54>
+<e55> payment orders </e55>
+<e56> Creating a need for society </e56>
+<e57> List of needs Socièté </e57>
+<e58> Expense </e58>
+<e59> Add Provider </e59>
+<e60> Vendor List </e60>
+<e61> summary invoice </e61>
+<e62> Add a summary invoice </e62>
+<e63> Add Offer </e63>
+<e64> listing </e64>
+<e65> Add to have </e65>
+<e66> creating a credit note </e66>
+<e67> Real </e67>
+<e68> Add element </e68>
+<e69> List of Properties </e69>
+<e70> parameter default </e70>
+<e71> Restaurants </e71>
+<e72> Taxes </e72>
+<e73> Payment of Taxes </e73>
+<e74> Report </e74>
+<e75> Taxes </e75>
+<e76> The ratio of taxes </e76>
+<e77> financial period </e77>
+<e78> Management periods finaciers </e78>
+<e79> Logistics </e79>
+<e80> Add </e80>
+<e81> Location </e81>
+<e82> Shopping </e82>
+<e83> Other </e83>
+<e84> Categories </e84>
+<e85> Categories Management </e85>
+<e86> Equipment </e86>
+<e87> Add Equipment </e87>
+<e88> List of Equipment </e88>
+<e89> equipment rental </e89>
+<e90> Shopping List </e90>
+<e91> List of logistics services </e91>
+<e92> the operation was done successfully </e92>
+<e93> operation has failed </e93>
+<e94> Welcome to our system for managing supply chains </e94>
+<e95> do you really want this folder Origin Lock </e95>
+<e96> do you really want to create a copy of this operation </e96>
+<e97> Add money </e97>
+<e98> HRM </e98>
+<e99> Personal </e99>
+<e100> Add Personal </e100>
+<e101> The Personneles </e101>
+<e102> Operations Report </e102>
+<e103> Managing AMOUNT </e103>
+<e104> The Fixed Price </e104>
+<e105> payment of orders </e105>
+<e106> has been successfully delete </e106>
+<e107> has been successfully Add </e107>
+<e108> has been successfully Edit </e108>
+<e109> was at Origin Lock </e109>
+<e110> was to unlock </e110>
+<e111> Send Mail </e111>
+<e112> My Uploads </e112>
+<e113> Outbox </e113>
+<e114> Your message has been sent to </e114>
+<e115> Wages </e115>
+<e116> Wage Payment </e116>
+<e117> KPI </e117>
+<e118> statistical </e118>
+<e119> Permissions </e119>
+<e120> Managing permissions </e120>
+<e121> Profile </e121>
+<e122> History </e122>
+<e123> Enable A Period SVP </e123>
+<e124> It should remove any at the beginning of this client opertions </e124>
+<e125> SOA has been sent successfully to the client </e125>
+<e126> has been deleted for the reason: </e126>
+<e127> has been declining for the reason: </e127>
+<e128> was Confirm </e128>
+<e129> was to confirm payment </e129>
+<e130> has been Delivered </e130>
+<e131> Invoice has been successfully </e131>
+<e132> The password has been changed successfully </e132>
+<e133> Sound Permission to successfully changed </e133>
+<e134> Payment Emis </e134>
+<e135> Payment Received </e135>
+<e136> Transfer </e136>
+<e137> allowances apply on payment </e137>
+<e138> Add unallocated monatant from: </e138>
+<e139> at checkout NO </e139>
+<e140> Enable has been successfully </e140>
+<e141> payment on purchase orders and invoices: </e141>
+<e142> Ilya a problem in the payment check your bank account </e142>
+<e143> payment of fees by order forms: </e143>
+<e144> Salary Payment with our personel number: </e144>
+<e145> Configure has been successfully </e145>
+<e146> Company </e146>
+<e147> The prefix Configure were successfully </e147>
+<e148> Configure The currency was successfully </e148>
+<e149> Monnie </e149>
+<e150> Postage </e150>
+<e151> Enterprise Records </e151>
+<e152> Postage </e152>
+<e153> payment not perform  </e153>
+</MenuUtilisation>
+  </Menu>

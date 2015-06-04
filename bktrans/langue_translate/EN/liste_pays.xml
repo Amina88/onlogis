@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<Pay>
+<PY>
+<e1> France </e1>
+<e2> Afghanistan </e2>
+<e3> Central Africa </e3>
+<e4> South Africa </e4>
+<e5> Albania </e5>
+<e6> Algerie </e6>
+<e7> Germany </e7>
+<e8> Andorra </e8>
+<e9> Angola </e9>
+<e10> Anguilla </e10>
+<e11> Saudi Arabia </e11>
+<e12> Argentina </e12>
+<e13> Armenia </e13>
+<e14> Australia </e14>
+<e15> Austria </e15>
+<e16> Azerbaijan </e16>
+<e17> Bahamas </e17>
+<e18> Bangladesh </e18>
+<e19> Barbados </e19>
+<e20> Bahrain </e20>
+<e21> Belgium </e21>
+<e22> Belize </e22>
+<e23> Benin </e23>
+<e24> Bermuda </e24>
+<e25> Belarus </e25>
+<e26> Bolivia </e26>
+<e27> Botswana </e27>
+<e28> Bhutan </e28>
+<e29> Boznie Herzegovina </e29>
+<e30> Brazil </e30>
+<e31> Brunei </e31>
+<e32> Bulgaria </e32>
+<e33> Burkina Faso </e33>
+<e34> Burundi </e34>
+<e35> Caiman </e35>
+<e36> Cambodia </e36>
+<e37> Cameroon </e37>
+<e38> Canada </e38>
+<e39> Canary </e39>
+<e40> Cape Verde </e40>
+<e41> Chile </e41>
+<e42> China </e42>
+<e43> Cyprus </e43>
+<e44> British </e44>
+<e45> British </e45>
+<e46> Congo </e46>
+<e47> Congo Democratic </e47>
+<e48> Cook </e48>
+<e49> North Korea </e49>
+<e50> South Korea </e50>
+<e51> Costa Rica </e51>
+<e52> Ivory Coast </e52>
+<e53> Croatia </e53>
+<e54> Cuba </e54>
+<e55> Denmark </e55>
+<e56> Djibouti </e56>
+<e57> Dominique </e57>
+<e58> Egypt </e58>
+<e59> United Arab Emirates </e59>
+<e60> Ecuador </e60>
+<e61> Eritrea </e61>
+<e62> Spain </e62>
+<e63> Estonia </e63>
+<e64> US </e64>
+<e65> Ethiopia </e65>
+<e66> Falkland </e66>
+<e67> Faroe </e67>
+<e68> Fiji </e68>
+<e69> Finland </e69>
+<e70> France </e70>
+<e71> Gabon </e71>
+<e72> Gambia </e72>
+<e73> Georgia </e73>
+<e74> Ghana </e74>
+<e75> Gibraltar </e75>
+<e76> Greece </e76>
+<e77> Granada </e77>
+<e78> Greenland </e78>
+<e79> Guadeloupe </e79>
+<e80> Guam </e80>
+<e81> Guatemala </e81>
+<e82> Guernsey </e82>
+<e83> Guinea </e83>
+<e84> Guinea Bissau </e84>
+<e85> Equatorial Guinea </e85>
+<e86> Guyana </e86>
+<e87> French Guiana </e87>
+<e88> Haiti </e88>
+<e89> Hawaii </e89>
+<e90> Honduras </e90>
+<e91> Hong Kong </e91>
+<e92> Hungary </e92>
+<e93> India </e93>
+<e94> Indonesia </e94>
+<e95> Iran </e95>
+<e96> Iraq </e96>
+<e97> Ireland </e97>
+<e98> Iceland </e98>
+<e99> Israel </e99>
+<e100> Italy </e100>
+<e101> Jamaica </e101>
+<e102> Jan Mayen </e102>
+<e103> Japan </e103>
+<e104> Jersey </e104>
+<e105> Jordan </e105>
+<e106> Kazakhstan </e106>
+<e107> Kenya </e107>
+<e108> Kyrgyzstan </e108>
+<e109> Kiribati </e109>
+<e110> Kuwait </e110>
+<e111> Laos </e111>
+<e112> Lesotho </e112>
+<e113> Latvia </e113>
+<e114> Lebanon </e114>
+<e115> Liberia </e115>
+<e116> Liechtenstein </e116>
+<e117> Lithuania </e117>
+<e118> Luxembourg </e118>
+<e119> Libya </e119>
+<e120> Macau </e120>
+<e121> Macedonia </e121>
+<e122> Madagascar </e122>
+<e123> Madeira </e123>
+<e124> Malaysia </e124>
+<e125> Malawi </e125>
+<e126> Maldives </e126>
+<e127> Mali </e127>
+<e128> Malta </e128>
+<e129> Man </e129>
+<e130> Northern Mariana </e130>
+<e131> Morocco </e131>
+<e132> Marshall </e132>
+<e133> Martinique </e133>
+<e134> Maurice </e134>
+<e135>NKC, Mauritania </e135>
+<e136> Mayotte </e136>
+<e137> Mexico </e137>
+<e138> Micronesia </e138>
+<e139> Midway </e139>
+<e140> Moldova </e140>
+<e141> Monaco </e141>
+<e142> Mongolia </e142>
+<e143> Montserrat </e143>
+<e144> Mozambique </e144>
+<e145> Namibia </e145>
+<e146> Nauru </e146>
+<e147> Nepal </e147>
+<e148> Nicaragua </e148>
+<e149> Niger </e149>
+<e150> Nigeria </e150>
+<e151> Niue </e151>
+<e152> Norfolk </e152>
+<e153> Norway </e153>
+<e154> New Caledonia </e154>
+<e155> New Zealand </e155>
+<e156> Oman </e156>
+<e157> Uganda </e157>
+<e158> Uzbekistan </e158>
+<e159> Pakistan </e159>
+<e160> Palau </e160>
+<e161> Palestine </e161>
+<e162> Panama </e162>
+<e163> Papua New Guinea </e163>
+<e164> Paraguay </e164>
+<e165> Netherlands </e165>
+<e166> Peru </e166>
+<e167> Philippines </e167>
+<e168> Poland </e168>
+<e169> Polynesia </e169>
+<e170> Puerto Rico </e170>
+<e171> Portugal </e171>
+<e172> Qatar </e172>
+<e173> Dominican Republic </e173>
+<e174> Czech Republic </e174>
+<e175> Reunion </e175>
+<e176> Romania </e176>
+<e177> United Kingdom </e177>
+<e178> Russia </e178>
+<e179> Rwanda </e179>
+<e180> Western Sahara </e180>
+<e181> Saint Lucia </e181>
+<e182> San Marino </e182>
+<e183> Solomon </e183>
+<e184> Salvador </e184>
+<e185> Samoa </e185>
+<e186> American Samoa </e186>
+<e187> Sao Tome and Principe </e187>
+<e188> Senegal </e188>
+<e189> Seychelles </e189>
+<e190> Sierra Leone </e190>
+<e191> Singapore </e191>
+<e192> Slovakia </e192>
+<e193> Slovenia </e193>
+<e194> Somalia </e194>
+<e195> Sudan </e195>
+<e196> Sri Lanka </e196>
+<e197> Sweden </e197>
+<e198> Switzerland </e198>
+<e199> Surinam </e199>
+<e200> Swaziland </e200>
+<e201> Syria </e201>
+<e202> Tajikistan </e202>
+<e203> Taiwan </e203>
+<e204> Tonga </e204>
+<e205> Tanzania </e205>
+<e206> Chad </e206>
+<e207> Thailand </e207>
+<e208> Tibet </e208>
+<e209> East Timor </e209>
+<e210> Togo </e210>
+<e211> Trinidad and Tobago </e211>
+<e212> Tristan cuncha </e212>
+<e213> Tunisia </e213>
+<e214> Turmenistan </e214>
+<e215> Turkey </e215>
+<e216> Ukraine </e216>
+<e217> Uruguay </e217>
+<e218> Vanuatu </e218>
+<e219> Vatican </e219>
+<e220> Venezuela </e220>
+<e221> Virgin Americaines </e221>
+<e222> British Virgin </e222>
+<e223> Vietnam </e223>
+<e224> Wake </e224>
+<e225> Wallis and Futuna </e225>
+<e226> Yemen </e226>
+<e227> Yugoslavia </e227>
+<e228> Zambia </e228>
+<e229> Zimbabwe </e229>
+
+</PY></Pay>

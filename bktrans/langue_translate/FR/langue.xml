@@ -1,0 +1,3762 @@
+﻿<?xml version="1.0" ?>
+<employees>
+<index>
+<e1>Tableau de Bord</e1>
+</index>
+<dashboard>
+<e1>Ventes</e1>
+<e2>Achats</e2>
+<e3>Total Impayé</e3>
+<e4>Ajouter client</e4>
+<e5>Ajouter Facture</e5>
+<e6>Factures</e6>
+<e7>Clients</e7>
+<e8>commandes impayées</e8>
+<e9>Ajouter Commande</e9>
+<e10>Ajouter Fournisseur</e10>
+<e11>Commandes</e11>
+<e12>Fournisseurs</e12>
+<e13>Émis</e13>
+<e14>Mois en cours</e14>
+<e15>Mois passé</e15>
+<e16>Reçus</e16>
+<e17>Ventes</e17>
+<e18>Achats</e18>
+<e19>Statut</e19>
+<e20>croissant</e20>
+<e21>décroissant</e21>
+<e22>Encaissés</e22>
+<e23>Rapport des offres</e23>
+<e24>Total</e24>
+<e25>Accepter</e25>
+<e26>Décliner</e26>
+<e27>Client</e27>
+<e28>Montant</e28>
+<e29>Détails</e29>
+<e30>Détails</e30>
+<e31>Fournisseur</e31>
+<e32>Banque</e32>
+<e33>Jour</e33>
+<e34>Semaine</e34>
+<e35>Mois</e35>
+<e36>aujourd'hui</e36>
+<e37>cette semaine</e37>
+<e38>ce mois-ci</e38>
+<e39>Nombre Total des opérations</e39>
+<e40>Non Facturée</e40>
+<e41>Facturée</e41>
+<e42>Nombre Total des Dossiers</e42>
+<e43>Fermé</e43>
+<e44>Ouvert</e44>
+<e45>Nombre Total des Offres</e45>
+<e46>Décliner</e46>
+<e47>Accepter</e47>
+<e48>Ventes/Achats</e48>
+<e49>Ventes/Achats Impayé</e49>
+<e50>Argent REÇU/ÉMIS</e50>
+<e51>TOTAL PROFIT</e51>
+<e52>Nombre Total des Clients</e52>
+<e53>Nouveaux Clients</e53>
+<e54>Tableau de Bord </e54>
+<e55>statistiques</e55>
+<e56>rapports </e56>
+<e57>SVP Veuillez configurer KPI'S pour suivre les statistiques et les rapports de votre entreprise</e57>
+<e58>Fournisseur</e58>
+<e59>Commande</e59>
+<e60>Total</e60>
+<e61>détails sur bon de commande</e61>
+<e62>détails</e62>
+<e63>Liste Des Commandes Non Confirmées</e63>
+<e64>le paiement des bons de commande</e64>
+<e65>Activer le paiement</e65>
+<e66>Actions</e66>
+<e67>Payer cette commande</e67>
+</dashboard>
+<extra_profile_account>
+<e1>Email</e1>
+<e2>Type d'accés</e2>
+<e3>Administrateur</e3>
+<e4>Administrateur</e4>
+<e5>Agent de finance</e5>
+<e6>Agent de finance</e6>
+<e7>Agent d'opération</e7>
+<e8>Agent d'opération</e8>
+<e9>Nom et Prénom</e9>
+<e10>CIN</e10>
+<e11>Numéro de Téléphone</e11>
+<e12>Adresse</e12>
+<e13>Mettre à jour</e13>
+<e14>Infos Personnelles</e14>
+<e15>Photo de Profil</e15>
+<e16>Modifier Password</e16>
+<e17>Profil</e17>
+<e18>Occupation</e18>
+<e19>Mot de passe actuel</e19>
+<e20>Nouveau mot de passe</e20>
+<e21>Confirmer Votre mot de passe</e21>
+<e22>Sélectionner une image</e22>
+<e23>Changer</e23>
+<e24>Supprimer</e24>
+<e25>Nom d'utilisateur</e25>
+<e26>Faible</e26>
+<e27>Moyen</e27>
+<e28>Fort</e28>
+</extra_profile_account>
+<Gestion_Kpi>
+<e1>Clientèles </e1>
+<e2>Nombre Total des Offres </e2>
+<e3>Offres Acceptées (%) </e3>
+<e4>Nombre Total des Clients</e4>
+<e5>Nombre des Nouveaux Clients </e5>
+<e6>OPERATION</e6>
+<e7>Nombre Total Des Opérations</e7>
+<e8>Opérations Facturées (%) </e8>
+<e9>Ventes/Achats</e9>
+<e10>FINANCE</e10>
+<e11>Ventes/Achats Impayés</e11>
+<e12>Argents REÇUS/ÉMIS</e12>
+<e13>Sauvgarder</e13>
+<e14>Nombre Total des Dossiers</e14>
+<e15>Dossiers Ouverts(%)</e15>
+<e16>Profit</e16>
+</Gestion_Kpi>
+<Accueil>
+<e1>Ventes et Clients</e1>
+<e2>Achats et Bons de commandes</e2>
+<e3>factures impayées</e3>
+<e4>Ajouter client</e4>
+<e5>Ajouter Facture</e5>
+<e6>Factures</e6>
+<e7>Clients</e7>
+<e8>Commandes impayées</e8>
+<e9>Ajouter Commande</e9>
+<e10>Ajouter Fournisseur</e10>
+<e11>Commandes</e11>
+<e12>Fournisseurs</e12>
+<e13>Paiement sortant</e13>
+<e14>Mois en cours</e14>
+<e15>Mois passé</e15>
+<e16>Paiments reçus</e16>
+<e17>Les ventes</e17>
+<e18>Les achats</e18>
+<e19>Statut</e19>
+<e20>croissant</e20>
+<e21>décroissant</e21>
+<e22>Encaisse</e22>
+<e23>Rapport des offres</e23>
+<e24>Total des offres</e24>
+<e25>Le nombre des offres acceptées</e25>
+<e26>Le nombre des offres déclinées</e26>
+</Accueil>
+<AjouterAirExport>
+<e1>Cargaison</e1>
+<e2>Terme d'expédition</e2>
+<e3>Facture Commerciale</e3>
+<e4>Formalités de Douane</e4>
+<e5>Dossier</e5>
+<e6>Client</e6>
+<e7>Référence Client</e7>
+<e8> Objet</e8>
+<e9>Dimension</e9>
+<e10>Poidss</e10>
+<e11>Type d'objet</e11>
+<e12>N° TC </e12>
+<e13>Objet</e13>
+<e14>Poids chargeable</e14>
+<e15>pièce</e15>
+<e16>Destination</e16>
+<e17>Origine</e17>
+<e18>AWB/LTA</e18>
+<e19>Date Estimée  de départ</e19>
+<e20>Date Estimée d'arrivée</e20>
+<e21>Valeur Facturée</e21>
+<e22>Monnaie</e22>
+<e23>Taux de change</e23>
+<e24>Valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Taux de change</e26>
+<e27>Fournisseur</e27>
+<e28>Référence</e28>
+<e29>Désignation Commerciale</e29>
+<e30> Temporaire</e30>
+<e31>Re-exportation </e31>
+<e32>Définitive</e32>
+<e33>Déclaration EXP</e33>
+<e34>Déclaration IMP</e34>
+<e35>Insertion manuelle</e35>
+<e36>Déclaration IMP</e36>
+<e37>Définitif</e37>
+<e38>Exoneration</e38>
+<e39>Non</e39>
+<e40>Oui</e40>
+<e41>Déclaration d'exonoration</e41>
+<e42>Apurement</e42>
+<e43>Déclaration d'Apurement</e43>
+<e44>Type d'exportation</e44>
+<e45>Informations sur le tracking</e45>
+<e46>Choisir un client</e46>
+<e47>Tracking</e47>
+<e48>Ligne  de transport</e48>
+<e49>Sauvegarder</e49>
+<e50>Nbre de pièce</e50>
+<e51>Sauvegarder</e51>
+</AjouterAirExport>
+<AjouterAirImport>
+<e1>Cargaison</e1>
+<e2>Terme d'expedition</e2>
+<e3>Facture Commerciale</e3>
+<e4>Formalité de douane</e4>
+<e5>Dossier</e5>
+<e6>Client</e6>
+<e7>Référence Client</e7>
+<e8>Objet</e8>
+<e9>Dimension</e9>
+<e10>Poidss</e10>
+<e11>Type d'objet</e11>
+<e12>N° TC </e12>
+<e13>Objet</e13>
+<e14>Poidss chargeable</e14>
+<e15>Pièce</e15>
+<e16>Destination</e16>
+<e17>Origine</e17>
+<e18>LTA/AWB</e18>
+<e19>Date Estimée de départ</e19>
+<e20>Date Estimée d'arrivée</e20>
+<e21>Valeur Facturée</e21>
+<e22>Monnaie</e22>
+<e23>Taux de change</e23>
+<e24>valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Taux de change</e26>
+<e27>Fournisseur</e27>
+<e28>Référence</e28>
+<e29>Désignation Commerciale</e29>
+<e30>Exonération</e30>
+<e31>les valeurs de dimension sont devrait être des numéros</e31>
+<e32>Enlevement Direct</e32>
+<e33>Type d'exonoration</e33>
+<e34>Type de Déclaration</e34>
+<e35>Déclaration d'apurement </e35>
+<e36>Consomable</e36>
+<e37>Admission Temporaire</e37>
+<e38>Non</e38>
+<e39>Oui</e39>
+<e45>Information sur le tracking</e45>
+<e46>Choisir un client</e46>
+<e47>Tracking</e47>
+<e48>Ligne  de transport</e48>
+<e49>Sauvegarder</e49>
+<e50>Nbre piéce</e50>
+</AjouterAirImport>
+<form_BL>
+<e5>Waybill N°</e5>
+<e6>Export Référence</e6>
+<e7>Forwarding Agent Référence</e7>
+<e8>Pre-caririage by</e8>
+<e9>Vessel &amp; Voyage N°</e9>
+<e10>Port of Loading</e10>
+<e11>Port of Discharge</e11>
+<e12>Place of Delivery</e12>
+<e13>Place of Recceipt</e13>
+<e14>For Delivry please apply to</e14>
+<e15>Shopper</e15>
+<e16>Consignee</e16>
+<e17>Notify Party</e17>
+<e18>Container Nos;Seal Nos;Marks and Nos</e18>
+<e19>Packages</e19>
+<e20>Description of Goods</e20>
+<e21>Gross Weight</e21>
+<e22>Monnaie</e22>
+<e23>Taux de change</e23>
+<e24>valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Taux de change</e26>
+<e27>Fournisseur</e27>
+<e28>Référence</e28>
+<e29>Désignation Commerciale</e29>
+<e30>Exonération</e30>
+</form_BL>
+<AjouterBonComm>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Echéance</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Fournisseur</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>Couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions pour votre confiance</e25>
+<e26>fichier(s) Non attaché</e26>
+<e27>fichier</e27>
+<e28>Brouillon</e28>
+<e29>Sauvegarder</e29>
+<e30>La date de la commande devrait être inférieure à la date d'échéance</e30>
+<e31>Ajouter un Bon de commande</e31>
+<e32>La date de commande devrait être supérieure à la date  début de période</e32>
+<e33>La date de commande devrait être inférieure à la date  fin de période</e33>
+<e34>Liste des bons de commande</e34>
+</AjouterBonComm>
+<AjouterBesoin>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Echéance</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Fournisseur</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions pour votre confiance</e25>
+<e26>fichier(s) Non attaché</e26>
+<e27>fichier</e27>
+<e28>Brouillon</e28>
+<e29>Sauvegarder</e29>
+<e30>La date de la commande devrait être inférieure à la date d'échéance</e30>
+<e31>Ajouter un Bon de commande</e31>
+<e32>La date de commande devrait être supérieure à la date  début de période</e32>
+<e33>La date de commande devrait être inférieure à la date  fin de période</e33>
+<e34>Liste des bons de commande</e34>
+</AjouterBesoin>
+<AjouterAvoirFour>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Echéance</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Fournisseur</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions pour votre confiance</e25>
+<e26>fichier(s) Non attaché</e26>
+<e27>fichier</e27>
+<e28>Brouillon</e28>
+<e29>Sauvegarder</e29>
+<e30>La date de la commande devrait être inférieure à la date d'échéance</e30>
+<e31>Ajouter un avoir pour un fournisseur</e31>
+<e32>La date de commande devrait être supérieure  à la date  début de période</e32>
+<e33>La date de commande devrait être supérieure à la date  fin de période</e33>
+<e34>Liste des bons de commande Non Confirmés</e34>
+</AjouterAvoirFour>
+<AjouterClient>
+<e1>Informations de base</e1>
+<e2>Autres informations</e2>
+<e3>Douane</e3>
+<e4>Informations prédéfinies</e4>
+<e6>client</e6>
+<e7>Titre</e7>
+<e8>Nom</e8>
+<e9>Prénom</e9>
+<e10>Adresse Mail</e10>
+<e11>Téléphone 1</e11>
+<e12>Téléphone 2</e12>
+<e13>Type d'entreprise</e13>
+<e14>Type d'entreprise</e14>
+<e15>Entreprise</e15>
+<e16>Partenaire</e16>
+<e17>Confiance</e17>
+<e18>Compte comptable</e18>
+<e19>Numéro d'entreprise</e19>
+<e20>Nom Utilisateur Skype</e20>
+<e21>Site web</e21>
+<e22>Fax</e22>
+<e23>Nom Utilisateur Skype</e23>
+<e24>Non</e24>
+<e25>oui</e25>
+<e26>Loi du client</e26>
+<e27>NIF</e27>
+<e28>Non Exonéré</e28>
+<e29>Exonéré</e29>
+<e30>Client est-un</e30>
+<e31>Client</e31>
+<e32>Client et partenaire</e32>
+<e33>Projet par defaut</e33>
+<e34>Sauvgarder</e34>
+<e35>Adresse</e35>
+<e36>Ville</e36>
+<e37>Pays</e37>
+<e38>Catégorie</e38>
+<e39>Autre</e39>
+<e40>Conditions dur le paiement(jours) </e40>
+</AjouterClient>
+<AjouterCompte>
+<e1>Compte Bancaire</e1>
+<e2>Nom de Banque</e2>
+<e3>Numéro du compte</e3>
+<e4>Solde</e4>
+<e5>Monnaie du compte</e5>
+<e6>Méthodes du paiement</e6>
+<e7>Espéces </e7>
+<e8>Chèques</e8>
+<e9>Virement</e9>
+<e10>Ajouter Code Comptable</e10>
+<e11>Sauvgarder</e11>
+<e12>Découvert</e12>
+</AjouterCompte>
+<AjouterDossier>
+<e1>Catégorie</e1>
+<e2>Nom de dossier </e2>
+<e3>Client</e3>
+<e4>Partenaire</e4>
+<e5>Afficher pour</e5>
+<e6>Tous les utilisateurs</e6>
+<e7>Moi uniquement</e7>
+<e8>Ocean Import</e8>
+<e9>Road Import</e9>
+<e10>Choisir un client</e10>
+<e11>Estimation des couts</e11>
+<e12>Description</e12>
+<e13>Valeur</e13>
+<e14>Monnaie</e14>
+<e15>Ajouter élément</e15>
+<e16>Modifier</e16>
+<e17>devise vers</e17>
+<e18>Sauvegarder</e18>
+<e19>Date Estimée de fermeture</e19>
+<e20>Description</e20>
+</AjouterDossier>
+<AjouterFacture>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>paiement</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions de votre confiance</e25>
+<e26>fichier(s) Non attaché</e26>
+<e27>fichier</e27>
+<e28>Brouillon</e28>
+<e29>Sauvegarder</e29>
+<e30>La date de la facture devrait être inférieure à la date paiement </e30>
+<e31>Ajouter une Facture</e31>
+<e32>La date de facture devrait être supérieure à la date  début de période</e32>
+<e33>La date de facture devrait être inférieure à la date  fin de période</e33>
+<e34>Liste des factures</e34>
+</AjouterFacture>
+<AjouterAvoir>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Paiement</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions de votre confiance!</e25>
+<e26>Brouillon</e26>
+<e27>fichier</e27>
+<e28>Ajouter des fichiers</e28>
+<e29>Sauvegarder</e29>
+<e30>La date d'avoir devrait être inférieure à la date paiement </e30>
+<e31>Ajouter un avoir</e31>
+<e32>La date d'avoir devrait être supérieure à la date  début de période</e32>
+<e33>La date d'avoir devrait être inférieure à la date  fin de période</e33>
+<e34>Liste des factures</e34>
+</AjouterAvoir>
+<Ajouteroffre>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Date de paiement</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>QT</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions de votre confiance!</e25>
+<e26>fichier(s) Non attaché</e26>
+<e27>fichier</e27>
+<e28>Ajouter des fichiers</e28>
+<e29>Sauvegarder</e29>
+<e30>Référence Client</e30>
+<e31>Objet</e31>
+<e32>Dimenssion</e32>
+<e33>Qte</e33>
+<e34>Poids</e34>
+<e35>Poids Total</e35>
+<e36>N° TC</e36>
+<e37>Poids Chargeable</e37>
+<e38>Destination</e38>
+<e39>Origine</e39>
+<e40>Ligne de Transport</e40>
+<e41>Ajouter Elément</e41>
+<e42>Cargaison</e42>
+<e43>Térme d'expédition</e43>
+<e44>Les Prix </e44>
+<e45>Type d'Offre</e45>
+<e46>Piece</e46>
+<e47>Type de  Service </e47>
+
+</Ajouteroffre>
+<Editoffre>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Date de paiement</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>QT</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions de votre confiance!</e25>
+<e26>Confirmer</e26>
+<e27>Décliner</e27>
+<e28>Ajouter des fichiers</e28>
+<e29>Sauvegarder</e29>
+<e30>Référence Client</e30>
+<e31>Objet</e31>
+<e32>Dimenssion</e32>
+<e33>Qte</e33>
+<e34>Poids</e34>
+<e35>Poids Total</e35>
+<e36>N° TC</e36>
+<e37>Poids Chargeable</e37>
+<e38>Destination</e38>
+<e39>Origine</e39>
+<e40>Ligne de Transport</e40>
+<e41>Ajouter Elément</e41>
+<e42>Cargaison</e42>
+<e43>Térme d'expédition</e43>
+<e44>Les Prix </e44>
+<e45>Type d'Offre</e45>
+<e46>Piece</e46>
+<e47>Type de  Service </e47>
+<e47>Etat d'offre</e47>
+</Editoffre>
+<AjouterFactureperiodique>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Paiement</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions de votre confiance!</e25>
+<e26>Brouillon</e26>
+<e27>fichier</e27>
+<e28>Ajouter des fichiers</e28>
+<e29>Sauvegarder</e29>
+<e30>Fréquence</e30>
+<e31>Occurrence</e31>
+<e32>jours</e32>
+<e33>La date de la facture devrait être inférieur à la date paiement </e33>
+<e34>Ajouter une facture périodique</e34>
+<e35>La date de facture devrait être supérieur à la date  début de période</e35>
+<e36>La date de facture devrait être inférieur à la date  fin de période</e36>
+<e37>Liste des factures</e37>
+</AjouterFactureperiodique>
+<AjouterFournisseur>
+<e1>Informations de base</e1>
+<e2>Informations complémentaires</e2>
+<e4>Informations prédéfinies</e4>
+<e6>Fournisseur</e6>
+<e7>Titre</e7>
+<e8>Nom</e8>
+<e9>Prénom</e9>
+<e10>Adresse Mail</e10>
+<e11>Téléphone 1</e11>
+<e12>Téléphone 2</e12>
+<e13>Type d'entreprise</e13>
+<e14>Opérateur</e14>
+<e15>Entreprise</e15>
+<e16>Partenaire</e16>
+<e17>Confiance</e17>
+<e18>Compte Comptable</e18>
+<e19>Numéro d'entreprise</e19>
+<e20>Nom Utilisateur Skype</e20>
+<e21>Site web</e21>
+<e22>Fax</e22>
+<e23>Nom Utilisateur Skype</e23>
+<e24>Non</e24>
+<e25>oui</e25>
+<e26>Loi du fournisseur</e26>
+<e27>fournisseur</e27>
+<e30>fournisseur est-un</e30>
+<e31>Sauvegarder</e31>
+<e32>fournisseur et partenaire</e32>
+<e33>Condition sur le paiment(jours)</e33>
+<e34>Pas de projet</e34>
+<e35>Archives</e35>
+<e36>Liste des fournisseurs</e36>
+<e37>Adresse</e37>
+<e38>Ville</e38>
+<e39>Pays</e39>
+<e40>Catégorie</e40>
+<e41>Autres</e41>
+</AjouterFournisseur>
+<AjouterMatriel>
+<e1>Formulaire de création du matériel </e1>
+<e6>Nom</e6>
+<e7>type</e7>
+<e8>Date d'achat</e8>
+<e9>Valeur d'achat</e9>
+<e10>Durée de vie(en année)</e10>
+<e11>Description</e11>
+<e31>Sauvegarder</e31>
+</AjouterMatriel>
+<AjouterLocation>
+<e1>Formulaire d'allocation d'équipement </e1>
+<e2>Numéro d'équipement</e2>
+<e3>Client </e3>
+<e4>Dossier</e4>
+<e5>Date début</e5>
+<e6>Date fin</e6>
+<e7>Marque</e7>
+<e8>Kilométrage début(en KM)</e8>
+<e9>Kilométrage fin (en KM)</e9>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Sauvegarder</e12>
+<e13>Kilométrage de fin devrait être supérieure au kilométrage début</e13>
+<e14>Date fin de location  devrait être supérieure de la Date début</e14>
+<e15>Bon de Sortie</e15>
+<e16>Bon de Rentré</e16>
+</AjouterLocation>
+<AjouterAuMagasin>
+<e1>Formulaire de magasinage </e1>
+<e3>Client </e3>
+<e4>Dossier</e4>
+<e5>Date début</e5>
+<e6>Date fin</e6>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Sauvegarder</e12>
+<e14>Date fin de magasinage devrait être supérieure de la Date début</e14>
+<e15>Bon de Sortie</e15>
+<e16>Bon de Rentré</e16>
+</AjouterAuMagasin>
+<AjouterServiceLogistic>
+<e1>Formulaire de service logistique </e1>
+<e3>Client </e3>
+<e4>Dossier</e4>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Sauvegarder</e12>
+<e15>Service Active</e15>
+<e16>Service terminer</e16>
+</AjouterServiceLogistic>
+<UpdateLocation>
+<e1>Mise à jour d'allocation d'équipement </e1>
+<e2>Numéro d'équipement</e2>
+<e3>Client </e3>
+<e4>Dossier</e4>
+<e5>Date début</e5>
+<e6>Date fin</e6>
+<e7>Marque</e7>
+<e8>Kilométrage début(en KM)</e8>
+<e9>Kilométrage fin (en KM)</e9>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Mettre àjour</e12>
+<e13>Kilométrage de fin devrait être supérieur Au kilométrage début</e13>
+<e14>Date fin de location  devrait être supérieure de la Date début</e14>
+<e15>Bon de Sortie</e15>
+<e16>Bon de Rentré</e16>
+<e17>l'équipement que vous avez choisi est déja loué</e17>
+<e18>Non</e18>
+<e19>Partiel</e19>
+<e20>Facturation</e20>
+<e21>Oui</e21>
+</UpdateLocation>
+<UpdateMagasinage>
+<e1>Mise à jour de magasinage </e1>
+<e3>Client </e3>
+<e4>Dossier</e4>
+<e5>Date début</e5>
+<e6>Date fin</e6>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Mettre à jour</e12>
+<e14>Date fin de location devrait être supérieure de la Date début</e14>
+<e15>Bon de Sortie</e15>
+<e16>Bon de Rentré</e16>
+<e17>Oui</e17>
+<e18>Non</e18>
+<e19>Partiel</e19>
+<e20>Facturation</e20>
+</UpdateMagasinage>
+<UpdateLogisticService>
+<e1>Mise à jour du service logistique</e1>
+<e3>Client </e3>
+<e4>Dossier</e4>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Mettre à jour</e12>
+<e15>Service Actif</e15>
+<e16>Service Terminé</e16>
+<e17>Oui</e17>
+<e18>Non</e18>
+<e19>Partiel</e19>
+<e20>Facturation</e20>
+</UpdateLogisticService>
+<UpdateEquipment>
+<e1>Formulaire de Mise à jour d'équipement </e1>
+<e6>Numéro d'équipement</e6>
+<e7>Marque</e7>
+<e8>Kilométrage début(en KM)</e8>
+<e9>Kilométrage fin (en KM)</e9>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Mettre à jours</e12>
+<e13>Kilométrage fin devrait être supérieur au kilométrage début</e13>
+<e14>Liste des équipements </e14>
+<e15>Disponible </e15>
+<e16>Indisponible </e16>
+<e17>Sauvgarder </e17>
+</UpdateEquipment>
+<AjouterEquipment>
+<e1>Formulaire de création d'équipement </e1>
+<e6>Numéro d'équipement</e6>
+<e7>Marque</e7>
+<e8>Kilométrage début(en KM)</e8>
+<e9>Kilométrage fin (en KM)</e9>
+<e10>Etat</e10>
+<e11>Description</e11>
+<e12>Sauvegarder</e12>
+<e13>Kilométrage fin devrait être supérieur au kilométrage début</e13>
+<e14>Liste des équipement </e14>
+<e15>disponible </e15>
+<e16>indisponible </e16>
+<e17>Sauvgarder </e17>
+</AjouterEquipment>
+<UpdateMatriel>
+<e1>Modification du matriel N°: </e1>
+<e2>Valeur Actuelle </e2>
+<e3>Motive </e3>
+<e6>Nom</e6>
+<e7>type</e7>
+<e8>Date d'achat</e8>
+<e9>Valeur d'achat</e9>
+<e10>Durée de vie</e10>
+<e11>Description</e11>
+<e31>Mettre à jour</e31>
+</UpdateMatriel>
+<AllMatriel>
+<e1>Filtre par: </e1>
+<e2>ascendant </e2>
+<e3>descendant</e3>
+<e6>Nom</e6>
+<e7>type</e7>
+<e8>Date d'achat</e8>
+<e9>Valeur d'achat</e9>
+<e10>Durée de vie</e10>
+<e11>Description</e11>
+<e12>Actions</e12>
+<e13>Supprimer</e13>
+<e14>Depreciation/Montant d'achat</e14>
+<e15>Modifier </e15>
+<e16>Date d'expiration</e16>
+<e17>Tout</e17>
+<e18>TOTAL</e18>
+</AllMatriel>
+<AllEquipment>
+<e1>Filtrer par: </e1>
+<e2>ascendant </e2>
+<e3>descendant</e3>
+<e6>Marque</e6>
+<e7>Etat</e7>
+<e8>Kilometrage début</e8>
+<e9>Kilometrage fin</e9>
+<e10>Description</e10>
+<e11>En attente</e11>
+<e12>Actions</e12>
+<e13>Supprimer</e13>
+<e14>Activer</e14>
+<e15>Modifier</e15>
+<e16>Tout</e16>
+</AllEquipment>
+<Douane>
+<e1>Référence </e1>
+<e2>Nature </e2>
+<e3>N° déclaration</e3>
+<e6>Exonoration</e6>
+<e7>Enlevement Direct</e7>
+<e8>N° appurment</e8>
+<e9>fiche d'appurement</e9>
+<e10>Il n'y a pas d'opération dans ce dossier</e10>
+<e11>équipement disponible</e11>
+<e12>Actions</e12>
+<e13>Supprimer</e13>
+<e14>équipement indisponible</e14>
+<e15>Modifier</e15>
+<e16>Tout</e16>
+</Douane>
+<AllLocation>
+<e1>Facturation </e1>
+<e2>Oui</e2>
+<e3>Non</e3>
+<e6>Client</e6>
+<e7>équipement</e7>
+<e8>Dossier</e8>
+<e9>Partiel</e9>
+<e10>Kilometrage fin</e10>
+<e11>Etat</e11>
+<e12>Actions</e12>
+<e13>Supprimer</e13>
+<e14>Activer</e14>
+<e15>Modifier</e15>
+<e16>Tout</e16>
+<e17>Date début</e17>
+<e18>Date fin</e18>
+<e19>Terminer</e19>
+<e20>Nouvelle location</e20>
+<e21>Service Actif</e21>
+<e22>Service Terminé</e22>
+<e23>Modification sur la location</e23>
+<e24>DetailS</e24>
+<e25>Edit</e25>
+<e26>Détails</e26>
+</AllLocation>
+<AllMagasinage>
+<e1>Facturation </e1>
+<e2>Oui</e2>
+<e3>Non</e3>
+<e6>Client</e6>
+<e7>Description</e7>
+<e8>Dossier</e8>
+<e9>Partiel</e9>
+<e11>Etat</e11>
+<e12>Actions</e12>
+<e13>Supprimer</e13>
+<e14>Activer</e14>
+<e15>Modifier</e15>
+<e16>Tout</e16>
+<e17>Date début</e17>
+<e18>Date fin</e18>
+<e19>Terminer</e19>
+<e20>Nouvelle Magasinage</e20>
+<e21>Service Actif</e21>
+<e22>Service Terminé</e22>
+<e23>Modification sur le Magasinage</e23>
+<e24>Détailss</e24>
+<e25>Edit</e25>
+<e26>Détails</e26>
+</AllMagasinage>
+<Service_logistique>
+<e1>Facturation</e1>
+<e2>Oui</e2>
+<e3>Non</e3>
+<e6>Client</e6>
+<e7>Description</e7>
+<e8>Dossier</e8>
+<e9>Partiel</e9>
+<e11>Etat</e11>
+<e12>Actions</e12>
+<e13>Supprimer</e13>
+<e14>Activer</e14>
+<e15>Modifier</e15>
+<e16>Tout</e16>
+<e19>Terminer</e19>
+<e20>Nouveau service</e20>
+<e21>Service Actif</e21>
+<e22>Service Terminé</e22>
+<e23>Modification sur le Service</e23>
+<e24>Détailss</e24>
+<e25>Edit</e25>
+<e26>Détails</e26>
+</Service_logistique>
+<AllTax>
+<e1>Impayées </e1>
+<e2>Payée</e2>
+<e3>Paiment</e3>
+<e4>Tax</e4>
+<e6>Montant</e6>
+<e7>Selectionner</e7>
+<e8>Taxe sur les Factures</e8>
+<e9>Net à payyé</e9>
+<e10>Montant Payé</e10>
+<e11>Taxe sur les commandes</e11>
+<e12>Actions</e12>
+<e13>Période Financière</e13>
+<e14>pour l'année financière</e14>
+<e15>Payer le  Taxe</e15>
+<e16>Détails</e16>
+<e17>Tout</e17>
+<e18>TOTAL</e18>
+<e19>Sauvegarder</e19>
+<e20>Dossier</e20>
+<e21>Fournisseur</e21>
+<e22>Taxes</e22>
+<e23>Montant</e23>
+<e24>Date</e24>
+<e25>Commande</e25>
+<e26>Achats</e26>
+<e27>Vents</e27>
+</AllTax>
+<Paiement_salaire>
+<e1>Les Paiements programmés</e1>
+<e2>Payée</e2>
+<e3>Paiment</e3>
+<e4>Période</e4>
+<e6>Montant</e6>
+<e7>Selectionner</e7>
+<e8>Compte</e8>
+<e9>les comptes de l'entreprise</e9>
+<e10>Devise</e10>
+<e11>Informations personelles</e11>
+<e12>Salaire</e12>
+<e13>Periode</e13>
+<e14>Compte l'entreprise</e14>
+<e15>Date </e15>
+<e16>paiement physique</e16>
+<e17>Tout</e17>
+<e18>TOTAL</e18>
+<e19>Sauvgarder</e19>
+<e20>Salaire </e20>
+<e21>Salaire en</e21>
+  <e22>Période</e22>
+  <e23>Montant</e23>
+  <e24>Date</e24>
+  <e25>Compte bancaire</e25>
+  <e26>Paiment physique</e26>
+  <e27>Pérsonel </e27>
+  <e28>Créer une liste de virement</e28>
+</Paiement_salaire>
+<Ajouterfrais>
+<e1>Monnaie</e1>
+<e2>Variable</e2>
+<e3>Type d'opération</e3>
+<e4>Valeur</e4>
+<e5>Ocean Export</e5>
+<e6>Road Export</e6>
+<e7>Air Import</e7>
+<e8>Ocean Import</e8>
+<e9>Road Import</e9>
+<e10>Description des frais</e10>
+<e11>Ajouter</e11>
+</Ajouterfrais>
+<AjouterOceanExport>
+<e1>Cargaison</e1>
+<e2>Terme d'expédition</e2>
+<e3>Facture Commerciale</e3>
+<e4>Formalité douane</e4>
+<e5>Dossier</e5>
+<e6>Client</e6>
+<e7>Référence Client</e7>
+<e8> Objet</e8>
+<e9>Dimension</e9>
+<e10>Poidss</e10>
+<e11>type d'objet</e11>
+<e12>N°  TC </e12>
+<e13>Objet</e13>
+<e14>Poids chargeable</e14>
+<e15>pièce</e15>
+<e16>Destination</e16>
+<e17>Origine</e17>
+<e18>BL</e18>
+<e19>Date Estimée de départ</e19>
+<e20>Date Estimée d'arrivée</e20>
+<e21>Valeur Facturée</e21>
+<e22>Monnaie</e22>
+<e23>Taux de change</e23>
+<e24>valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Taux de change</e26>
+<e27>Fournisseur</e27>
+<e28>Référence</e28>
+<e29>Désignation Commerciale</e29>
+<e30> Temporaire</e30>
+<e31>Re-exportation </e31>
+<e32>Définitive</e32>
+<e33>Déclaration EXP</e33>
+<e34>Déclaration IMP</e34>
+<e35>insertion manuelle</e35>
+<e36>Déclaration IMP</e36>
+<e37>Définitif</e37>
+<e38>Exoneration</e38>
+<e39>non</e39>
+<e40>oui</e40>
+<e41>Déclaration d'exonoration</e41>
+<e42>Apurement</e42>
+<e43>Déclaration d'Apurement</e43>
+<e44>Type Exportation</e44>
+<e45>Information sur le tracking</e45>
+<e46>Choisir un client</e46>
+<e47>Tracking</e47>
+<e48>Ligne  de transport</e48>
+<e49>Sauvegarder</e49>
+<e50>Nbre pièce</e50>
+<e51>Sauvegarder</e51>
+</AjouterOceanExport>
+<AjouterOceanImport>
+<e1>Cargaison</e1>
+<e2>Terme d'expedition</e2>
+<e3>Facture Commerciale</e3>
+<e4>Formalité de douane</e4>
+<e5>Dossier</e5>
+<e6>Client</e6>
+<e7>Référence Client</e7>
+<e8>Objet</e8>
+<e9>Dimension</e9>
+<e10>Poidss</e10>
+<e11>type d'objet</e11>
+<e12>N° TC </e12>
+<e13>Objet</e13>
+<e14>Poids chargeable</e14>
+<e15>pièce</e15>
+<e16>Destination</e16>
+<e17>Origine</e17>
+<e18>BL</e18>
+<e19>Date Estimée de départ</e19>
+<e20>Date Estimée d'arrivée</e20>
+<e21>Valeur Facturée</e21>
+<e22>Monnaie</e22>
+<e23>Taux de change</e23>
+<e24>valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Taux de change</e26>
+<e27>Fournisseur</e27>
+<e28>Référence</e28>
+<e29>Désignation Commerciale</e29>
+<e30>Exonération</e30>
+<e31>les valeurs de dimension doivent être des chiffres</e31>
+<e32>Enlevement Direct</e32>
+<e33>Type d'exonoration</e33>
+<e34>Type de Déclaration</e34>
+<e35>Déclaration d'apurement </e35>
+<e36>Consomable</e36>
+<e37>Admission Temporaire</e37>
+<e38>non</e38>
+<e39>oui</e39>
+<e45>Information sur le tracking</e45>
+<e46>Choisir un client</e46>
+<e47>Tracking</e47>
+<e48>Ligne  de transport</e48>
+<e49>Sauvegarder</e49>
+<e50>Nbre pièce</e50>
+</AjouterOceanImport>
+<AjouterRoadExport>
+<e1>Cargaison</e1>
+<e2>Terme d'expédition</e2>
+<e3>Facture Commerciale</e3>
+<e4>Formalité douane</e4>
+<e5>Dossier</e5>
+<e6>Client</e6>
+<e7>Référence Client</e7>
+<e8> Objet</e8>
+<e9>Dimension</e9>
+<e10>Poidss</e10>
+<e11>type d'objet</e11>
+<e12>N° TC </e12>
+<e13>Objet</e13>
+<e14>Poids chargeable</e14>
+<e15>pièce</e15>
+<e16>Destination</e16>
+<e17>Origine</e17>
+<e18>CMR</e18>
+<e19>Date Estimée de départ</e19>
+<e20>Date Estimée d'arrivée</e20>
+<e21>Valeur Facturée</e21>
+<e22>Monnaie</e22>
+<e23>Taux de change</e23>
+<e24>valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Taux de change</e26>
+<e27>Fournisseur</e27>
+<e28>Référence</e28>
+<e29>Désignation Commerciale</e29>
+<e30> Temporaire</e30>
+<e31>Reexportation </e31>
+<e32>Définitive</e32>
+<e33>Déclaration EXP</e33>
+<e34>Déclaration IMP</e34>
+<e35>insertion manuelle</e35>
+<e36>Déclaration IMP</e36>
+<e37>Définitif</e37>
+<e38>Exoneration</e38>
+<e39>non</e39>
+<e40>oui</e40>
+<e41>Déclaration d'exonoration</e41>
+<e42>Apurement</e42>
+<e43>Déclaration d'Apurement</e43>
+<e44>Type Exportation</e44>
+<e45>Information sur le tracking</e45>
+<e46>Choisir un client</e46>
+<e47>Tracking</e47>
+<e48>Ligne  de transport</e48>
+<e49>Sauvegarder</e49>
+<e50>Nbre pièce</e50>
+<e51>Sauvegarder</e51>
+</AjouterRoadExport>
+<AjouterRoadImport>
+<e1>Cargaison</e1>
+<e2>Terme d'expedition</e2>
+<e3>Facture Commerciale</e3>
+<e4>Formalité de douane</e4>
+<e5>Dossier</e5>
+<e6>Client</e6>
+<e7>Référence Client</e7>
+<e8>Objet</e8>
+<e9>Dimension</e9>
+<e10>Poidss</e10>
+<e11>type d'objet</e11>
+<e12>N° TC </e12>
+<e13>Objet</e13>
+<e14>Poids chargeable</e14>
+<e15>pièce</e15>
+<e16>Destination</e16>
+<e17>Origine</e17>
+<e18>CMR</e18>
+<e19>Date Estimée de départ</e19>
+<e20>Date Estimée d'arrivée</e20>
+<e21>Valeur Facturée</e21>
+<e22>Monnaie</e22>
+<e23>Taux de change</e23>
+<e24>valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Taux de change</e26>
+<e27>Fournisseur</e27>
+<e28>Référence</e28>
+<e29>Désignation Commerciale</e29>
+<e30>Exonération</e30>
+<e31>les valeurs de dimension doivent être des chiffres</e31>
+<e32>Enlevement Direct</e32>
+<e33>type d'exonoration</e33>
+<e34>type de Déclaration</e34>
+<e35>déclaration d'apurement </e35>
+<e36>Consomable</e36>
+<e37>Admission Temporaire</e37>
+<e38>non</e38>
+<e39>oui</e39>
+<e45>Information sur le tracking</e45>
+<e46>Choisir un client</e46>
+<e47>Tracking</e47>
+<e48>Ligne  de transport</e48>
+<e49>Sauvegarder</e49>
+<e50>Nbre pièce</e50>
+</AjouterRoadImport>
+<AjouterTaxe>
+<e1>Ajouter Taxe</e1>
+<e2>Valeur de Taxe</e2>
+<e3>Apliquer sur</e3>
+<e4>fournisseur</e4>
+<e5>client</e5>
+<e6>Sauvegarder</e6>
+<e7>Chiffre d'affaire</e7>
+<e8>Profit</e8>
+<e9>Code Comptable</e9>
+<e10>Autre</e10>
+</AjouterTaxe>
+<AjouterUser>
+<e1>erreur de confirmation</e1>
+<e2>Sauvegarder</e2>
+<e3>Email</e3>
+<e4>Mot de passe</e4>
+<e5>Cofirmation de mot de passe</e5>
+<e6>type d'accés</e6>
+<e7>CIN</e7>
+<e8>Numéro de Téléphone</e8>
+<e9>Administrateur</e9>
+<e10>Agent de finance</e10>
+<e11>Agent de d'opéartion</e11>
+<e12>Nom et prénom</e12>
+<e13>Adresse</e13>
+<e14>Nom d'utilisateur</e14>
+</AjouterUser>
+<Allclient>
+<e1>Client</e1>
+<e2>Contact</e2>
+<e3>Adresse Mail</e3>
+<e4>Téléphone</e4>
+<e5>Actions</e5>
+<e6>ligne(s) a partir de la ligne n°</e6>
+<e7>Modifier les informations de client</e7>
+<e8>Editer</e8>
+<e9>Supprimer</e9>
+<e10>les détails de client</e10>
+<e11>détails</e11>
+<e12>une facture pour le client</e12>
+<e13>type d'entreprise</e13>
+<e14>filtre par</e14>
+<e15>ascendant </e15>
+<e16>descendant</e16>
+<e17>Tout</e17>
+<e18>Pays</e18>
+<e19>Relevé de compte de client</e19>
+<e20>Détails</e20>
+<e21>Détails</e21>
+<e22>Catégorie</e22>
+<e23>Envoyer SOA</e23>
+<e24>Envoyer Mail</e24>
+<e25>Les opération de :</e25>
+<e26>Les factures de  :</e26>
+<e27>Les Offres  de   :</e27>
+</Allclient>
+<Financ_periode>
+<e1>N°</e1>
+<e2>Date début de période</e2>
+<e3>Date fin de période</e3>
+<e4>Statut</e4>
+<e5>Actions</e5>
+<e6>Statut</e6>
+<e7>Ajouter une période</e7>
+<e8>Date debut </e8>
+<e9>Date fin</e9>
+<e10>Sauvegarder</e10>
+<e11>la date du début devrait être inferieur de la date du fin </e11>
+<e12>Mise à jour de période</e12>
+<e13>Supprimer </e13>
+<e14>Modifier</e14>
+<e15>ascendant </e15>
+<e16>descendant</e16>
+<e17>Tout</e17>
+<e18>Activer une période</e18>
+<e19>Edit</e19>
+</Financ_periode>
+<updatePeriode>
+<e7>Mis à jour de période </e7>
+<e8>Date debut </e8>
+<e9>Date fin</e9>
+<e10>Mettre à jour</e10>
+<e11>la date du début devrait être inferieure de la date du fin  </e11>
+</updatePeriode>
+<AjouterPeriode>
+<e7>Mis à jour de période </e7>
+<e8>Date debut </e8>
+<e9>Date fin</e9>
+<e10>Sauvegarder</e10>
+<e11>la date du début devrait être inferieure de la date du fin  </e11>
+</AjouterPeriode>
+<DeletePeriode>
+<e1>Liste des périodes </e1>
+</DeletePeriode>
+<AllCommande>
+<e1>filtre par</e1>
+  <e2>ascendant </e2>
+  <e3>descendant</e3>
+  <e4>Commande #</e4>
+  <e5>Fournisseur</e5>
+  <e6>Date Création</e6>
+  <e7>Date Reception</e7>
+  <e8>Echues</e8>
+  <e9>Date Echeance</e9>
+  <e10>Livraison</e10>
+  <e11>Paiement</e11>
+  <e12>Actions</e12>
+  <e13>Oui</e13>
+  <e14>Non</e14>
+  <e15>payée</e15>
+  <e16>impayée</e16>
+  <e17>Supprimer</e17>
+  <e18>Modifier le bon de commande</e18>
+  <e19>commande pour</e19>
+  <e20>envoyer un message</e20>
+  <e21>Edit</e21>
+<e22>En attente</e22>
+  <e23>Livrée</e23>
+  <e24>Non Livrée</e24>
+  <e25>Payée</e25>
+  <e26>Non Payée</e26>
+  <e27>le paiement des bons de commande</e27>
+  <e28>Réception </e28>
+  <e29>Total </e29>
+  <e30>Détails du bon de commande </e30>
+  <e31>Détails</e31>
+</AllCommande>
+<CommandeFournisseur>
+<e1>filtre par</e1>
+  <e2>ascendant </e2>
+  <e3>descendant</e3>
+  <e4>Commande #</e4>
+  <e5>Fournisseur</e5>
+  <e6>Date Création</e6>
+  <e7>Date Reception</e7>
+  <e8>Echues</e8>
+  <e9>Date Echeance</e9>
+  <e10>Livraison</e10>
+  <e11>Paiement</e11>
+  <e12>Actions</e12>
+  <e13>Oui</e13>
+  <e14>Non</e14>
+  <e15>payée</e15>
+  <e16>impayée</e16>
+  <e17>Supprimer</e17>
+  <e18>Modifier le bon de commande</e18>
+  <e19>commande pour</e19>
+  <e20>envoyer un message</e20>
+  <e21>Edit</e21>
+<e22>En attente</e22>
+  <e23>Livrée</e23>
+  <e24>Non Livrée</e24>
+  <e25>Payée</e25>
+  <e26>Non Payée</e26>
+  <e27>le paiement des bons de commande</e27>
+  <e28>Réception </e28>
+  <e29>Total </e29>
+  <e30>Détails du bon de commande </e30>
+  <e31>Détails</e31>
+</CommandeFournisseur>
+<Command_operation>
+<e1>filtre par</e1>
+  <e2>ascendant </e2>
+  <e3>descendant</e3>
+  <e4>Commande #</e4>
+  <e5>Fournisseur</e5>
+  <e6>Date Création</e6>
+  <e7>Date Reception</e7>
+  <e8>Echues</e8>
+  <e9>Date Echeance</e9>
+  <e10>Livraison</e10>
+  <e11>Paiement</e11>
+  <e12>Actions</e12>
+  <e13>Oui</e13>
+  <e14>Non</e14>
+  <e15>payée</e15>
+  <e16>impayée</e16>
+  <e17>Supprimer</e17>
+  <e18>Modifier le bon de commande</e18>
+  <e19>commande pour</e19>
+  <e20>envoyer un message</e20>
+  <e21>Edit</e21>
+<e22>En attente</e22>
+  <e23>Livrée</e23>
+  <e24>Non Livrée</e24>
+  <e25>Payée</e25>
+  <e26>Non Payée</e26>
+  <e27>le paiement des bons de commande</e27>
+  <e28>Réception </e28>
+  <e29>Total </e29>
+  <e30>Détails du bon de commande </e30>
+  <e31>Détails</e31>
+</Command_operation>
+<reception_factures>
+<e1>Facture#</e1>
+  <e2>N° commande</e2>
+  <e3>Total </e3>
+  <e4>Date de reception</e4>
+  <e5>Réceptioné</e5>
+  <e6>Date Création</e6>
+  <e7>Date de reception</e7>
+  <e8>Sauvgarder</e8>
+  <e9>le fichier de facture</e9>
+  <e10>Uploader</e10>
+  <e11>Aucun Résultat ne correspond aux termes de recherche spécifiés </e11>
+  <e12>Essayez avec l'orthographe</e12>
+  <e13>la reception de facture du bon de comande N° </e13>
+</reception_factures>
+<AllBesoins>
+<e1>filtre par</e1>
+  <e2>ascendant </e2>
+  <e3>descendant</e3>
+  <e4>Commande #</e4>
+  <e5>Fournisseur</e5>
+  <e6>Date Création</e6>
+  <e7>Date de reception</e7>
+  <e8>Echues</e8>
+  <e9>Date de paiement</e9>
+  <e10>Livraison</e10>
+  <e11>paiement</e11>
+  <e12>Actions</e12>
+  <e13>Oui</e13>
+  <e14>Non</e14>
+  <e15>payée</e15>
+  <e16>impayée</e16>
+  <e17>Supprimer</e17>
+  <e18>Modifier le bon de commande</e18>
+  <e19>commande pour</e19>
+  <e20>envoyer un message</e20>
+  <e21>Edit</e21>
+<e22>En attente</e22>
+  <e23>Livrée</e23>
+  <e24>Non Livrée</e24>
+  <e25>Payée</e25>
+  <e26>Non Payée</e26>
+  <e27>le paiement des bons de commande</e27>
+  <e28>Réception </e28>
+  <e29>Total </e29>
+  <e30>Détails du bon de commande </e30>
+  <e31>Détails</e31>
+  </AllBesoins>
+<AllCommandeNonConfirmer>
+ <e1>Statut</e1>
+  <e2>Ref Commande</e2>
+  <e3>Fournisseur</e3>
+  <e4>Commande</e4>
+  <e5>Fournisseur</e5>
+  <e6>Dossiers</e6>
+  <e7>Description</e7>
+  <e8>Date Cmde</e8>
+  <e9>Echéance</e9>
+  <e10>Confirmé</e10>
+  <e11>Supprimer</e11>
+  <e12>Actions</e12>
+  <e13>Tout</e13>
+  <e14>Total</e14>
+  <e15>Modifier le bon de commande</e15>
+  <e16>Edit</e16>
+  <e17>Détails du bon de commande</e17>
+  <e18>Détails</e18>
+  <e19>En attente</e19>
+  <e20>Décliner</e20>
+</AllCommandeNonConfirmer>
+<AllCompte>
+<e1>Les Comptes</e1>
+  <e2>Numéro compte</e2>
+  <e3>banque</e3>
+  <e4>Compte Bancaire</e4>
+  <e5>Groupe Bancaire</e5>
+  <e6>Processus d'argent</e6>
+  <e7>Dernière transaction</e7>
+  <e8>Solde</e8>
+  <e9>Actions</e9>
+  <e10>Argent entrée pour le compte</e10>
+  <e11>Ajouter argent</e11>
+  <e12>Argent sortir apartir de</e12>
+  <e13>Rétirer argent</e13>
+  <e14>Virement</e14>
+  <e15>Mettre à jour le compte</e15>
+  <e16>Edit</e16>
+  <e17>Supprimer</e17>
+  <e18>N° du Compte</e18>
+  <e19>Paiements Émis</e19>
+  <e20>Paiements Réçu</e20>
+  <e21>Virement</e21>
+  <e22>id#</e22>
+  <e23>Description</e23>
+  <e24>Date</e24>
+  <e25>Banques</e25>
+  <e26>Client</e26>
+  <e27>Fournisseur</e27>
+  <e28>Montant</e28>
+  <e29>Origine</e29>
+  <e30>Destination</e30>
+  <e31>Débit</e31>
+  <e32>Crédit</e32>
+  <e33>Découvert</e33>
+  
+
+</AllCompte>
+<AllDossier>
+ <e1>Filtre par</e1>
+  <e2>Référence,Client,ETF,Etat</e2>
+  <e3>Etat</e3>
+  <e4>Id #</e4>
+  <e5>Client</e5>
+  <e6>Débit</e6>
+  <e7>Crédit</e7>
+  <e8>P/L</e8>
+  <e9>Actions</e9>
+  <e10>Fermer avec profit</e10>
+  <e11>Fermer avec perte</e11>
+  <e12>Sans transaction</e12>
+  <e13>Ouvert avec profit</e13>
+  <e14>Ouvert avec perte</e14>
+  <e15>Modification sur le dossier</e15>
+  <e16>La uppression est impossible car ce dossier contient des opérations</e16>
+  <e17>Supprimer</e17>
+  <e18>Fermer</e18>
+  <e19>Edit</e19>
+ <e20>ouvert</e20>
+  <e21>férmer</e21>
+  <e22>Tout</e22>
+   <e23>voulez-vous vraiment verouiller ce dossier?</e23>
+  <e24>voulez-vous vraiment deverouiller ce dossier?</e24>
+  <e25>Cout estimé</e25>
+  <e26>Etat</e26>
+  <e27>Détails</e27>
+  <e28>Détails du dossier</e28>
+  <e29>Détailss</e29>
+ </AllDossier>
+ <AllDossierEntreprise>
+ <e1>Filtre par</e1>
+  <e2>Référence,Client,ETF,Etat</e2>
+  <e3>Etat</e3>
+  <e4>Id #</e4>
+  <e5>Client</e5>
+  <e6>Débit</e6>
+  <e7>Crédit</e7>
+  <e8>P/L</e8>
+  <e9>Actions</e9>
+  <e10>Fermer avec profit</e10>
+  <e11>Fermer avec perte</e11>
+  <e12>Sans transaction</e12>
+  <e13>Ouvert avec profit</e13>
+  <e14>Ouvert avec perte</e14>
+  <e15>Modification sur le dossier</e15>
+  <e16>La suppression impossible car ce dossier contient des opérations</e16>
+  <e17>Supprimer</e17>
+  <e18>Fermer</e18>
+  <e19>Edit</e19>
+ <e20>ouvert</e20>
+  <e21>férmer</e21>
+  <e22>Tout</e22>
+   <e23>voulez-vous vraiment verouiller ce dossier?</e23>
+  <e24>voulez-vous vraiment deverouiller ce dossier?</e24>
+  <e25>Couts estimé</e25>
+  <e26>Etat</e26>
+  <e27>Détails</e27>
+  <e28>Détail du dossier</e28>
+  <e29>Détails</e29>
+ </AllDossierEntreprise>
+ <AllFacture>
+ <e1>votre paiement a été effectué avec succès</e1>
+  <e2>echec de paiement</e2>
+  <e3>filtre par</e3>
+  <e4>facture #</e4>
+  <e5>client</e5>
+  <e6>Réf.Client</e6>
+  <e7>Montant</e7>
+  <e8>Etat</e8>
+  <e9>Date paiemnt</e9>
+  <e10>Echue</e10>
+  <e11>En attente</e11>
+  <e12>détailS de la facture</e12>
+  <e13>les comptes bancaire</e13>
+  <e14>payée</e14>
+  <e15>Non payer</e15>
+  <e16>Edit</e16>
+  <e17>Supprimer</e17>
+  <e18>envoyer la facture par mail</e18>
+  <e19>Email</e19>
+  <e20>facture pour</e20>
+  <e21>N° de facture</e21>
+  <e22>Refuser</e22>
+  <e23>Litige</e23>
+  <e24>OK</e24>
+  <e25>impayée</e25>
+  <e26>Brouillon</e26>
+  <e27>Création de facture périodique </e27>
+  <e28>Modification sur la facture </e28>
+  <e29>les informations de client</e29>
+   <e30>Détails</e30>
+   <e31>Actions</e31>
+  
+ </AllFacture>
+ <Facture_operation>
+ <e1>votre paiement a été effectué avec succès</e1>
+  <e2>echec de paiement</e2>
+  <e3>filtre par</e3>
+  <e4>facture #</e4>
+  <e5>client</e5>
+  <e6>Réf.Client</e6>
+  <e7>Montant</e7>
+  <e8>Etat</e8>
+  <e9>Date paiemnt</e9>
+  <e10>Echue</e10>
+  <e11>En attente</e11>
+  <e12>Détails de la facture</e12>
+  <e13>les comptes bancaire</e13>
+  <e14>payée</e14>
+  <e15>Non payer</e15>
+  <e16>Edit</e16>
+  <e17>Supprimer</e17>
+  <e18>Envoyer la facture par mail</e18>
+  <e19>Email</e19>
+  <e20>facture pour</e20>
+  <e21>N° de facture</e21>
+  <e22>Refuser</e22>
+  <e23>Litige</e23>
+  <e24>OK</e24>
+  <e25>impayée</e25>
+  <e26>Brouillon</e26>
+  <e27>Création de facture périodique </e27>
+  <e28>Modification sur la facture </e28>
+  <e29>Les informations de client</e29>
+   <e30>Détails</e30>
+   <e31>Actions</e31>
+ </Facture_operation>
+ <AllMAILEnvoiyer>
+ <e3>filtre par</e3>
+  <e4>Envoyer à</e4>
+  <e5>CC</e5>
+  <e6>Objet</e6>
+  <e7>Date</e7>
+ </AllMAILEnvoiyer> 
+ <finalstatementclient>
+  <e3>Pays</e3>
+  <e4>Ville</e4>
+  <e5>Adresse</e5>
+  <e6>Téléphone</e6>
+  <e7>Fax</e7>
+  <e8>Email</e8>
+  <e9>Site web </e9>
+  <e10>Client</e10>
+  <e11>Code</e11>
+  <e12>Date de Lancement </e12>
+  <e13>Date du Paiement  </e13>
+  <e14>Echue</e14>
+  <e15>Monnaie</e15>
+  <e16>Montant</e16>
+  <e17>DUE THIS MONTH</e17>
+  <e18>TOTAL RECEIVABLE IN </e18>
+  <e19> NOT DUE </e19>
+  <e20>TOTAL PAYABLE  IN</e20>
+  <e21>STATEMENT OF ACCOUNT</e21>
+ </finalstatementclient>
+ <finalstatementFournisseur>
+  <e3>Pays</e3>
+  <e4>Ville</e4>
+  <e5>Adresse</e5>
+  <e6>Téléphone</e6>
+  <e7>Fax</e7>
+  <e8>Email</e8>
+  <e9>Site web </e9>
+  <e10>Fournisseur</e10>
+  <e11>Code</e11>
+  <e12>Date de Lancement </e12>
+  <e13>Date du Paiement  </e13>
+  <e14>Echue</e14>
+  <e15>Monnaie</e15>
+  <e16>Montant</e16>
+  <e17>DUE THIS MONTH</e17>
+  <e18>TOTAL RECEIVABLE IN </e18>
+  <e19> NOT DUE </e19>
+  <e20>TOTAL PAYABLE  IN</e20>
+  <e21>STATEMENT OF ACCOUNT</e21>
+ </finalstatementFournisseur>  
+ <finalstatementTOTAL>
+  <e3>Pays</e3>
+  <e4>Ville</e4>
+  <e5>Adresse</e5>
+  <e6>Téléphone</e6>
+  <e7>Fax</e7>
+  <e8>Email</e8>
+  <e9>Site web </e9>
+  <e10>Partenaire</e10>
+  <e11>Code</e11>
+  <e12>Date de Lancement </e12>
+  <e13>Date du Paiement  </e13>
+  <e14>Echue</e14>
+  <e15>Monnaie</e15>
+  <e16>Montant</e16>
+  <e17>DUE THIS MONTH</e17>
+  <e18>TOTAL RECEIVABLE IN </e18>
+  <e19> NOT DUE </e19>
+  <e20>TOTAL PAYABLE  IN</e20>
+  <e21>STATEMENT OF ACCOUNT</e21>
+ </finalstatementTOTAL> 
+ 
+ <finalCommande>
+ <e3>Pays</e3>
+  <e4>Ville</e4>
+  <e5>Adresse</e5>
+  <e6>Téléphone</e6>
+  <e7>Fax</e7>
+  <e8>Email</e8>
+  <e9>Site web </e9>
+  <e10>Date Commande</e10>
+  <e11>Date Echéance</e11>
+  <e12>N° Commande</e12>
+  <e13>Réference </e13>
+  <e14>Désignation</e14>
+  <e15>Quantité</e15>
+  <e16>Prix Unitaire </e16>
+  <e17>Net</e17>
+  <e18>TVA</e18>
+  <e19>Dossier</e19>
+  <e20>Fournisseur</e20>
+  <e21>Résumé</e21>
+  <e22>COMMANDE</e22>
+ </finalCommande> 
+ <finalFacture>
+ <e3>Pays</e3>
+  <e4>Ville</e4>
+  <e5>Adresse</e5>
+  <e6>Téléphone</e6>
+  <e7>Fax</e7>
+  <e8>Email</e8>
+  <e9>Site web </e9>
+  <e10>Date Facture</e10>
+  <e11>Date Echéance</e11>
+  <e12>N° Facture</e12>
+  <e13>Réference </e13>
+  <e14>Désignation</e14>
+  <e15>Quantité</e15>
+  <e16>Prix Unitaire </e16>
+  <e17>Net</e17>
+  <e18>TVA</e18>
+  <e19>Dossier</e19>
+  <e20>Client</e20>
+  <e21>Résumé</e21>
+  <e22>FACTURE</e22>
+ </finalFacture>
+ <Virement_Salaire>
+ <e3>Pays</e3>
+  <e4>Ville</e4>
+  <e5>Adresse</e5>
+  <e6>Téléphone</e6>
+  <e7>Fax</e7>
+  <e8>Email</e8>
+  <e9>Site web </e9>
+  <e10>BANQUE</e10>
+  <e11>TRAVAILLEUR</e11>
+  <e12>Montant</e12>
+  <e13>Compte destinataire </e13>
+  <e14>Compte Source</e14>
+  <e15>ViREMENT DE SALAIRES DES employéS</e15>
+  <e16>Prix Unitaire </e16>
+  <e17>Net</e17>
+  <e18>TVA</e18>
+  <e19>Dossier</e19>
+  <e20>Client</e20>
+  <e21>BANQUE</e21>
+  <e22>FACTURE</e22>
+ </Virement_Salaire>
+ <finalOffre>
+ <e3>Pays</e3>
+  <e4>Ville</e4>
+  <e5>Adresse</e5>
+  <e6>Téléphone</e6>
+  <e7>Fax</e7>
+  <e8>Email</e8>
+  <e9>Site web </e9>
+  <e10>Date Offre</e10>
+  <e11>Type d'offre</e11>
+  <e12>N° Offre</e12>
+  <e13>Réference </e13>
+  <e14>Désignation</e14>
+  <e15>Quantité</e15>
+  <e16>Prix Unitaire </e16>
+  <e17>Net</e17>
+  <e18>TVA</e18>
+  <e19>Dossier</e19>
+  <e20>Client</e20>
+  <e21>Résumé</e21>
+  <e22>OFFRE</e22>
+ <e23>Térme d'expédition</e23>
+  <e24>Origine</e24>
+  <e25>Destination</e25>
+   <e26>Type de service</e26>
+  <e27>Cargaison</e27>
+  <e28>Objet</e28>
+  <e29>Quantité</e29>
+  <e30>Dimension</e30>
+ <e31>Poids</e31>
+  <e32>Poids chargeable</e32>
+
+</finalOffre>
+<dettails>
+ <e1>id</e1>
+  <e2>dossier</e2>
+  <e3>opération</e3>
+  <e4>Montant payé</e4>
+  <e5>Les informations du client</e5>
+  <e6>Date de paiement</e6>
+  <e7>Date de création</e7>
+  <e8>Référence</e8>
+  <e9>Les élements </e9>
+  <e10>Description</e10>
+  <e11>QT</e11>
+  <e12>PU</e12>
+  <e13>NET</e13>
+  <e14>TAX</e14>
+  <e15>TOTAL</e15>
+  <e16>Société </e16>
+  <e17>Telephone1</e17>
+  <e18>Adresse</e18>
+  <e19>Ville</e19>
+  <e20>Pays</e20>
+  <e21>Email </e21>
+  <e22>Détail  </e22>
+  <e23>Détails </e23>
+ </dettails>
+ <dettailsOffre>
+ <e1>Id</e1>
+  <e2>dossier</e2>
+  <e3>opération</e3>
+  <e4>Montant payée</e4>
+  <e5>Les information du client</e5>
+  <e6>Date de paiement</e6>
+  <e7>Date de création</e7>
+  <e8>Référence</e8>
+  <e9>Les élements de l'offre</e9>
+  <e10>Description</e10>
+  <e11>QT</e11>
+  <e12>PU</e12>
+  <e13>NET</e13>
+  <e14>TAX</e14>
+  <e15>TOTAL</e15>
+  <e16>Société </e16>
+  <e17>Telephone1</e17>
+  <e18>Adresse</e18>
+  <e19>Ville</e19>
+  <e20>Pays</e20>
+  <e21>Email </e21>
+  <e22>Détails d'offre </e22>
+ 
+ </dettailsOffre>
+  <dettailsCommand>
+ <e1>id</e1>
+  <e2>dossier</e2>
+  <e3>opération</e3>
+  <e4>Montant payée</e4>
+  <e5>Client</e5>
+  <e6>Date de paiement</e6>
+  <e7>Date de création</e7>
+  <e8>Référence</e8>
+  <e9>Les élements </e9>
+  <e10>Description</e10>
+  <e11>QT</e11>
+  <e12>PU</e12>
+  <e13>NET</e13>
+  <e14>TAX</e14>
+  <e15>TOTAL</e15>
+  <e16>voulez-vous confirmer cette commande? </e16>
+  <e17>Supprimer</e17>
+  <e18>Raison</e18>
+  <e19>Détails du Commande</e19>
+  <e20>Détails du fournisseur</e20>
+  <e21>E-mail</e21>
+  <e22>Telephone</e22>
+  <e23>Adresse</e23>
+  <e24>Ville</e24>
+  <e25>Pays</e25>
+   <e26>Nom</e26>
+  <e27>Décliner</e27>
+  <e28>Supprimer</e28>
+  <e29>Confirmer</e29>
+  <e30>PDF</e30>
+ <e31>Edit</e31>
+  <e32>Livraision</e32>
+ <e33>Confirmation de paiment</e33>
+ <e34>Edit</e34>
+ <e35>Edit</e35>
+ 
+ </dettailsCommand>
+ <AllOffre>
+<e1>facture</e1>
+  <e2>Facturer</e2>
+  <e3>PDF</e3>
+  <e4>Réf.offre</e4>
+  <e5>client</e5>
+  <e6>Réf.Client</e6>
+  <e7>Montant</e7>
+  <e8>Validation</e8>
+  <e9>Date de création</e9>
+  <e10>Description </e10>
+  <e11>Actions</e11>
+  <e12>Détails de l'Offre</e12>
+  <e13>Les comptes bancaire</e13>
+  <e14>Confirmer</e14>
+  <e15>Non validé</e15>
+  <e16>Edit</e16>
+  <e17>Supprimer</e17>
+  <e18>Facturer cette offre</e18>
+  <e19>Email</e19>
+  <e20>Offre pour</e20>
+  <e21>N° de l'offre</e21>
+  <e22>Supp</e22>
+  <e23>descendant</e23>
+  <e24>valider</e24>
+  <e25>Non valider</e25>
+  <e26>Tout</e26>
+  <e27>Modification sur l'offre</e27>
+  <e28>Edit</e28>
+  <e29>les informations du client</e29>
+  <e30>détail</e30>
+ </AllOffre>
+ <OffreClient>
+<e1>facture</e1>
+  <e2>Facturer</e2>
+  <e3>PDF</e3>
+  <e4>Réf.offre</e4>
+  <e5>client</e5>
+  <e6>Réf.Client</e6>
+  <e7>Montant</e7>
+  <e8>Validation</e8>
+  <e9>Date de création</e9>
+  <e10>Description </e10>
+  <e11>Actions</e11>
+  <e12>Détails de l'Offre</e12>
+  <e13>les comptes bancaire</e13>
+  <e14>Confirmer</e14>
+  <e15>Non valider</e15>
+  <e16>Edit</e16>
+  <e17>Supprimer</e17>
+  <e18>Facturer cette offre</e18>
+  <e19>Email</e19>
+  <e20>offre pour</e20>
+  <e21>N° de l'offre</e21>
+  <e22>Supp</e22>
+  <e23>descendant</e23>
+  <e24>valider</e24>
+  <e25>Non valider</e25>
+  <e26>Tout</e26>
+  <e27>Modification sur l'offre</e27>
+  <e28>Edit</e28>
+  <e29>les informations dU client</e29>
+  <e30>Détails</e30>
+ </OffreClient>
+ <allocate_argent>
+  <e1>Merci de cocher cette case pour valider le paiement (Veuillez verifier les montants avant de confirmer) </e1>
+  <e2>Factures impayées de </e2>
+  <e3>Facture# </e3>
+  <e4>client</e4>
+  <e5>Réf.Client</e5>
+  <e6>Montant</e6>
+  <e7>Montant Non payé</e7>
+  <e8>Allouer un paiement</e8>
+  <e9>devise</e9>
+  <e10>Le Montant reçu par le client</e10>
+  <e11>Opération#</e11>
+  <e12>Description</e12>
+  <e13>Date</e13>
+  <e14>Banque</e14>
+  <e15>numéro de compte</e15>
+  <e16>Montant</e16>
+  <e17>Argent Non alloué</e17>
+  <e18>Confirmer</e18>
+  <e19>le montant retiré</e19>
+  <e20>Les bons de commande impayés</e20>
+ </allocate_argent>
+ <allocate_argent_BC>
+ <e1>le montant impayé par le fournisseur </e1>
+  <e2>Id </e2>
+  <e3>Ventes</e3>
+  <e4>Allocation</e4>
+  <e5>Description</e5>
+  <e6>Date</e6>
+  <e7>Montant</e7>
+  <e8>les factures impayées par</e8>
+  <e9>Toute les factures impayées pour</e9>
+  <e10>Avoirs impayés </e10>
+  <e11>Commandes impayées</e11>
+  <e12>Montant facturée</e12>
+  <e13>Montant payé</e13>
+  <e14>il n'y a aucune facture pour</e14>
+  <e15>Les paiements  </e15>
+  <e16>Banque</e16>
+  <e17>Montant Rétiré </e17>
+  <e18>Différence(-/+)</e18>
+  <e19>Completer le paiement de bon de commande</e19>
+  <e20>Completer le paiement</e20>
+  <e21>Impayé</e21>
+  <e22>Monnaie</e22>
+ </allocate_argent_BC>
+ <AllOperation>
+ <e1>Facturation</e1>
+  <e2>Réf,Dossier,Client,ETA,ETD,Orig,Dest,LTA </e2>
+  <e3>tous </e3>
+  <e4>Réf</e4>
+  <e5>Dossier</e5>
+  <e6>Client</e6>
+  <e7>LTA/BL/AWB</e7>
+  <e8>ETA</e8>
+  <e9>ETD</e9>
+  <e10>Origine </e10>
+  <e11>Destination</e11>
+  <e12>Type</e12>
+  <e13>Actions</e13>
+  <e14>Pas encore facturée</e14>
+  <e15>Détails</e15>
+  <e16>Tracking</e16>
+  <e17>Edit</e17>
+  <e18>Supprimer</e18>
+  <e19>Détails</e19>
+  <e20>Céation des imprimés</e20>
+  <e21>Le Mis à jour d'opération</e21>
+  <e22>Décroissent</e22>
+  <e23>Croissent</e23> 
+  <e24>Oui</e24>
+  <e25>Non</e25>
+  <e26>Tout</e26>
+  <e27>Non</e27>
+  <e28>Oui</e28>
+  <e29>Export de modèles</e29>
+  <e30>Edit</e30>
+  <e31>Détails</e31>
+  <e32>voulez vous vraiment facturée cette opération? </e32>
+  <e33>Partiel </e33>
+  <e34>Prêt </e34>
+  
+ </AllOperation>
+ <operation_client>
+ <e1>Facturation</e1>
+  <e2>Réf,Dossier,Client,ETA,ETD,Orig,Dest,LTA </e2>
+  <e3>tous </e3>
+  <e4>Réf</e4>
+  <e5>Dossier</e5>
+  <e6>Client</e6>
+  <e7>LTA/BL/AWB</e7>
+  <e8>ETA</e8>
+  <e9>ETD</e9>
+  <e10>Origine </e10>
+  <e11>Destination</e11>
+  <e12>Type</e12>
+  <e13>Actions</e13>
+  <e14>Pas encore facturée</e14>
+  <e15>Détails</e15>
+  <e16>Tracking</e16>
+  <e17>Edit</e17>
+  <e18>Supprimer</e18>
+  <e19>Détails</e19>
+  <e20>Création des imprimés</e20>
+  <e21>Le Mis à jour d'opération</e21>
+  <e22>Décroissent</e22>
+  <e23>Croissent</e23> 
+  <e24>Oui</e24>
+  <e25>Non</e25>
+  <e26>Tout</e26>
+  <e27>Non</e27>
+  <e28>Oui</e28>
+  <e29>Export des modèles</e29>
+  <e30>Edit</e30>
+  <e31>Détails</e31>
+  <e32>voulez vous vraiment facturer cette opération?</e32>
+  <e33>Factures de  </e33>
+  <e34>Commandes de </e34>
+  
+ </operation_client>
+ <AllUser>
+  <e1>Permissions</e1>
+  <e2>E-mail</e2>
+  <e3>Téléphone</e3>
+  <e4>Nom et prénom</e4>
+  <e5>Type d'accès</e5>
+  <e6>Adresse</e6>
+  <e7>Actions</e7>
+  <e8>Modifier utilisateur</e8>
+  <e9>Edit</e9>
+  <e10>Supprimer </e10>
+  <e11>Modification du mot de passe</e11>
+  <e12>Ajouter un nouveau utilisateur</e12>
+  <e13>Modifier les permissions</e13>
+ </AllUser>
+ <Permission>
+ <e1>Services</e1>
+  <e2>Activation</e2>
+  <e3>Mettre à jour</e3>
+  <e4>Gestion des dossiers</e4>
+  <e5>Consulter les statistiques Financier de dossiers</e5>
+  <e6>Gestion des opérations</e6>
+  <e7>Gestion des  Bons de commande</e7>
+  <e8>Gestion des Clients</e8>
+  <e9>Gestion des Offres</e9>
+  <e10>Gestion des prix </e10>
+  <e11>Gestion de Facturation</e11>
+  <e12>Gestion des personels </e12>
+  <e13>Paiment de Salaires</e13>
+  <e14>Administration </e14>
+  <e15>Gestion des utilisateurs</e15>
+  <e16>Gestion des Fonds</e16>
+  <e17>Gestion des Taxes</e17>
+  <e18>Gestion des Dépenses</e18>
+  <e19>Gestion des Fournisseurs</e19>
+  <e20>Gestion des Biens</e20>
+  <e21>Gestion des Equipments</e21>
+  <e22>Les Rapports</e22>
+  <e23>Gestion des actions sur les commandes</e23>
+   <e24>KPI</e24>
+  <e25>Total Vantes impayées</e25>
+  <e26>Total Achats impayés</e26>
+  <e27>Argent reçus</e27>
+  <e28>Argent Emises </e28>
+  <e29>Vents</e29>
+  <e30>Achats</e30>
+  <e31>Encaisse</e31>
+  <e32>Rapport des offres</e32>
+  <e33>Liste des commande non confirmé</e33>
+  <e34>Activer le paiment</e34>
+  <e35>Base de donnés </e35>
+  <e36>Etat</e36>
+  <e37>Le Journal Comptable</e37>
+  <e38>Le Grand Livre </e38>
+  <e39>Le Balance</e39>
+  <e40>Modification sur les factures</e40>
+  <e41>Création de factures</e41>
+  <e42>Suppression de facrtures</e42>
+  <e43>Etat</e43>
+  <e44>Rapport de gestion</e44>
+  <e45>Etat</e45>
+  <e46>Etat</e46>
+  <e47>Etat</e47>
+  <e48>Etat</e48>
+  <e49>Etat</e49>
+  
+  </Permission>
+ <ArgentEntre>
+ <e1>votre paiement a été effectué avec succès</e1>
+  <e2>echec de paiement </e2>
+  <e3>Expliquer la reception de</e3>
+  <e4>Compte</e4>
+  <e5>Valeur  d'argent</e5>
+  <e6>Date</e6>
+  <e7>Méthode de paiement</e7>
+  <e8>Espéces</e8>
+  <e9>Chèque</e9>
+  <e10>Virement</e10>
+  <e11>Code</e11>
+  <e12>Compte</e12>
+  <e13>Client</e13>
+  <e14>Description</e14>
+  <e15>Ajouter argent</e15>
+  <e16>Compte bancaire </e16>
+  <e17>valeur d'argent</e17>
+  <e18>Argent entrée pour le compte</e18>
+  <e19>expliquer</e19>
+  <e20>Términer</e20>
+ </ArgentEntre>
+  <ArgentSortie>
+ <e1>votre paiement a été effectué avec succès</e1>
+  <e2>échec de paiement </e2>
+  <e3>Expliquer le paiement  de</e3>
+  <e4>Compte</e4>
+  <e5>Valeur  d'argent</e5>
+  <e6>Date</e6>
+  <e7>Méthode de paiement</e7>
+  <e8>Espéces</e8>
+  <e9>Chèque</e9>
+  <e10>Virement</e10>
+  <e11>Code</e11>
+  <e12>Compte</e12>
+  <e13>Fournisseur</e13>
+  <e14>Description</e14>
+  <e15>Retiré  argent</e15>
+  <e16>Compte bancaire </e16>
+  <e17>valeur d'argent</e17>
+  <e18>retirer une somme d'argent selon le compte</e18>
+  <e19>expliquer</e19>
+  <e20>Términer</e20>
+ </ArgentSortie>
+ <attacher>
+ <e1>upload fichier</e1>
+ <e2>mettre a jour</e2>
+ </attacher>
+  <changerPassword>
+ <e1>erreur de confirmation</e1>
+ <e2>Mettre à jour</e2>
+ <e3>Mot de passe</e3>
+ <e4>Cofimation du mot de passe</e4>
+ </changerPassword>
+  <Codes>
+<e1>Tous les codes</e1>
+  <e2>Ajouter Codes</e2>
+  <e3>Libellé</e3>
+  <e4>N° Compte</e4>
+  <e5>Nature</e5>
+  <e6>Sens</e6>
+  <e7>Ventes</e7>
+  <e8>Achats</e8>
+  <e9>Budgets</e9>
+  <e10>Actions </e10>
+  <e11>Supprimer</e11>
+  <e12>Mettre à jour</e12>
+  <e13>Ajouter un Code</e13>
+  <e14>Libellé</e14>
+  <e15>N° Compte</e15>
+  <e16>Nature </e16>
+  <e17>Sens</e17>
+  <e18>Afficher dans les Ventes</e18>
+  <e19>Afficher dans les Achats</e19>
+  <e20>Afficher dans le budget</e20>
+  <e21>Ajouter un groupe</e21>
+  <e22>Nom de groupe</e22>
+  <e23>Catégorie</e23>
+  <e24>Sauvegarder</e24>
+  <e25>Revenu</e25>
+<e26>Réstauration</e26>
+  <e27>sauvegarder</e27>
+  <e28>Mise à jour logiciel</e28>
+  <e29>Mot de passe</e29>
+  <e30>Restaurer les paramètres de l'application vers les valeurs par défaut.</e30>
+  <e31>cette action va supprimer Tout les paramètres du systeme</e31>
+  <e32>Si vous voulez Restaurer l'application, Veuillez saisir le mot de passe de l'administrateur</e32>
+  <e33>Paramètres par défaut</e33>
+  <e34>Restaurer </e34>
+  <e35> Vous pouvez enregistrer vos configurations de l'application dans un fichier sur votre ordinateur. </e35>
+  <e36>Mettre à jour</e36>
+  <e37>Vous pouvez mettre à jour vos comptes comptable en utilisant vos fichiers enregistrés csv(séparateur point-virgule)</e37>
+  <e38>Emplacement du fichier .csv :</e38>
+  <e39>Fichier à importer</e39>
+  <e40>Sauvegarder</e40> 
+  <e41>il faut charger un fichier de type csv( avec séparateur point-virgule) </e41> 
+ <e42>Plan Comptable</e42>
+ <e43>Classement</e43>
+ </Codes> 
+ <Documentation>
+<e1>Liste des documents</e1>
+  <e2>Création du document</e2>
+  <e3>N° </e3>
+  <e4>Description</e4>
+  <e5>Date de Création</e5>
+  <e6>Consulter</e6>
+  <e7>Action</e7>
+  <e8>les Docuements de l'entreprise</e8>
+  <e9>Création de docuement</e9>
+  <e10>Actions </e10>
+  <e11>Supprimer</e11>
+  <e12>Mettre à jour</e12>
+  <e13>Ajouter un Code</e13>
+  <e14>Libellé</e14>
+  <e15>N° Compte</e15>
+  <e16>Nature </e16>
+  <e17>Sens</e17>
+  <e18>Afficher dans les Ventes</e18>
+  <e19>Afficher dans les Achats</e19>
+  <e20>Afficher dans le budget</e20>
+  <e21>Ajouter un groupe</e21>
+  <e22>Nom de groupe</e22>
+  <e23>Catégorie</e23>
+  <e24>Sauvegarder</e24>
+  <e25>Revenu</e25>
+<e26>Réstauration</e26>
+  <e27>sauvegarder</e27>
+  <e28>Mise à jour logiciel</e28>
+  <e29>Mot de passe</e29>
+  <e30>Restaurer les paramètres de l'application vers les valeurs par défaut.</e30>
+  <e31>cette action va supprimer Tout les paramètres du systeme</e31>
+  <e32>Si vous voulez Restaurer l'application, Veuillez saisir le mot de passe de l'administrateur</e32>
+  <e33>Paramètres par défaut</e33>
+  <e34>Restaurer </e34>
+  <e35> Vous pouvez enregistrer vos configurations de l'application dans un fichier sur votre ordinateur. </e35>
+  <e36>Mettre à jour</e36>
+  <e37>Vous pouvez mettre à jour vos comptes comptable en utilisant vos fichiers enregistrés csv(séparateur point-virgule)</e37>
+  <e38>Emplacement du fichier .csv :</e38>
+  <e39>Fichier à importer</e39>
+  <e40>Sauvegarder</e40> 
+  <e41>il faut charger un fichier de type csv( avec séparateur point-virgule) </e41> 
+ <e42>Plan Comptable</e42>
+ <e43>Classement</e43>
+ </Documentation>
+ <Gestion_Cat>
+<e1>Tous les catégories</e1>
+  <e2>Ajouter un catégorie</e2>
+  <e3>Catégorie </e3>
+  <e4>Préfix</e4>
+  <e5>Entreprise</e5>
+  <e6>Compte</e6>
+  <e7>Opération</e7>
+  <e8>Logistique</e8>
+  <e9>Opération</e9>
+  <e10>Actions </e10>
+  <e11>Supprimer</e11>
+  <e12>Mettre à jour</e12>
+  <e13>Ajouter un Catégorie</e13>
+  <e14>Nom de catégorie </e14>
+  <e15>Préfixe</e15>
+  <e16>Déclaration </e16>
+  <e17>Type de compte</e17>
+  <e18>Afficher dans les dossiers de l'entreprise</e18>
+  <e19>Afficher dans les dossiers de logistique</e19>
+  <e20>Afficher dans les dossiers des opérations</e20>
+  <e21>Ajouter un groupe</e21>
+  <e22>Nom de groupe</e22>
+  <e23>Catégorie</e23>
+  <e24>Sauvegarder</e24>
+  <e25>Le catégorie ne peut pas etre afficher dans tout vos choix</e25>
+ 
+ </Gestion_Cat>
+<Configuration_Profil>
+<e1>Monnaie</e1>
+  <e2>Taxe</e2>
+  <e3>les Frais fixe </e3>
+  <e4>Entreprise</e4>
+  <e5>Configuration de Monnaie</e5>
+  <e6>gestion de devise</e6>
+  <e7>Monnaie par  défaut</e7>
+  <e8>Les taxes</e8>
+  <e9>filtre par </e9>
+  <e10>Nom Taxe </e10>
+  <e11>Valeur</e11>
+  <e12>Appliquer Sur</e12>
+  <e13>Actions</e13>
+  <e14>Modifier Taxe</e14>
+  <e15>Edit</e15>
+  <e16>Supprimer </e16>
+  <e17>Ajouter Taxe</e17>
+  <e18>Ajouter un nouveau Taxe</e18>
+  <e19>Nom de taxe</e19>
+  <e20>Nb</e20>
+  <e21>Description</e21>
+  <e22>Monnaie</e22>
+  <e23>Variable</e23>
+  <e24>Ajouter un frais fixe</e24>
+  <e25>Ajouter frais</e25>
+  <e26>Nom Entreprise</e26>
+  <e27>Adresse</e27>
+  <e28>Téléphone</e28>
+  <e29>Fax</e29>
+  <e30>E-mail</e30>
+  <e31>Site web</e31>
+  <e32>Sigle</e32>
+  <e33>Ajouter</e33>
+  <e34>type</e34>
+  <e35>Modifier frais fixe</e35>
+  <e36>Tout</e36>
+  <e37>frais</e37>
+  <e38>Ville</e38>
+  <e39>Pays</e39>
+  <e40>Footer</e40>
+<e45>Méthode Sécurité</e45>
+<e46>Port </e46>
+<e47>Adresse Mail</e47>
+<e48>Mot de passe</e48>
+<e49>Boite d'envoi</e49>
+<e50>Sauvgarder</e50>
+<e51>Connexion accepté</e51>
+<e52>échec de la connexion</e52>
+<e53>Fournisseur</e53>
+<e54>Client</e54>
+<e55>Chiffre d'affaire</e55>
+<e56>Profit</e56>
+<e57>Appliquer</e57>
+<e58>Non</e58>
+<e59>Devise ver  </e59>
+<e60>Abreviation_Monnai</e60>
+<e61>Monnaie</e61>
+<e62>Préfixes</e62>
+<e63>Variables </e63>
+<e64>Les avoirs</e64>
+<e65>Les bons de commande</e65>
+<e66>Les factures</e66>
+<e67>Les offres</e67>
+<e68>Argent Emis </e68>
+<e69>Paiement des salaires</e69>
+<e70>Argent reçu</e70>
+<e71>Paiment des taxes</e71>
+<e72>Virement</e72>
+<e73>Valeur</e73>
+<e74>Ajouter une monnaie</e74>
+<e75>Code</e75>
+<e76>Nom complet</e76>
+
+
+  
+ </Configuration_Profil>  
+
+ <Gestion_rapport_Tax>
+<e1>Tax sur les achat et les ventes</e1>
+  <e2>Comparaison des taxes</e2>
+  <e3>les Frais fixe </e3>
+  <e4>Choisir une période financiere</e4>
+  <e5>jusqu'au</e5>
+  <e6>Joindre les factures impayées</e6>
+  <e7>Choisir un taxe</e7>
+  <e8>Les taxes</e8>
+  <e9>Découvrir </e9>
+ </Gestion_rapport_Tax> 
+ <Gestion_rapport_operation>
+<e1>Rapport des opérations</e1>
+  <e3>Les Frais fixe </e3>
+  <e4>Tout les dossiers</e4>
+  <e5>Jusqu'au</e5>
+  <e8>Les taxes</e8>
+  <e9>Découvrir </e9>
+  <e10>Rapport de douane </e10>
+  <e11>apurer </e11>
+  <e12>Tous </e12>
+  <e13>Non apurer </e13>
+ </Gestion_rapport_operation> 
+ <Journal>
+<e1>N°</e1>
+<e2>Journal</e2>
+  <e3>Compte</e3>
+  <e4>Libellé écriture</e4>
+  <e5>Date</e5>
+  <e6>Débit</e6>
+  <e7>Crédit </e7>
+   <e8>N° du compte</e8>
+  <e9>Aujourd'hui </e9>
+  <e10>Ce Mois  : </e10>
+  <e11>Par Période</e11>
+  <e12>N° Pièce </e12>
+  <e13>Total Movement.</e13>
+  <e14>Date Débit</e14>
+  <e15>Date Fin</e15>
+  <e16>Le Journal par Période</e16>
+  <e17>Découvrir</e17>
+ </Journal>
+ <GrandLivre>
+<e1>Date</e1>
+<e2>Journal</e2>
+  <e3>N° mvt</e3>
+  <e4>Libellé</e4>
+  <e5>Débit</e5>
+  <e6>Crédit</e6>
+  <e7>Solde progressif  </e7>
+  <e8>Sous total</e8>
+   <e9>Aujourd'hui </e9>
+  <e10>Ce Mois  : </e10>
+  <e11>Par Période</e11>
+  <e12>N° Pièce </e12>
+  <e13>Total Movement.</e13>
+  <e14>Date Débit</e14>
+  <e15>Date Fin</e15>
+  <e16>Le Grand livre des comptes par Période</e16>
+  <e17>Découvrir</e17>
+  <e18>Compte</e18>
+ </GrandLivre>
+ <GrandLivreTiers>
+<e1>Date</e1>
+<e2>Journal</e2>
+  <e3>N° mvt</e3>
+  <e4>Libellé</e4>
+  <e5>Débit</e5>
+  <e6>Crédit</e6>
+  <e7>Solde progressif  </e7>
+  <e8>Sous total</e8>
+   <e9>Aujourd'hui </e9>
+  <e10>Ce Mois  : </e10>
+  <e11>Par Période</e11>
+  <e12>N° Pièce </e12>
+  <e13>Total Movement.</e13>
+  <e14>Date Débit</e14>
+  <e15>Date Fin</e15>
+  <e16>Le Grad-livre des tiers par Période</e16>
+  <e17>Découvrir</e17>
+  <e18>Partenaire</e18>
+ </GrandLivreTiers>
+ <BalanceTiers>
+<e1>Date</e1>
+<e2>Total classe </e2>
+  <e3>N° Compte</e3>
+  <e4>Libellé</e4>
+  <e5>Débit</e5>
+  <e6>Crédit</e6>
+  <e7>Solde progressif  </e7>
+  <e8>Sous total</e8>
+   <e9>Aujourd'hui </e9>
+  <e10>Ce Mois  : </e10>
+  <e11>Par Période</e11>
+  <e12>N° Pièce </e12>
+  <e13>Total Movement.</e13>
+  <e14>Date Débit</e14>
+  <e15>Date Fin</e15>
+  <e16>Le Grad-livre des tiers par Période</e16>
+  <e17>Découvrir</e17>
+  <e18>Partenaire</e18>
+ </BalanceTiers>
+ <BalanceCompte>
+<e1>Date</e1>
+<e2>Total classe </e2>
+  <e3>N° Compte</e3>
+  <e4>Libellé</e4>
+  <e5>Débit</e5>
+  <e6>Crédit</e6>
+  <e7>Solde progressif  </e7>
+  <e8>Sous total</e8>
+   <e9>Aujourd'hui </e9>
+  <e10>Ce Mois  : </e10>
+  <e11>Par Période</e11>
+  <e12>N° Pièce </e12>
+  <e13>Total Movement.</e13>
+  <e14>Date Débit</e14>
+  <e15>Date Fin</e15>
+  <e16>Le Balance des comptes</e16>
+  <e17>Découvrir</e17>
+  <e18>Compte</e18>
+ </BalanceCompte>
+ <DefaultSetting>
+<e1>Réstauration</e1>
+  <e2>sauvegarder</e2>
+  <e3>Mise à jour logiciel</e3>
+  <e4>Mot de passe</e4>
+  <e5>Restaurer les paramètres de l'application pour les valeurs par défaut.</e5>
+  <e6>cette action va supprimer Tout les paramètres du systeme
+</e6>
+  <e7>Si vous voulez Restaurer l'application merci de saisir le mot de passe de l'administrateur</e7>
+  <e8>Parametre par défaut</e8>
+  <e9>Restaurer </e9>
+  <e10> Vous pouvez enregistrer vos configurations de l'application dans un fichier sur votre ordinateur. </e10>
+  <e11>Mettre à jour</e11>
+  <e12>Mise à jour des paramètres de votre application. Vous pouvez mettre à jour vos paramètres en utilisant vos fichiers enregistrés .sql</e12>
+  <e13>Emplacement du fichier.sql :</e13>
+  <e14>Fichier à importer</e14>
+  <e15>Sauvegarder</e15> 
+ </DefaultSetting>
+<detaille_paiement>
+<e1>paiement</e1>
+  <e2>Référence</e2>
+  <e3>client/fournisseur </e3>
+  <e4>Montant</e4>
+  <e5>Date</e5>
+  <e6>Les bons de commaande</e6>
+  <e7>Commande</e7>
+  <e8>Montant</e8>
+  <e9>Total </e9>
+  <e10>Les factures </e10>
+  <e11>facture</e11>
+  <e12>Montant</e12>
+  <e13>le balance</e13>
+  <e14>Total facturation</e14>
+  <e15>Total Bon de commande</e15>
+  <e16>Montant péyée par la banque </e16>
+</detaille_paiement>
+<detailleClient>
+<e1>Informations de base</e1>
+  <e2>Informations complémentaires</e2>
+  <e3>Douane</e3>
+  <e4>Informations prédéfinies</e4>
+  <e5>frais par défault</e5>
+  <e6>détail</e6>
+  <e7>Client</e7>
+  <e8>identité</e8>
+  <e9>Adresse Mail </e9>
+  <e10>Téléphone(1) </e10>
+  <e11>Téléphone(2)</e11>
+  <e12>Type d'entreprise</e12>
+  <e13>TVA</e13>
+  <e14>Numéro d'entreprise</e14>
+  <e15>Skype</e15>
+  <e16>Site web </e16>
+  <e17>Fax</e17>
+  <e18>Archives</e18>
+  <e19>Loi du client</e19>
+  <e20> Exonéré</e20>
+  <e21>Client est-un</e21>
+  <e22>Projet par defaut</e22>
+  <e23>utilisation</e23>
+  <e24>Description</e24>
+  <e25>type</e25>
+  <e26>Monnaie</e26>
+  <e27>Montant</e27>
+  <e28>Mettre à jour</e28>
+</detailleClient>
+<detailleDossier>
+  <e1>Détails du dossier </e1>
+  <e2>opération</e2>
+  <e3>Débit</e3>
+  <e4>Crédit</e4>
+  <e5>Montant P/L </e5>
+  <e6>TOTAL</e6>
+  <e7>il ya aucun opération pour ce dossier</e7>
+  <e8>Détail Offre </e8>
+  <e9>Offre </e9>
+ </detailleDossier>
+ <Manegement_rapport>
+  <e1>Date </e1>
+  <e2>Division</e2>
+  <e3>Période Financier</e3>
+  <e4>Année</e4>
+  <e5>Mois et Année</e5>
+  <e6>Et</e6>
+  <e7>il ya aucun opération pour ce dossier</e7>
+  <e8>Détail Offre </e8>
+  <e9>Offre </e9>
+  <e10>	Le Rapport de gestion rassemble les données de tous les domaines de votre compte en un seul rapport PDF commode de fournir un aperçu complet de votre entreprise.	</e10>
+ <e11>Utilisez les options ci-dessous pour configurer les sections que vous souhaitez voir apparaître sur ce rapport, puis cliquez sur le bouton correspondant soit à consulter le rapport dans votre navigateur ou télécharger en PDF.</e11>
+ <e12>Sections à afficher</e12>
+ <e13>Profit et Perte  </e13>
+ <e14>Flux de trésorerie</e14>
+ <e15>Bilan</e15>
+ <e16>Débiteurs</e16>
+ <e17>Créditeurs</e17>
+ <e18>Récapitulation(Sommaire)</e18>
+ </Manegement_rapport>
+ <view_webmanegement>
+  <e1>Variance </e1>
+  <e2>Bénéfice Brut</e2>
+  <e3>depense de l'entreprise</e3>
+  <e4>Paiement de salaires</e4>
+  <e5>Bénéfice avant impôts</e5>
+  <e6>Bénéfice Net</e6>
+  <e7>Banque</e7>
+  <e8>Numéro du compte</e8>
+  <e9> Solde</e9>
+  <e10>	Découvert</e10>
+ <e11>Actif à court terme</e11>
+ <e12>Créances commerciales</e12>
+ <e13>Profit et Perte  </e13>
+ <e14>Flux de trésorerie</e14>
+ <e15>Bilan</e15>
+ <e16>Débiteurs</e16>
+ <e17>Créditeurs</e17>
+ <e18>Récapitulation(Sommaire)</e18>
+ <e19>Passif à court terme</e19>
+<e20>Les créanciers commerciaux</e20>
+<e21>L'actif net</e21>
+<e22>Courant</e22>
+<e23>Jours</e23>
+<e24>Rentabilité</e24>
+<e25>Bilan</e25>
+<e26>actifs</e26>
+<e27>passifs</e27>
+<e28>Indicateurs de pérformance</e28>
+<e29>Nombre de factures émises</e29>
+<e30>Valeur moyenne des factures</e30>
+<e31>Les Termes moyenne de credit</e31>
+<e32>Total</e32>
+<e33>Avoir des actionnaires</e33>
+
+ </view_webmanegement>
+  <detailleFournisseur>
+<e1>Informations de base</e1>
+  <e2>Informations complémentaires</e2>
+  <e3>Douane</e3>
+  <e4>détail</e4>
+  <e5>Fournisseur</e5>
+  <e6>identité</e6>
+  <e7>Adresse Mail</e7>
+  <e8>Téléphone(1)</e8>
+  <e9>Téléphone(2)</e9>
+  <e10>Type d'entreprise </e10>
+  <e11>TVA</e11>
+  <e12>Numéro d'entreprise</e12>
+  <e13>Skype</e13>
+  <e14>Site web</e14>
+  <e15>Fax</e15>
+  <e16>Loi du Fournisseur </e16>
+ </detailleFournisseur>
+  <detaillenotif>
+<e1>E-mail</e1>
+  <e2>contenu de notification </e2>
+  <e3>Date et temps</e3>
+  <e4>Actions</e4>
+  <e5>Supprimer</e5>
+  </detaillenotif>
+   <detailleoperation>
+<e1>général</e1>
+<e2>Cargaison</e2>
+<e3>terme d'expédition</e3>
+<e4>facture Commerciale</e4>
+<e5>Formalité de douane</e5>
+<e6>Tracking</e6>
+<e7>fichiers attachers</e7>
+<e8>Descriotion de Cargaison</e8>
+<e9>Référence du Dossier</e9>
+<e10>Référence du client</e10>
+<e11>client</e11>
+<e12>Date</e12>
+<e13>Poidss</e13>
+<e14>Dimensions</e14>
+<e15>type d'objet</e15>
+<e16>Numéro d'objet</e16>
+<e17>Origine</e17>
+<e18>Destination</e18>
+<e19>ETD</e19>
+<e20>ETA</e20>
+<e21>Numéro de LTA</e21>
+<e22>Ligne de Transport</e22>
+<e23>Valeur Facturee</e23>
+<e24>Valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Fournisseur</e26>
+<e27>Référence</e27>
+<e28>Désignation Commerciale</e28>
+<e29>Dossier</e29>
+<e30>Client</e30>
+<e31>Référence Client</e31>
+<e32>Poidss</e32>
+<e33>Dimensions</e33>
+<e34>type d'objet</e34>
+<e35>N° TC </e35>
+<e36>Quantité</e36>
+<e37>Destination</e37>
+<e38>Origine</e38>
+<e39>AWB/BL/LTA</e39>
+<e45>Date éstimé de départ</e45>
+<e46>Date éstimé de d'arrivé</e46>
+<e47>Ligne de Transport</e47>
+<e48>valeur facturée</e48>
+<e49>Monnaie</e49>
+<e50>Taux </e50>
+<e51>valeur Transport </e51>
+<e52>Taux </e52>
+<e53>fournisseur</e53>
+<e54>Réference</e54>
+<e55>Désignation Commerciale</e55>
+<e56>Exonoration</e56>
+<e57>type exonoration</e57>
+<e58>Facturation</e58>
+<e59>Enlevement Direct</e59>
+<e60>Admission Temporaire</e60>
+<e61>Consomable</e61>
+<e62>Non</e62>
+<e63>Oui</e63>
+<e64>Numéro Déclaration</e64>
+<e65>déclaration d'apurement</e65>
+<e66>Date d'expiration</e66>
+<e67>Exonoration</e67>
+<e68>facturation</e68>
+<e69>Numéro Déclaration douane</e69>
+<e70>livraison</e70>
+<e71>Information sur le tracking</e71>
+<e72>Ajouter une facture pour l'envoi :</e72>
+<e73>Sujet</e73>
+<e74>opération</e74>
+<e75>les nouvelles informations de tracking</e75>
+<e76>Enlevement</e76>
+<e77>Douane Sortie</e77>
+<e78>Transporté</e78>
+<e79>Arrivé</e79>
+<e80>Douane Entrée</e80>
+<e81>Mettre à jour</e81>
+<e82>Mettre à jour et Envoyer</e82>
+<e83>Déclaration douane</e83>
+<e84>Facture Local</e84>
+<e85>Apurement</e85>
+<e86>Chambre Commerciale</e86>
+<e87>Commune</e87>
+<e88>Facture du port</e88>
+<e89>Free douane</e89>
+<e90>Fiche Exonoration</e90>
+<e91>Bon de livraison</e91>
+<e92>Détails d'opération</e92>
+<e93>CMR</e93>
+<e94>LTA</e94>
+<e95>status</e95>
+<e96>Poids chargeable</e96>
+<e97>les éléments importés</e97>
+<e98>Date de renouvellement</e98>
+<e99>l'admission temporaire de cette opération à été expiré</e99>
+<e100>Date temps</e100>
+<e101>Evénement</e101>
+<e102>URL </e102>
+<e103>Envoyer email </e103>
+<e104>Prêt </e104>
+<e105>Terminer</e105>
+<e106>Partiel </e106>
+
+</detailleoperation>
+<DetailOperationExport>
+<e1>général</e1>
+<e2>Cargaison</e2>
+<e3>terme d'expédition</e3>
+<e4>facture Commerciale</e4>
+<e5>Formalité de douane</e5>
+<e6>Tracking</e6>
+<e7>fichiers attachers</e7>
+<e8>Descriotion de Cargaison</e8>
+<e9>Référence du Dossier</e9>
+<e10>Référence du client</e10>
+<e11>client</e11>
+<e12>Date</e12>
+<e13>Poids</e13>
+<e14>Dimensions</e14>
+<e15>type d'objet</e15>
+<e16>Numéro d'objet</e16>
+<e17>Origine</e17>
+<e18>Destination</e18>
+<e19>ETD</e19>
+<e20>ETA</e20>
+<e21>Numéro de LTA</e21>
+<e22>Ligne de Transport</e22>
+<e23>Valeur Facturee</e23>
+<e24>valeur de transport</e24>
+<e25>Monnaie</e25>
+<e26>Fournisseur</e26>
+<e27>Référence</e27>
+<e28>Désignation Commerciale</e28>
+<e29>Dossier</e29>
+<e30>Client</e30>
+<e31>Référence Client</e31>
+<e32>Poidss</e32>
+<e33>Dimensions</e33>
+<e34>type d'objet</e34>
+<e35>N° </e35>
+<e36>Quantité</e36>
+<e37>Destination</e37>
+<e38>Origine</e38>
+<e39>AWB/BL/LTA</e39>
+<e45>Date éstimé de départ</e45>
+<e46>Date éstimé de d'arrivé</e46>
+<e47>Ligne de Transport</e47>
+<e48>valeur facturée</e48>
+<e49>Monnaie</e49>
+<e50>Taux du valeur facturée</e50>
+<e51>valeur Transport </e51>
+<e52>Taux de change</e52>
+<e53>fournisseur</e53>
+<e54>Réference</e54>
+<e55>Désignation Commerciale</e55>
+<e56>Exonoration</e56>
+<e57>Facturation</e57>
+<e58>Numéro Déclaration Douane</e58>
+<e59>non</e59>
+<e60>oui</e60>
+<e61>Déclaration d'apurement</e61>
+<e62>Exportation</e62>
+<e63>Type d'exportation</e63>
+<e64>Reexportation</e64>
+<e65>Ajouter une facture pour l'envoi :</e65>
+<e66>facturée</e66>
+<e67>Non Facturée</e67>
+<e68>Sujet</e68>
+<e69>opération</e69>
+<e70>les nouvelles informations</e70>
+<e71>Livraison</e71>
+<e72>Enlevement</e72>
+<e73>Douane Sortie</e73>
+<e74>Transporté</e74>
+<e75>Arrivé</e75>
+<e76>Douane Entrée</e76>
+<e77>Sauvegarder</e77>
+<e78>Sauvegarder et Envoyer</e78>
+<e79>Date temps</e79>
+<e80>Evénement</e80>
+<e81>URL </e81>
+<e82>Chambre Commerciale</e82>
+<e83>Commune</e83>
+<e84>Facture du port</e84>
+<e85>Frais douane</e85>
+<e86>Bon de livraison</e86>
+<e87>Fiche Exonoration</e87>
+<e88>status</e88>
+<e89> Poids chargeable</e89>
+<e90>No. Conteneur</e90>
+<e91>les éléments  exporter</e91>
+<e92>Envoyer email </e92>
+<e93>Terminer </e93>
+<e94>Non</e94>
+<e95>Prêt</e95>
+<e96>Partiel </e96>
+
+</DetailOperationExport>
+<EditDossier>
+  <e1>Référence</e1>
+  <e2>Categorie</e2>
+  <e4>Partenaire</e4>
+  <e5>Afficher pour</e5>
+  <e6>Tout les utilisateur</e6>
+  <e7>Moi uniquement</e7>
+  <e12>Description</e12>
+<e13>Valeur</e13>
+<e14>Monnaie</e14>
+<e17>devise vers</e17>
+  <e33>Client</e33>
+  <e34>Liste des dossiers</e34>
+  <e35>Etat du Dossier</e35>
+  <e36>ouvert</e36>
+  <e37>fermer</e37>
+  <e38>Date de Lancement</e38>
+  <e39>Date de fin</e39>
+  <e40>Date Estimée de fin</e40>
+  <e41>Modifier</e41>
+  <e42>Ajouter élément</e42>
+  </EditDossier>
+  <EnvoyerMail>
+  <e1>destinataire</e1>
+  <e2>Sujet</e2>
+  <e3>Message</e3>
+  <e4>Envoyer</e4>
+  </EnvoyerMail>
+  
+  <etat_groupe>
+  <e1>Conseil de régulation</e1>
+  <e2>Direction Générale</e2>
+  <e3>Etat de paiement du salaire</e3>
+  <e4>Nom et Prénom</e4>
+  <e5>Fonction</e5>
+  <e6>Sal De Base</e6>
+  <e7>Augmantation</e7>
+  <e8>prime enc</e8>
+    <e9>Indemnité de  fonction</e9>
+  <e10>Indemnité de  logement</e10>
+  <e11>Indemnité de  transport</e11>
+  <e12>Indemnité d'Eau et Electricité</e12>
+  <e13>Indemnité de Risque</e13>
+  <e14>PRIM EXEPTION</e14>
+  <e15>Total Brut</e15>
+   <e16>C Nles</e16>
+  <e17>Montant Impot</e17>
+  <e18>ITS</e18>
+  <e19>Total Ret</e19>
+  <e20>Avance</e20>
+  <e21>Salaire</e21>
+  <e22>Indice</e22>
+  <e23>CNSS</e23>
+  <e24>CNAM</e24>
+   <e25>Abbat ITS</e25>
+  <e26>Chef de service Administratif et financier</e26>
+  <e27>Le Directeur Général</e27>
+  <e28>Le Président</e28>
+  <e29>Imprimer cette page</e29>
+  </etat_groupe>
+  <formulaire_salaire>
+  <e1>Nom et prénom</e1>
+  <e2>Fonction</e2>
+  <e3>Salaire de base</e3>
+  <e4>Augmantation de salaire</e4>
+  <e5>Indemnité de  fonction</e5>
+  <e6>Indemnité de  logement</e6>
+  <e7>Indemnité de  transport</e7>
+  <e8>Indemnité d'Eau et Electricité</e8>
+  <e9>Prime Exception</e9>
+  <e10>Indemnité de  risque</e10>
+  <e11>CNSS</e11>
+  <e12>CNAM</e12>
+  <e13>Total Brut</e13>
+  <e14>Montant Impot</e14>
+  <e15>ITS</e15>
+   <e16>Total Retenu</e16>
+  <e17>Avance</e17>
+  <e18>Salaire NET</e18>
+  <e19>Année</e19>
+  <e20>Mois</e20>
+  <e21>Valider</e21>
+  <e22>Numéro de compte d'employé</e22>
+  <e23>Compte bancaire d'entreprise</e23>
+  <e24>Monaie de paiment</e24>
+  </formulaire_salaire>
+  <formulaire_trans>
+  <e1>les différents modeles</e1>
+  <e2>Exonération(Adms.Temp)</e2>
+  <e3>Exonération(Consomable)</e3>
+  <e4>Enlevement Direct</e4>
+  <e5>Ordre de Transite</e5>
+  <e6>Delivery Note</e6>
+  <e7>BL</e7>
+  <e8>AWB</e8>
+  <e9>CMR</e9>
+  </formulaire_trans>
+  <Fournisseur>
+  <e1>filtre par</e1>
+  <e2>Fournisseur</e2>
+  <e3>Contact</e3>
+  <e4>Adresse Mail</e4>
+  <e5>Téléphone</e5>
+  <e6>Actions</e6>
+  <e7>Supprimer</e7>
+  <e8>détail</e8>
+  <e9>Les commandes : </e9>
+  <e10>Modifier les information du fournisseur</e10>
+  <e11>les détails de fournisseur </e11>
+  <e12>Tout </e12>
+  <e13>Relevé de compte de fournisseur</e13>
+  <e14>Catégorie</e14>
+  <e15>Détails</e15>
+  <e16>Détails</e16>
+  </Fournisseur>
+  <Modif_elm_com>
+  <e1>Modification information d'un élément de commmande</e1>
+  <e2>Identifiant</e2>
+  <e3>Référence</e3>
+  <e4>Quantité</e4>
+  <e5>Prix Unitaire</e5>
+  <e6>Monnaie</e6>
+  <e7>Devise</e7>
+  <e8>TVA</e8>
+  <e9>Code Comptable</e9>
+  <e10>Designation</e10>
+  <e11>Mettre a jour</e11>
+  </Modif_elm_com>
+   <ModifCommande>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>Echues</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Paiement</e22>
+<e23>Text Résumé</e23>
+<e24>Payée</e24>
+<e25>Etat</e25>
+<e26>Livrée</e26>
+<e27>Non Livrée</e27>
+<e28>Confirmer</e28>
+<e29>Non Confirmer</e29>
+<e30>La date de la Commande devrait être inférieur à la date Echues </e30>
+<e31> Modifier </e31>
+<e32>La date de Commande devrait être supérieur à la date  début de période</e32>
+<e33>La date de Commande devrait être inférieur à la date  fin de période</e33>
+<e34>Liste des factures</e34>
+<e35>Sauvegarder</e35>
+  </ModifCommande>
+  <ModifierClient>
+  <e1>Informations de base</e1>
+  <e2>Informations complémentaires</e2>
+  <e3>Douane</e3>
+  <e4>Informations de base</e4>
+  <e5>client</e5>
+  <e6>Titre</e6>
+  <e7>Nom</e7>
+  <e8>Prenom</e8>
+  <e9>Adresse Mail</e9>
+  <e10>Téléphone 1</e10>
+  <e11>Téléphone 2</e11>
+  <e12>Informations complémentaires</e12>
+  <e13>Type d'entreprise</e13>
+  <e14>par défaut</e14>
+  <e15>seul opérateur</e15>
+  <e16>entreprise</e16>
+  <e17>partenaire</e17>
+  <e18>confiance</e18>
+  <e19>Compte Comptable</e19>
+  <e20>Numéro d'entreprise</e20>
+  <e21>Nom Utilisateur Skype</e21>
+  <e22>Site web</e22>
+  <e23>Fax</e23>
+  <e24>Archives</e24>
+  <e25>oui</e25>
+  <e26>Non</e26>
+  <e27>Mettre à jour</e27>
+  <e28>douane</e28>
+  <e29>Loi du client</e29>
+  <e30>Exonoration </e30>
+  <e31>par défaut</e31>
+  <e32>Non exonération</e32>
+  <e33>exonération</e33>
+  <e34>Mettre à jour</e34>
+  <e35>Prix fixe</e35>
+  <e36>Ville</e36>
+  <e37>Pays</e37>
+  <e38>Adresse</e38>
+  <e39>Client</e39>
+ <e40>utilisation</e40>
+  <e41>Description</e41>
+  <e42>type</e42>
+  <e43>Monnaie</e43>
+  <e44>Montant</e44>
+  <e45>Mettre à jour</e45>
+  <e46>Relevé de compte</e46>
+  <e47>Offre</e47>
+  <e48>Catégorie</e48>
+  <e49>Autre</e49>
+  <e50>Supprimer</e50>
+  <e51>Modifier </e51>
+   <e52>Nom et prénom</e52>
+  <e53>Téléphone</e53>
+  <e54>E-mail</e54>
+  <e55>Fonction</e55>
+  <e56>Action</e56>
+  <e57>Les contacts du client :</e57>
+  <e58>Modifier</e58>
+  <e59>Contact</e59>
+  <e60>Modifier Contact</e60>
+  <e61>Ajouter Contact</e61>
+  </ModifierClient>
+  <ModifierCompte>
+<e1>Compte Bancaire</e1>
+<e2>Nom de Banque</e2>
+<e3>Numéro du compte</e3>
+<e4>Solde</e4>
+<e5>Monnaie compte</e5>
+<e6>Méthodes du paiement</e6>
+<e7>Espéces </e7>
+<e8>Chèques</e8>
+<e9>virement</e9>
+<e10>Mettre à jour</e10>
+<e11>Découvert</e11>
+<e12>Sauvegarder</e12>
+  </ModifierCompte>
+
+<ModifierFacture>
+<e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>paiement</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>Payée</e24>
+<e25>Etat</e25>
+<e26>En attente </e26>
+<e27>Litige</e27>
+<e28>Décliner</e28>
+<e29>Sauvegarder</e29>
+<e30>La date de la facture devrait être inférieur à la date paiement </e30>
+<e31> Modifier </e31>
+<e32>La date de facture devrait être supérieur à la date  début de période</e32>
+<e33>La date de facture devrait être inférieur à la date  fin de période</e33>
+<e34>Liste des factures</e34>
+<e35>Brouillon</e35>
+  </ModifierFacture>
+  <ModifierOffre>
+  <e1>Dossiers</e1>
+<e2>Date</e2>
+<e3>paiement</e3>
+<e4>Référence</e4>
+<e5>Nouveau Dossier</e5>
+<e6>Clients</e6>
+<e7>Monnaie</e7>
+<e8>Taux </e8>
+<e9>Opération</e9>
+<e10>Nouveau Client</e10>
+<e11>couts</e11>
+<e12>Description</e12>
+<e13>Qte</e13>
+<e14>P.U</e14>
+<e15>devise</e15>
+<e16>TVA</e16>
+<e17>Compte	</e17>
+<e18>Ajouter élément</e18>
+<e19>NET</e19>
+<e20>TVA</e20>
+<e21>TOTAL</e21>
+<e22>Autre Monnaie</e22>
+<e23>Text Résumé</e23>
+<e24>payée après</e24>
+<e25>Nous vous remercions de votre confiance!</e25>
+<e26>Confirmer</e26>
+
+  </ModifierOffre>
+     <ModifierFournisseur>
+  <e1>Informations de base</e1>
+  <e2>Informations complémentaires</e2>
+  <e3>Douane</e3>
+  <e4>Informations de base</e4>
+  <e5>Fournisseur</e5>
+  <e6>Titre</e6>
+  <e7>Nom</e7>
+  <e8>Prenom</e8>
+  <e9>Adresse Mail</e9>
+  <e10>Téléphone 1</e10>
+  <e11>Téléphone 2</e11>
+  <e12>Informations complémentaires</e12>
+  <e13>Type d'entreprise</e13>
+  <e14>par défaut</e14>
+  <e15>seul opérateur</e15>
+  <e16>entreprise</e16>
+  <e17>partenaire</e17>
+  <e18>confiance</e18>
+  <e19>Compte Comptable</e19>
+  <e20>Numéro d'entreprise</e20>
+  <e21>Nom Utilisateur Skype</e21>
+  <e22>Site web</e22>
+  <e23>Fax</e23>
+  <e24>douane</e24>
+  <e25>Loi du Fournisseur</e25>
+  <e26>Mettre à jour</e26>
+  <e27>Liste des fournisseurs</e27>
+  <e28>Adresse</e28>
+  <e29>Ville</e29>
+  <e30>Pays</e30>
+  <e31>Catégorie</e31>
+  <e32>Autre</e32>
+  <e33>Nom et prénom</e33>
+  <e34>Téléphone</e34>
+  <e35>E-mail</e35>
+  <e36>Fonction</e36>
+  <e37>Action</e37>
+  <e38>Supprimer</e38>
+  <e39>Modifier</e39>
+  <e40>Contact</e40>
+  <e41>Modifier Contact</e41>
+  <e42>Ajouter Contact</e42>
+  </ModifierFournisseur>
+    <Notify>
+  <e1>Filter</e1>
+  <e2>E-mail</e2>
+  <e3>contenu de notification</e3>
+  <e4>Date et temps</e4>
+  <e5>Actions</e5>
+  <e6>detail</e6>
+  <e7>Supprimer</e7>
+  </Notify>
+  <historic>
+  <e1>Utilisateur</e1>
+  <e2>Action</e2>
+  <e3>Date</e3>
+  </historic>
+  <payee_commande>
+  <e1>Expliquer le paiement</e1>
+  <e2>Compte</e2>
+  <e3>Fournisseur</e3>
+  <e4>Date</e4>
+  <e5>methode de paiement</e5>
+  <e6>espèce</e6>
+  <e7>chèque</e7>
+  <e8>virement</e8>
+  <e9>Code</e9>
+  <e10>Solde</e10>
+  <e11>Total de paiement</e11>
+  <e12>Solde aprés le paiement</e12>
+  <e13>l'état des commandes aprés le paiement</e13>
+  <e14>bon de commande Payé </e14>
+  <e15>Compte bancaire</e15>
+  <e16>Date</e16>
+  <e17>fournisseur</e17>
+  <e18>expliquer</e18>
+  </payee_commande>
+  <payee_Tax>
+  <e1>Un Bon de commande pour le paiment de la Tax:</e1>
+  <e2>Il est interdit de choisir un paiment sans valeur dans la partie (-)</e2>
+  <e3>Fdd</e3>
+  <e4>Date</e4>
+  <e5>methode de paiement</e5>
+  <e6>espèce</e6>
+  <e7>cheque</e7>
+  <e8>virement</e8>
+  <e9>Code</e9>
+  <e10>Soldee</e10>
+  <e11>Total de paiement</e11>
+  <e12>Soldee aprés le paiement</e12>
+  <e13>l'état des commandes aprés le paiement</e13>
+  <e14>bon de commande Payé </e14>
+  <e15>Compte bancaire</e15>
+  <e16>Date</e16>
+  <e17>fournisseur</e17>
+  <e18>expliquer</e18>
+  <e19>Fournisseur</e19>
+  <e20>Confirmer le paiement</e20>
+  
+  </payee_Tax>
+    <payee_Salaire>
+  <e1>Pérsonel</e1>
+  <e2>Période</e2>
+  <e3>Compte</e3>
+  <e4>Montant peyé</e4>
+  <e5>Devise</e5>
+  <e6>Paiement</e6>
+  <e7>Réussi</e7>
+  <e8>Echoué</e8>
+  <e9>Code</e9>
+  <e10>Soldee</e10>
+  <e11>Total de paiement</e11>
+  <e12>Soldee aprés le paiement</e12>
+  <e13>l'état des commandes aprés le paiement</e13>
+  <e14>bon de commande Payé </e14>
+  <e15>Compte bancaire</e15>
+  <e16>Date</e16>
+  <e17>fournisseur</e17>
+  <e18>expliquer</e18>
+  <e19>Fournisseur</e19>
+  <e20>Confirmer le paiement</e20>
+  
+  </payee_Salaire>
+  <paiement_bancaire>
+  <e1>ligne(s) a partir de la ligne n° </e1>
+  <e2>recette</e2>
+  <e3>dépense</e3>
+  <e4>virement</e4>
+  <e5>Référence d'opération</e5>
+  <e6>Description</e6>
+  <e7>Date</e7>
+  <e8>Banque</e8>
+  <e9>Numéro de compte</e9>
+  <e10>Client</e10>
+   <e11>Client</e11>
+  <e12>Montant</e12>
+  <e13>Argent Non alloué</e13>
+  <e14>Actions</e14>
+  <e15>banque pour</e15>
+  </paiement_bancaire>
+   <payment_bancaire>
+  <e1>ligne(s) a partir de la ligne n°</e1>
+  <e2>Référence</e2>
+  <e3>Client/Fournisseur</e3>
+  <e4>Date</e4>
+  <e5>Montant payé par la banque</e5>
+  <e6>Actions</e6>
+  <e7>Completer le paiement</e7>
+  <e8>détail paiement</e8>
+  <e9>aucun argent sortie</e9>
+  <e10>Paiement des bons de commandes</e10>
+  </payment_bancaire>
+   <payyer_bon_commande>
+  <e1>le paiement de</e1>
+  <e2> par des factures impayés</e2>
+  <e3>Facture</e3>
+  <e4>Fournisseur/client</e4>
+  <e5>Montant Total</e5>
+  <e6>Montant rétiré</e6>
+  <e7>Montant payé</e7>
+  <e8>Compléter le paiement</e8>
+  </payyer_bon_commande>
+   <payyer_com>
+  <e1>il ya pas de commande sélectionnée</e1>
+  <e2> Liste des commandes </e2>
+  <e3>Dossiers</e3>
+  <e4>Total paiement</e4>
+  <e5>etat</e5>
+  </payyer_com>
+  <Salaire>
+  <e11>Ajouter Salaire</e11>
+  <e12>Période</e12>
+  <e13>Ajouter</e13>
+  <e14>Paiement</e14>
+  <e15>Oui</e15>
+  <e16>Non</e16>
+  <e17>Salaire de base</e17>
+  <e18>Total Brut</e18>
+  <e19>Total Retenu</e19>
+  <e20>Avance</e20>
+  <e21>Salaire Retenu</e21>
+  <e22>Action</e22>
+  <e23>Bulletin de Salaire</e23>
+  </Salaire>
+   <SendChange>
+  <e1>Destinataires</e1>
+  <e2>Objet</e2>
+  <e3>Contenu/Tracking</e3>
+  <e4>Envoyer</e4>
+  </SendChange>
+   <SendChange2>
+  <e1>Destinataires</e1>
+  <e2>Objet</e2>
+  <e3>Contenu/Tracking</e3>
+  <e4>Envoyer</e4>
+  </SendChange2>
+  <SendMail2>
+  <e1>Objet</e1>
+  <e2>Message</e2>
+  <e3>Joindre Fichier</e3>
+  <e4>Effacer</e4>
+  <e5>Envoyer</e5>
+  </SendMail2>
+   <Transactionbancaire>
+  <e1>Allocation</e1>
+  <e2>Détails</e2>
+  <e3>dépense</e3>
+  <e4>Tout</e4>
+  <e5>Id#</e5>
+  <e6>Description</e6>
+  <e7>Date</e7>
+  <e8>Banque</e8>
+  <e9>Banque</e9>
+  <e10>Client</e10>
+   <e11>Client</e11>
+  <e12>Montant</e12>
+  <e13>Non alloué</e13>
+  <e14>Actions</e14>
+  <e15>banque pour</e15>
+  <e16>Ajouter au caisse</e16>
+  <e17>voulez vous vraiment Ajouter le montant non alloué à la caisse? </e17>
+  </Transactionbancaire>
+   <updateFrais>
+  <e1>Monnaie</e1>
+  <e2>Variable</e2>
+  <e3>type d'opération</e3>
+  <e4>valeur</e4>
+  <e5>Ocean Export</e5>
+  <e6>Road Export</e6>
+  <e7>Air Import</e7>
+  <e8>Ocean Import</e8>
+  <e9>Road Import</e9>
+  <e10>Description du frais</e10>
+   <e11>Sauvegarder</e11>
+  </updateFrais>
+  <updateoperationimport>
+  <e1>les anciennes informations</e1>
+  <e2>les nouvelles informations</e2>
+  <e3>le</e3>
+  <e4>Sauvegarder</e4>
+  <e5>Sauvegarder et Envoyer</e5>
+  <e6>les anciennes informations</e6>
+  <e7>les nouvelles informations</e7>
+  <e8>le</e8>
+  <e9>Sauvegarder</e9>
+  <e10>Sauvegarder et Envoyer</e10>
+  <e11>les anciennes informations</e11>
+  <e12>les nouvelles informations</e12>
+  <e13>le</e13>
+  <e14>Sauvegarder</e14>
+  <e15>Sauvegarder et Envoyer</e15>
+  </updateoperationimport>
+  <UpdateOpExport>
+  <e1>Dossier</e1>
+  <e2>Client</e2>
+  <e3>Référence Client</e3>
+  <e4>Date</e4>
+  <e5>Date ETA</e5>
+  <e6>Date ETD</e6>
+  <e7>Terme d'Opération</e7>
+  <e8>Origine</e8>
+  <e9>Destination</e9>
+  <e10>Service origine</e10>
+  <e11>International transport</e11>
+  <e12>Service local</e12>
+  <e13>Poids</e13>
+  <e14>AWB/BL/CMR</e14>
+  <e15>Exportation</e15>
+   <e16>Exportation</e16>
+  <e17>Ré-exportation</e17>
+  <e18>Exportation</e18>
+  <e19>Ré-exportation</e19>
+  <e20>Exonoration</e20>
+  <e21>Déclaration</e21>
+  <e22>Numéro Apurement</e22>
+  <e23>non</e23>
+  <e24>oui</e24>
+   <e25>non</e25>
+  <e26>oui</e26>
+  <e27>Shipping_Ligne </e27>
+  <e28>Fournisseur</e28>
+  <e29>Désignation Commerciale</e29>
+  <e30>Type_Objet</e30>
+  <e31>Numéro pièce</e31>
+  <e32>Facturation</e32>
+  <e33>non</e33>
+  <e34>oui</e34>
+   <e35>non</e35>
+  <e36>oui</e36>
+  <e37>Mettre à jour</e37>
+  </UpdateOpExport>
+   <updateSalaire>
+  <e1>Nom et prénom</e1>
+  <e2>Fonction</e2>
+  <e3>Salaire de base</e3>
+  <e4>Augmentation de salaire</e4>
+  <e5>Indemnité de fonction</e5>
+  <e6>Indemnité de logement</e6>
+  <e7>Indemnité de transport</e7>
+  <e8>Indemnité d'Eau et d'Electricité</e8>
+  <e9>Prime exeptionnelle</e9>
+  <e10>Indemnité de risque</e10>
+  <e11>CNSS</e11>
+  <e12>CNAM</e12>
+  <e13>Total Brut</e13>
+  <e14>Montant Impôt</e14>
+  <e15>ITS</e15>
+   <e16>Total Retenu</e16>
+  <e17>Avance</e17>
+  <e18>Salaire NET</e18>
+  <e19>Année</e19>
+  <e20>Mois</e20>
+  <e21>Compte Bancaire d'employé</e21>
+  <e22>Numéro de compte d'employé</e22>
+  <e23>Compte bancaire d'entreprise</e23>
+  <e24>Monaie de paiment</e24>
+  <e25>Sauvegarder</e25>
+  </updateSalaire>
+  <updateTaxe>
+  <e1>Nom de Taxe</e1>
+  <e2>Valeur de Taxe</e2>
+  <e3>Appliquer sur</e3>
+  <e4>client</e4>
+  <e5>fournisseur</e5>
+  <e6>Mettre à jour</e6>
+  <e7>Chiffre d'affaire</e7>
+<e8>Profit</e8>
+<e9>Compte Comptable</e9>
+  </updateTaxe>
+  <updateUser>
+  <e1>Email</e1>
+  <e2>Type d'accés</e2>
+  <e3>Administrateur</e3>
+  <e4>Administrateur</e4>
+  <e5>Agent de finance</e5>
+  <e6>Agent de finance</e6>
+  <e7>Agent d'opération</e7>
+  <e8>Agent d'opération</e8>
+  <e9>Nom et prénom</e9>
+  <e10>CIN</e10>
+   <e11>Numéro de Téléphone</e11>
+  <e12>Adresse</e12>
+  <e13>Mettre à jour</e13>
+  </updateUser>
+  
+  
+   <virement>
+  <e1>Devise</e1>
+  <e2>Transfert de</e2>
+  <e3>Valeur d'argent</e3>
+  <e4>Transfert à</e4>
+  <e5>Méthode de paiement</e5>
+  <e6>Virement</e6>
+  <e7>Date</e7>
+  <e8>Description</e8>
+  <e9>Transfert d'argent</e9>
+  <e10>Compte bancaire</e10>
+   <e11>valeur d'argent</e11>
+  <e12>Description</e12>
+  <e13>Date</e13>
+  <e14>Terminer</e14>
+  </virement>
+  <attacherexport>
+  <e1>Mettre à jour</e1>
+  <e2>Retour</e2>
+  </attacherexport>
+<detaille_payement>
+<e1>paiement</e1>
+  <e2>ID</e2>
+  <e3>client/fournisseur </e3>
+  <e4>Montant</e4>
+  <e5>Date</e5>
+  <e6>Les bons de commaande</e6>
+<e7>Débit</e7>
+  <e8>Crédit</e8>
+  <e9>Montant P/L </e9>
+  <e10>TOTAL</e10>
+  <e11>facture</e11>
+  <e12>Montant</e12>
+  <e13>le balance</e13>
+  <e14>Total facturation</e14>
+  <e15>Total Bon de commande</e15>
+  <e16>Montant payé par la banque </e16>
+</detaille_payement>
+ 
+ <!--   les fichier cree apres la correction d'orthographe   -->
+ <AllCommandePretApeye>
+<e1>filtre par</e1>
+  <e2>ascendant </e2>
+  <e3>descendant</e3>
+  <e4>Commande</e4>
+  <e5>Fournisseur</e5>
+  <e6>Date Création</e6>
+  <e7>Date Reception</e7>
+  <e8>Echue</e8>
+  <e9>Date Paiement</e9>
+  <e10>Livraison</e10>
+  <e11>paiement</e11>
+  <e12>Actions</e12>
+  <e13>service accepté</e13>
+  <e14>le bon de commande n'est pas encore approuvé</e14>
+  <e15>payée</e15>
+  <e16>Cliquer pour payer cette commande</e16>
+  <e17></e17>
+  <e18>Modifier le bon de commande</e18>
+  <e19>commande pour</e19>
+  <e20>envoyer un message</e20>
+  <e21>Edit</e21>
+<e22>Tout</e22>
+  <e23>Livrée</e23>
+  <e24>Non Livrée</e24>
+  <e25>Payée</e25>
+  <e26>Non Payée</e26>
+  <e27>le paiement des bons de commande</e27>
+  <e28>Réception </e28>
+  <e29>Total </e29>
+  <e30>Détails</e30>
+</AllCommandePretApeye>
+<AjouterPersonel>
+<e1>Erreur de confirmation</e1>
+<e2>Sauvegarder</e2>
+<e3>Email</e3>
+<e4>Sexe</e4>
+<e5>Fonction</e5>
+<e6>Type d'accés</e6>
+<e7>CIN</e7>
+<e8>Numéro de Téléphone</e8>
+<e9>Homme</e9>
+<e10>Femme</e10>
+<e11>Compte Bancaire</e11>
+<e12>Nom et prénom</e12>
+<e13>Adresse</e13>
+<e14>Ajouter</e14>
+<e15>Compte comptable</e15>
+</AjouterPersonel>
+<AjouterContact>
+<e1>Contact</e1>
+<e2>Sauvegarder</e2>
+<e3>Email</e3>
+<e4>Sexe</e4>
+<e5>Fonction</e5>
+<e6>Type d'accés</e6>
+<e7>CIN</e7>
+<e8>Numéro de Téléphone</e8>
+<e9>Homme</e9>
+<e10>Femme</e10>
+<e11>Compte Bancaire</e11>
+<e12>Nom et prénom</e12>
+<e13>Adresse</e13>
+<e14>Ajouter</e14>
+</AjouterContact>
+ <ListePersonels>
+  <e1>Salaires</e1>
+  <e2>CIN</e2>
+  <e3>Nom et Prénom</e3>
+  <e4>Sexe</e4>
+  <e5>Fonction</e5>
+  <e6>Téléphone</e6>
+  <e7>Email</e7>
+  <e8>Banque</e8>
+  <e9>Edit</e9>
+  <e10>Supprimer </e10>
+  <e11>Action</e11>
+  <e13>Tout</e13>
+  <e14>Modifier les informations d'un employé</e14>
+  <e15>Salaires</e15>
+ </ListePersonels>
+ <updatePersonel>
+<e1>Erreur de confirmation</e1>
+<e2>Sauvegarder</e2>
+<e3>Email</e3>
+<e4>Sexe</e4>
+<e5>Fonction</e5>
+<e6>type d'accés</e6>
+<e7>CIN</e7>
+<e8>Numéro de Téléphone</e8>
+<e9>Homme</e9>
+<e10>Femme</e10>
+<e11>Compte Bancaire</e11>
+<e12>Nom et prénom</e12>
+<e13>Adresse</e13>
+<e14>Sauvgerder</e14>
+</updatePersonel>
+<updateContact>
+<e1>Contact</e1>
+<e2>Sauvegarder</e2>
+<e3>Email</e3>
+<e4>Sexe</e4>
+<e5>Fonction</e5>
+<e6>type d'accés</e6>
+<e7>CIN</e7>
+<e8>Numéro de Téléphone</e8>
+<e9>Homme</e9>
+<e10>Femme</e10>
+<e11>Compte Bancaire</e11>
+<e12>Nom et prénom</e12>
+<e13>Adresse</e13>
+<e14>Sauvgerder</e14>
+</updateContact>
+ <Statement>
+<e1>Relevé de compte</e1>
+<e2>Code</e2>
+<e3>Date de Lancement</e3>
+<e4>Date du Paiement</e4>
+<e5>Échue</e5>
+<e6>Monnaie</e6>
+<e7>Montant</e7>
+<e8>Envoyer SOA</e8>
+<e9>Monnaie</e9>
+<e10>Total Échue</e10>
+<e11>Total</e11>
+<e12>Facturation</e12>
+<e13>Client</e13>
+<e14>Fournisseur</e14>
+<e15>Client/Fournisseur</e15>
+</Statement>
+ <Statement2>
+<e1>Relevé de compte</e1>
+<e2>Code</e2>
+<e3>Date de Lancement</e3>
+<e4>Date du Paiement</e4>
+<e5>Échue</e5>
+<e6>Monnaie</e6>
+<e7>Montant</e7>
+<e8>Envoyer SOA</e8>
+<e9>Monnaie</e9>
+<e10>Total Échue</e10>
+<e11>Total</e11>
+</Statement2>
+  </employees>
+  

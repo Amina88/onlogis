@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+<MenuUtilisation>
+<e1>Usted tiene errores. Por favor, consulte más abajo.</e1>
+<e2>Detalles</e2>
+<e3>Cerrar sesión</e3>
+<e4>Operación</e4>
+<e5>Archivos</e5>
+<e6>Añadir carpeta</e6>
+<e7>lista de carpetas</e7>
+<e8>Operaciones</e8>
+<e9>Todos los envíos</e9>
+<e10>Añadir Envío</e10>
+<e11>Orden de Compra</e11>
+<e12>Controles validados</e12>
+<e13>comandos no validó</e13>
+<e14>Comercial</e14>
+<e15>Clientes</e15>
+<e16>Añadir cliente</e16>
+<e17>Lista cliens</e17>
+<e18>Oferta</e18>
+<e19>Finanzas</e19>
+<e20>Facturación</e20>
+<e21>Añadir factura</e21>
+<e22>Todas las facturas</e22>
+<e23>Fondos</e23>
+<e24>Añadir cuenta</e24>
+<e25>Cuenta Bancaria</e25>
+<e26>Plata ENV / REC</e26>
+<e27>Pago</e27>
+<e28>Gastos</e28>
+<e29>Agregar requerida</e29>
+<e30>Lista de necesidades</e30>
+<e31>Gastos</e31>
+<e32>Proveedor</e32>
+<e33>Agregar proveedor</e33>
+<e34>Proveedores</e34>
+<e35>Administración</e35>
+<e36>Configuración</e36>
+<e37>Perfil</e37>
+<e38>Usuarios</e38>
+<e39>Códigos</e39>
+<e40>Notificación</e40>
+<e41>Agregar comando</e41>
+<e42>Todos los derechos reservados ©</e42>
+<e43>¿Realmente desea eliminar este elemento</e43>
+<e44>Dashboard</e44>
+<e45>Agregar fin</e45>
+<e46>Lista de comandos</e46>
+<e47>Lista de pedidos no confirmados</e47>
+<e48>Añadir cliente</e48>
+<e49>Client List</e49>
+<e50>Añadir Factura</e50>
+<e51>Lista de Facturas</e51>
+<e52>Creación de las Cuentas Bancarias</e52>
+<e53>las cuentas bancarias son</e53>
+<e54>Money Management</e54>
+<e55>órdenes de pago</e55>
+<e56>Creación de una necesidad de la sociedad</e56>
+<e57>Lista de necesidades Société</e57>
+<e58>Gasto</e58>
+<e59>Agregar proveedor</e59>
+<e60>Lista de proveedores</e60>
+<e61>factura resumen</e61>
+<e62>Añadir una factura resumen</e62>
+<e63>Agregar Oferta</e63>
+<e64>lista</e64>
+<e65>Añadir a tener</e65>
+<e66>crear una nota de crédito</e66>
+<e67>Propiedades</e67>
+<e68>Añadir elemento</e68>
+<e69>Listado de anuncios</e69>
+<e70>parámetro predeterminado</e70>
+<e71>Restaurantes</e71>
+<e72>Impuestos</e72>
+<e73>Pago de Impuestos</e73>
+<e74>Informe</e74>
+<e75>Impuestos</e75>
+<e76>La proporción de impuestos</e76>
+<e77>ejercicio económico</e77>
+<e78>períodos de gestión finaciers</e78>
+<e79>Logística</e79>
+<e80>Añadir</e80>
+<e81>Localización</e81>
+<e82>Compras</e82>
+<e83>Otros</e83>
+<e84>Categorías</e84>
+<e85>Categorías Administración</e85>
+<e86>Equipo</e86>
+<e87>Añadir Equipo</e87>
+<e88>Lista de Equipo</e88>
+<e89>alquiler de equipos</e89>
+<e90>Lista de compras</e90>
+<e91>Lista de servicios de logística</e91>
+<e92>la operación se realizó con éxito</e92>
+<e93>operación ha fallado</e93>
+<e94>Bienvenidos a nuestro sistema de gestión de cadenas de suministro</e94>
+<e95>¿De verdad quiere esta carpeta Bloquear origen</e95>
+<e96>es lo que realmente desea crear una copia de esta operación</e96>
+<e97>Agregar dinero</e97>
+<e98>HRM</e98>
+<e99>Personal</e99>
+<e100>Añadir Personal</e100>
+<e101>El Personneles</e101>
+<e102>Informe de Operaciones</e102>
+<e103>IMPORTE Gerente</e103>
+<e104>El precio fijo</e104>
+<e105>pago de órdenes</e105>
+<e106>ha sido exitosamente eliminar</e106>
+<e107>ha sido exitosamente Añadir</e107>
+<e108>ha sido exitosamente Editar</e108>
+<e109>estaba en Bloquear origen</e109>
+<e110>fue para desbloquear</e110>
+<e111>Enviar correo</e111>
+<e112>Mis cargas</e112>
+<e113>Buzón de salida</e113>
+<e114>Su mensaje ha sido enviado con</e114>
+<e115>Salarios</e115>
+<e116>Pago de Salarios</e116>
+<e117>KPI</e117>
+<e118>estadística</e118>
+<e119>Permisos</e119>
+<e120>Administrar permisos</e120>
+<e121>Perfil</e121>
+<e122>Historia</e122>
+<e123>Habilitar Un SVP Período</e123>
+<e124>Debe eliminar cualquier a principios de este cliente opertions</e124>
+<e125>SOA ha sido enviado con éxito para el cliente</e125>
+<e126>ha sido eliminado por la razón:</e126>
+<e127>ha ido disminuyendo por la razón:</e127>
+<e128>fue Confirmar</e128>
+<e129>fue para confirmar el pago</e129>
+<e130>ha sido entregado</e130>
+<e131>Factura ha sido exitosamente</e131>
+<e132>La contraseña ha sido cambiada con éxito</e132>
+<e133>Permiso de sonido a cambiado correctamente</e133>
+<e134>Pago Emis</e134>
+<e135>Pago recibido</e135>
+<e136>Transferencia</e136>
+<e137>subsidios se aplican en el pago</e137>
+<e138>Añadir monatant no asignado en:</e138>
+<e139>en la caja NO</e139>
+<e140>Habilitar ha sido exitosamente</e140>
+<e141>pago de las órdenes de compra y facturas:</e141>
+<e142>Ilya un problema en el pago comprobar su cuenta bancaria</e142>
+<e143>pago de honorarios por los formularios de pedido:</e143>
+<e144>Salario Pago con nuestro número de personel:</e144>
+<e145>Configurar ha sido exitosamente</e145>
+<e146>Empresa</e146>
+<e147>El prefijo Configurar fueron éxito</e147>
+<e148>Configurar La moneda fue exitosamente</e148>
+<e149>Monnie</e149>
+<e150>franqueo</e150>
+<e151>Empresa Registros</e151>
+<e152>franqueo</e152>
+<e153>pago no realizar </e153>
+</MenuUtilisation>
+  </Menu>

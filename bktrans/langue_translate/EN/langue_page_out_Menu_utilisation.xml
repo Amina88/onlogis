@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<out>
+<out_Menu>
+<e1>Management of profile</e1>
+<e2>List of the salaries</e2>
+<e3>Users' management</e3>
+<e4>the amount you add to the invoice amount is greater impéyée</e4>
+<e5>money allocation sent by the custemer</e5>
+<e6>Users' management</e6>
+<e7>List the commands not confirmed</e7>
+<e8>Informatios on the operation</e8>
+<e9>Company list the Properties of</e9>
+<e10>Welcome</e10>
+<e11>He ya a probléme in your file backup</e11>
+<e12>The updated of your application in summer made with succés</e12>
+<e13>List of the Equipments</e13>
+<e14>Rent of equipments </e14>
+<e15>List of shopping</e15>
+<e16>List of the services logistic</e16>
+<e17>The order date always lower than the date payment  </e17>
+<e18>The date of invoice Toujours upper to the date at the beginning of period</e18>
+<e19>The date of invoice Toujours lower than the date at the end of period</e19>
+<e20>Updated Offer</e20>
+<e21> the allocation of money sent by the supplier </e21>
+<e22> the amount you add to the order exceeds the amount of impéyée </e22>
+<e23> the amount you add is strictly greater than the value of money sent by the Supplier </e23>
+</out_Menu>
+<verification_donne>
+  <e1>Ref</e1>
+  <e2>File</e2>
+  <e3>Customer</e3>
+  <e4>LTA / BL / AWB</e4>
+  <e5>ETD</e5>
+  <e6>ETA</e6>
+  <e7>Origin</e7>
+  <e8>Destination</e8>
+  <e9>Type</e9>
+  <e10>Actions</e10>
+  <e11>Status</e11>
+  <e12>N file</e12>
+  <e13>Customer</e13>
+  <e14>Debit</e14>
+  <e15>Credit</e15>
+   <e16>P/L</e16>
+  <e17>Actions</e17>
+  <e18>Every invoices and the order forms of the operation</e18>
+  <e19>Operation</e19>
+  <e20>Charge / B.Comm</e20>
+  <e21>Debit</e21>
+  <e22>Credit</e22>
+  <e23>Debit</e23>
+  <e24>Credit</e24>
+  <e24>Credit</e24>
+  <e25>P/L</e25>
+  <e26>There is no transaction on this operation</e26>
+  <e27>Exporter of the models</e27>
+  <e28>creación de los impresos</e28>
+   <e29>Detail</e29>
+
+
+  </verification_donne>
+  </out>

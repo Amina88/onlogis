@@ -1,0 +1,3401 @@
+<?xml version="1.0" ?>
+<employees>
+<index>
+<e1>Dashboard</e1>
+</index>
+<dashboard>
+<e1>Sales</e1>
+<e2>Purchases</e2>
+<e3>Total Unpaid</e3>
+<e4>Add Client</e4>
+<e5>Add Invoice</e5>
+<e6>Invoices</e6>
+<e7>Clients</e7>
+<e8>unpaid orders</e8>
+<e9>Add Command</e9>
+<e10>Add Provider</e10>
+<e11>Controls</e11>
+<e12>Suppliers</e12>
+<e13>Issued</e13>
+<e14>This month</e14>
+<e15>Past Month</e15>
+<e16>Received</e16>
+<e17>Sales</e17>
+<e18>Purchases</e18>
+<e19>Status</e19>
+<e20>increased</e20>
+<e21>descending</e21>
+<e22>Cash</e22>
+<e23>Offers Report</e23>
+<e24>Total</e24>
+<e25>Accept</e25>
+<e26>Decline</e26>
+<e27>Client</e27>
+<e28>Amount</e28>
+<e29>detail</e29>
+<e30>in detail</e30>
+<e31>Provider</e31>
+<e32>Bank</e32>
+<e33>Day</e33>
+<e34>Week</e34>
+<e35>Month</e35>
+<e36>Today</e36>
+<e37>this week</e37>
+<e38>this month</e38>
+<e39>Total Operations</e39>
+<e40>Not Invoiced</e40>
+<e41>Invoiced</e41>
+<e42>Total Number of Records</e42>
+<e43>Closed</e43>
+<e44>Open</e44>
+<e45>Total Bid</e45>
+<e46>Decline</e46>
+<e47>Accept</e47>
+<e48>Sales / Purchasing</e48>
+<e49>Sales / Purchasing Unpaid</e49>
+<e50>Silver RECEIVED / ISSUED</e50>
+<e51>TOTAL PROFIT</e51>
+<e52>Total Customers</e52>
+<e53>New Customers</e53>
+<e54>Dashboard</e54>
+<e55>statistical</e55>
+<e56>Reports</e56>
+<e57>Please Please set KPI S to track statistics and reports your company</e57>
+<e58>Provider</e58>
+<e59>Order</e59>
+<e60>Total</e60>
+<e61>details of the order</e61>
+<e62>details</e62>
+<e63>COMMAND LIST NOT CONFIRMED</e63>
+<e64>payment of orders</e64>
+<e65>enable Payment</e65>
+<e66>Actions</e66>
+<e67>paid this command</e67>
+</dashboard>
+<extra_profile_account>
+<e1>email</e1>
+<e2>Access type</e2>
+<e3>Administrator</e3>
+<e4>Administrator</e4>
+<e5>Finance Officer</e5>
+<e6>Finance Officer</e6>
+<e7>Operating Officer</e7>
+<e8>Operation Officer</e8>
+<e9>Full Name</e9>
+<e10>CIN</e10>
+<e11>Phone Number</e11>
+<e12>Address</e12>
+<e13>Update</e13>
+<e14>Personal Info</e14>
+<e15>Profile Photo</e15>
+<e16>Change Password</e16>
+<e17>Profile</e17>
+<e18>Occupation</e18>
+<e19>Current Password</e19>
+<e20>New Password</e20>
+<e21>Confirm Your Password</e21>
+<e22>Select an image</e22>
+<e23>Change</e23>
+<e24>Delete</e24>
+</extra_profile_account>
+<Gestion_Kpi>
+<e1>COMMERCIAL</e1>
+<e2>Total Bid</e2>
+<e3>Accepted Offers (%)</e3>
+<e4>Total Customers</e4>
+<e5>Number of New Customers</e5>
+<e6>OPERATION</e6>
+<e7>Total Number Of Operations</e7>
+<e8>Billed Operations (%)</e8>
+<e9>Sales / Purchasing</e9>
+<e10>FINANCE</e10>
+<e11>Sales / Purchasing Unpaid</e11>
+<e12>Silver RECEIVED / ISSUED</e12>
+<e13>sauvgardement</e13>
+<e14>Total Number of Records</e14>
+<e15>Folders Open (%)</e15>
+<e16>Profit</e16>
+</Gestion_Kpi>
+<Accueil>
+<e1>Sales and Customer</e1>
+<e2>Buying and Purchase Orders</e2>
+<e3>unpaid bills</e3>
+<e4>Add Client</e4>
+<e5>Add Invoice</e5>
+<e6>Invoices</e6>
+<e7>Clients</e7>
+<e8>unpaid orders</e8>
+<e9>Add Command</e9>
+<e10>Add Provider</e10>
+<e11>Controls</e11>
+<e12>Suppliers</e12>
+<e13>Outgoing Payment</e13>
+<e14>This month</e14>
+<e15>Past Month</e15>
+<e16>Payment received</e16>
+<e17>Sales</e17>
+<e18>Purchases</e18>
+<e19>Status</e19>
+<e20>increased</e20>
+<e21>descending</e21>
+<e22>Cash</e22>
+<e23>Offers Report</e23>
+<e24>Total offers</e24>
+<e25>The number of offers accepted</e25>
+<e26>The number of deals declined</e26>
+</Accueil>
+<AjouterAirExport>
+<e1>Cargo</e1>
+<e2>Shipping Term</e2>
+<e3>Commercial Invoice</e3>
+<e4>Customs Formalities</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>Client Reference</e7>
+<e8>Purpose</e8>
+<e9>size</e9>
+<e10>Weight</e10>
+<e11>object type</e11>
+<e12>No. TC</e12>
+<e13>Purpose</e13>
+<e14>Weight loadable</e14>
+<e15>room</e15>
+<e16>Destination</e16>
+<e17>Origin</e17>
+<e18>AWB / LTA</e18>
+<e19>Dateestimated start</e19>
+<e20>Estimated date of arrival</e20>
+<e21>Invoiced value</e21>
+<e22>Currency</e22>
+<e23>Currency rates</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Currency rates</e26>
+<e27>Provider</e27>
+<e28>Reference</e28>
+<e29>Product Name</e29>
+<e30>Temporary</e30>
+<e31>re-export</e31>
+<e32>Final</e32>
+<e33>DeclarationeXP</e33>
+<e34>Declaration IMP</e34>
+<e35>manual insertion</e35>
+<e36>Statement IMP</e36>
+<e37>Final</e37>
+<e38>Exoneration</e38>
+<e39>not</e39>
+<e40>yes</e40>
+<e41>Declaration ofexemption or breaks</e41>
+<e42>Clearance</e42>
+<e43>Declaration of Clearance</e43>
+<e44>Export Type</e44>
+<e45>Information tracking</e45>
+<e46>Select a customer</e46>
+<e47>Tracking</e47>
+<e48>Transmission Line</e48>
+<e49>Save</e49>
+<e50>Number part</e50>
+<e51>Save</e51>
+</AjouterAirExport>
+<AjouterAirImport>
+<e1>Cargo</e1>
+<e2>shipping of Term</e2>
+<e3>Commercial Invoice</e3>
+<e4>Customs Formalities</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>Client Reference</e7>
+<e8>Purpose</e8>
+<e9>size</e9>
+<e10>Weight</e10>
+<e11>object type</e11>
+<e12>No. TC</e12>
+<e13>Purpose</e13>
+<e14>Weight loadable</e14>
+<e15>room</e15>
+<e16>Destination</e16>
+<e17>Origin</e17>
+<e18>LTA / AWB</e18>
+<e19>estimated Start Date</e19>
+<e20>estimated date of arrival</e20>
+<e21>invoice value</e21>
+<e22>Currency</e22>
+<e23>Currency rates</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Currency rates</e26>
+<e27>Provider</e27>
+<e28>Reference</e28>
+<e29>Product Name</e29>
+<e30>Disclaimer</e30>
+<e31>dimension values ??always numbers</e31>
+<e32>Removal Direct</e32>
+<e33>type ofexemption or breaks</e33>
+<e34>type declaration</e34>
+<e35>declaration discharging</e35>
+<e36>Consomable</e36>
+<e37>Temporary Admission</e37>
+<e38>not</e38>
+<e39>yes</e39>
+<e45>Information tracking</e45>
+<e46>Select a customer</e46>
+<e47>Tracking</e47>
+<e48>Transmission Line</e48>
+<e49>Save</e49>
+<e50>Number piece</e50>
+</AjouterAirImport>
+<form_BL>
+<e5>Waybill No.</e5>
+<e6>Export Reference</e6>
+<e7>Forwarding Agent Reference</e7>
+<e8>Pre-caririage by</e8>
+<e9>Vessel &amp; No travel</e9>
+<e10>Port of Loading</e10>
+<e11>Port of Discharge</e11>
+<e12>Place of Delivery</e12>
+<e13>Place of Recceipt</e13>
+<e14>For Delivry please apply to</e14>
+<e15>Shopper</e15>
+<e16>Consignee</e16>
+<e17>Notify Party</e17>
+<e18>Our Container; Seal Our; Marks and Our</e18>
+<e19>Packages</e19>
+<e20>Description of Goods</e20>
+<e21>Gross Weight</e21>
+<e22>Currency</e22>
+<e23>Currency rates</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Currency rates</e26>
+<e27>Provider</e27>
+<e28>Reference</e28>
+<e29>Product Name</e29>
+<e30>Disclaimer</e30>
+</form_BL>
+<AjouterBonComm>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Maturity</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Provider</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>file (s) No attached</e26>
+<e27>File</e27>
+<e28>Draft</e28>
+<e29>Save</e29>
+<e30>The date of the order always less than the due date</e30>
+<e31>Add Order</e31>
+<e32>The date command always higher than the start date period</e32>
+<e33>The date command always less than the date of closure</e33>
+<e34>List of orders</e34>
+</AjouterBonComm>
+<AjouterBesoin>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Maturity</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Provider</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>file (s) No attached</e26>
+<e27>File</e27>
+<e28>Draft</e28>
+<e29>Save</e29>
+<e30>The date of the order always less than the due date</e30>
+<e31>Add Order</e31>
+<e32>The date command always higher than the start date period</e32>
+<e33>The date command always less than the date of closure</e33>
+<e34>List of orders</e34>
+</AjouterBesoin>
+<AjouterAvoirFour>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Maturity</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Provider</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>file (s) No attached</e26>
+<e27>File</e27>
+<e28>Draft</e28>
+<e29>Save</e29>
+<e30>The date of the order always less than the due date</e30>
+<e31>Add to have a supplier</e31>
+<e32>The date command always higher than the start date period</e32>
+<e33>The date command always less than the date of closure</e33>
+<e34>Purchase Order List No Confirm</e34>
+</AjouterAvoirFour>
+<AjouterClient>
+<e1>Basic Information</e1>
+<e2>Other Information</e2>
+<e3>Customs</e3>
+<e4>preset Information</e4>
+<e6>Client</e6>
+<e7>Title</e7>
+<e8>Name</e8>
+<e9>Name</e9>
+<e10>Email address</e10>
+<e11>Phone 1</e11>
+<e12>Phone 2</e12>
+<e13>Business Type</e13>
+<e14>only operator</e14>
+<e15>Company</e15>
+<e16>Partner</e16>
+<e17>Trust</e17>
+<e18>VAT</e18>
+<e19>Business Number</e19>
+<e20>User Name Skype</e20>
+<e21>Website</e21>
+<e22>Fax</e22>
+<e23>User Name Skype</e23>
+<e24>No</e24>
+<e25>yes</e25>
+<e26>Client Act</e26>
+<e27>NIF</e27>
+<e28>Not Exempt</e28>
+<e29>Exempt</e29>
+<e30>Client is a</e30>
+<e31>Client</e31>
+<e32>Customer and Partner</e32>
+<e33>Project default</e33>
+<e34>sauvgardement</e34>
+<e35>Address</e35>
+<e36>City</e36>
+<e37>Country</e37>
+<e38>Type</e38>
+<e39>Other</e39>
+<e40>Payment term (days)</e40>
+</AjouterClient>
+<AjouterCompte>
+<e1>Bank Account</e1>
+<e2>Bank Name</e2>
+<e3>Account Number</e3>
+<e4>Balance</e4>
+<e5>Currency Account</e5>
+<e6>Methods of Payment</e6>
+<e7>Species</e7>
+<e8>Gift</e8>
+<e9>Transfer</e9>
+<e10>Add Code Accountant</e10>
+<e11>sauvgardement</e11>
+<e12>Discovered</e12>
+</AjouterCompte>
+<AjouterDossier>
+<e1>Type</e1>
+<e2>Folder name</e2>
+<e3>Client</e3>
+<e4>Air Export</e4>
+<e5>Ocean Export</e5>
+<e6>Export Road</e6>
+<e7>Air Import</e7>
+<e8>Ocean Import</e8>
+<e9>Road Import</e9>
+<e10>Select a customer</e10>
+<e11>Estimation of the costs</e11>
+<e12>Description</e12>
+<e13>value</e13>
+<e14>Currency</e14>
+<e15>Add item</e15>
+<e16>Edit</e16>
+<e17>currency to</e17>
+<e18>Save</e18>
+<e19>Closing Date Estimated</e19>
+<e20>Description</e20>
+</AjouterDossier>
+<AjouterFacture>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Payment</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>file (s) No attached</e26>
+<e27>File</e27>
+<e28>Draft</e28>
+<e29>Save</e29>
+<e30>The date of the invoice still below the Payment Date</e30>
+<e31>Add Invoice</e31>
+<e32>The invoice date always higher than the start date period</e32>
+<e33>The date of invoice Still less at the date of closure</e33>
+<e34>List of invoices</e34>
+</AjouterFacture>
+<AjouterAvoir>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Payment</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>Draft</e26>
+<e27>File</e27>
+<e28>Add Files</e28>
+<e29>Save</e29>
+<e30>Date to always below the date payment</e30>
+<e31>Add to have</e31>
+<e32>Date have always higher than the start date period</e32>
+<e33>Date Always have less at the date of closure</e33>
+<e34>List of invoices</e34>
+</AjouterAvoir>
+<Ajouteroffre>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Payment Date</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>QT</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>file (s) No attached</e26>
+<e27>File</e27>
+<e28>Add Files</e28>
+<e29>Save</e29>
+</Ajouteroffre>
+<Editoffre>
+<e1>Confirmation</e1>
+<e2>Date</e2>
+<e3>Payment Date</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Quantity</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>Confirm</e26>
+<e27>No Confirm</e27>
+<e28>Add Files</e28>
+<e29>Save</e29>
+</Editoffre>
+<AjouterFactureperiodique>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Payment</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>Draft</e26>
+<e27>File</e27>
+<e28>Add Files</e28>
+<e29>Save</e29>
+<e30>frequency</e30>
+<e31>Location</e31>
+<e32>days</e32>
+<e33>The date of the invoice still below the Payment Date</e33>
+<e34>Add a summary invoice</e34>
+<e35>The invoice date always higher than the start date period</e35>
+<e36>The date of invoice Still less at the date of closure</e36>
+<e37>List of invoices</e37>
+</AjouterFactureperiodique>
+<AjouterFournisseur>
+<e1>Basic Information</e1>
+<e2>Other Information</e2>
+<e4>preset Information</e4>
+<e6>Provider</e6>
+<e7>Title</e7>
+<e8>Name</e8>
+<e9>Name</e9>
+<e10>Email address</e10>
+<e11>Phone 1</e11>
+<e12>Phone 2</e12>
+<e13>Business Type</e13>
+<e14>only operator</e14>
+<e15>Company</e15>
+<e16>Partner</e16>
+<e17>Trust</e17>
+<e18>VAT</e18>
+<e19>Business Number</e19>
+<e20>User Name Skype</e20>
+<e21>Website</e21>
+<e22>Fax</e22>
+<e23>User Name Skype</e23>
+<e24>No</e24>
+<e25>yes</e25>
+<e26>Vendor Act</e26>
+<e27>provider</e27>
+<e30>is a provider</e30>
+<e31>Save</e31>
+<e32>supplier and partner</e32>
+<e33>Payment term (days)</e33>
+<e34>No project</e34>
+<e35>archives</e35>
+<e36>Vendor List</e36>
+<e37>Address</e37>
+<e38>City</e38>
+<e39>Country</e39>
+<e40>Type</e40>
+<e41>Other</e41>
+</AjouterFournisseur>
+<AjouterMatriel>
+<e1>Form creation material</e1>
+<e6>Name</e6>
+<e7>type</e7>
+<e8>Purchase Date</e8>
+<e9>purchase value</e9>
+<e10>life (in years)</e10>
+<e11>Description</e11>
+<e31>Save</e31>
+</AjouterMatriel>
+<AjouterLocation>
+<e1>Allocation Form Equipment</e1>
+<e2>Equipment Number</e2>
+<e3>Client</e3>
+<e4>Folder</e4>
+<e5>Start Date</e5>
+<e6>End Date</e6>
+<e7>Brand</e7>
+<e8>Start Mileage (KM)</e8>
+<e9>end Mileage (KM)</e9>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Save</e12>
+<e13>Mileage always higher end mileage start</e13>
+<e14>Date always higher end of the rental start date</e14>
+<e15>Good Output</e15>
+<e16>Purchase Returning</e16>
+</AjouterLocation>
+<AjouterAuMagasin>
+<e1>Warehouse Form</e1>
+<e3>Client</e3>
+<e4>Folder</e4>
+<e5>Start Date</e5>
+<e6>End Date</e6>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Save</e12>
+<e14>Date always higher end shopping the start date</e14>
+<e15>Good Output</e15>
+<e16>Purchase Returning</e16>
+</AjouterAuMagasin>
+<AjouterServiceLogistic>
+<e1>Service Form Logistics</e1>
+<e3>Client</e3>
+<e4>Folder</e4>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Save</e12>
+<e15>Active Service</e15>
+<e16>Service complete</e16>
+</AjouterServiceLogistic>
+<UpdateLocation>
+<e1>Update allocation of equipment</e1>
+<e2>Equipment Number</e2>
+<e3>Client</e3>
+<e4>Folder</e4>
+<e5>Start Date</e5>
+<e6>End Date</e6>
+<e7>Brand</e7>
+<e8>Start Mileage (KM)</e8>
+<e9>end Mileage (KM)</e9>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Update AJOUR</e12>
+<e13>Mileage still above the city late start</e13>
+<e14>Date always higher end of the rental start date</e14>
+<e15>Good Output</e15>
+<e16>Purchase Returning</e16>
+<e17>Equipment you have chosen is already rented</e17>
+<e18>No</e18>
+<e19>Partial</e19>
+<e20>Billing</e20>
+<e21>Yes</e21>
+</UpdateLocation>
+<UpdateMagasinage>
+<e1>Updating shopping</e1>
+<e3>Client</e3>
+<e4>Folder</e4>
+<e5>Start Date</e5>
+<e6>End Date</e6>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Update</e12>
+<e14>Date always higher end of the rental start date</e14>
+<e15>Good Output</e15>
+<e16>Purchase Returning</e16>
+<e17>Yes</e17>
+<e18>No</e18>
+<e19>Partial</e19>
+<e20>Billing</e20>
+</UpdateMagasinage>
+<UpdateLogisticService>
+<e1>Ajour Apart logistics services</e1>
+<e3>Client</e3>
+<e4>Folder</e4>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Update</e12>
+<e15>Service Active</e15>
+<e16>Service Done</e16>
+<e17>Yes</e17>
+<e18>No</e18>
+<e19>Partial</e19>
+<e20>Billing</e20>				
+</UpdateLogisticService>
+<UpdateEquipment>
+<e1>Form Updating equipment</e1>
+<e6>Equipment Number</e6>
+<e7>Brand</e7>
+<e8>Start Mileage (KM)</e8>
+<e9>end Mileage (KM)</e9>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Update days</e12>
+<e13>Mileage always higher end mileage start</e13>
+<e14>List of equipment</e14>
+<e15>Available</e15>
+<e16>Offline</e16>
+<e17>sauvgardement</e17>
+</UpdateEquipment>
+<AjouterEquipment>
+<e1>Form to create equipment</e1>
+<e6>Equipment Number</e6>
+<e7>Brand</e7>
+<e8>Start Mileage (KM)</e8>
+<e9>end Mileage (KM)</e9>
+<e10>State</e10>
+<e11>Description</e11>
+<e12>Save</e12>
+<e13>Mileage always higher end mileage start</e13>
+<e14>List of equipment</e14>
+<e15>available</e15>
+<e16>unavailable</e16>
+<e17>Save</e17>
+</AjouterEquipment>
+<UpdateMatriel>
+<e1>Changing the hardware id:</e1>
+<e2>Present Value</e2>
+<e3>Motive</e3>
+<e6>Name</e6>
+<e7>type</e7>
+<e8>Purchase Date</e8>
+<e9>purchase value</e9>
+<e10>Life</e10>
+<e11>Description</e11>
+<e31>Update</e31>
+</UpdateMatriel>
+<AllMatriel>
+<e1>Filter:</e1>
+<e2>bottom</e2>
+<e3>down</e3>
+<e6>Name</e6>
+<e7>type</e7>
+<e8>Purchase Date</e8>
+<e9>purchase value</e9>
+<e10>Life</e10>
+<e11>Description</e11>
+<e12>Actions</e12>
+<e13>Delete</e13>
+<e14>Depreciation / Purchase Amount</e14>
+<e15>Edit</e15>
+<e16>Date</e16>
+<e17>All</e17>
+<e18>TOTAL</e18>
+</AllMatriel>
+<AllEquipment>
+<e1>Filter:</e1>
+<e2>bottom</e2>
+<e3>down</e3>
+<e6>Brand</e6>
+<e7>State</e7>
+<e8>Mileage start</e8>
+<e9>Mileage end</e9>
+<e10>Description</e10>
+<e11>Waiting</e11>
+<e12>Actions</e12>
+<e13>Delete</e13>
+<e14>Enable</e14>
+<e15>Edit</e15>
+<e16>All</e16>
+</AllEquipment>
+<Douane>
+<e1>Reference</e1>
+<e2>Nature</e2>
+<e3>No statement</e3>
+<e6>Exonor</e6>
+<e7>Removal Direct</e7>
+<e8>No. appurment</e8>
+<e9>sheet before payment</e9>
+<e10>there is no operation in this matter</e10>
+<e11>Equipment available</e11>
+<e12>Actions</e12>
+<e13>Delete</e13>
+<e14>Equipment unavailable</e14>
+<e15>Edit</e15>
+<e16>All</e16>
+</Douane>
+<AllLocation>
+<e1>Billing</e1>
+<e2>Yes</e2>
+<e3>No</e3>
+<e6>Client</e6>
+<e7>Equipment</e7>
+<e8>Folder</e8>
+<e9>Partial</e9>
+<e10>Mileage end</e10>
+<e11>State</e11>
+<e12>Actions</e12>
+<e13>Delete</e13>
+<e14>Enable</e14>
+<e15>Edit</e15>
+<e16>All</e16>
+<e17>Start Date</e17>
+<e18>End Date</e18>
+<e19>Finish</e19>
+<e20>New Rental</e20>
+<e21>Service Active</e21>
+<e22>Service Done</e22>
+<e23>Changing the rental</e23>
+<e24>In detailed</e24>
+<e25>Edit</e25>
+<e26>detailed</e26>
+</AllLocation>
+<AllMagasinage>
+<e1>Billing</e1>
+<e2>Yes</e2>
+<e3>No</e3>
+<e6>Client</e6>
+<e7>Description</e7>
+<e8>Folder</e8>
+<e9>Partial</e9>
+<e11>State</e11>
+<e12>Actions</e12>
+<e13>Delete</e13>
+<e14>Enable</e14>
+<e15>Edit</e15>
+<e16>All</e16>
+<e17>Start Date</e17>
+<e18>End Date</e18>
+<e19>Finish</e19>
+<e20>New Shopping</e20>
+<e21>Service Active</e21>
+<e22>Service Done</e22>
+<e23>Changing the Shopping</e23>
+<e24>In detailed</e24>
+<e25>Edit</e25>
+<e26>detailed</e26>
+</AllMagasinage>
+<Service_logistique>
+<e1>Billing</e1>
+<e2>Yes</e2>
+<e3>No</e3>
+<e6>Client</e6>
+<e7>Description</e7>
+<e8>Folder</e8>
+<e9>Partial</e9>
+<e11>State</e11>
+<e12>Actions</e12>
+<e13>Delete</e13>
+<e14>Enable</e14>
+<e15>Edit</e15>
+<e16>All</e16>
+<e19>Finish</e19>
+<e20>New service</e20>
+<e21>Service Active</e21>
+<e22>Service Done</e22>
+<e23>Changing the Service</e23>
+<e24>In detailed</e24>
+<e25>Edit</e25>
+<e26>detailed</e26>
+</Service_logistique>
+<AllTax>
+<e1>Unpaid</e1>
+<e2>Paid</e2>
+<e3>Payment</e3>
+<e4>Tax</e4>
+<e6>Amount</e6>
+<e7>Select</e7>
+<e8>Tax Bills</e8>
+<e9>Net to payye</e9>
+<e10>Amount Payye</e10>
+<e11>Tax on orders</e11>
+<e12>Actions</e12>
+<e13>Financial Period</e13>
+<e14>for the fiscal year</e14>
+<e15>Tax Paid field</e15>
+<e16>Dettails</e16>
+<e17>All</e17>
+<e18>TOTAL</e18>
+<e19>Save</e19>
+<e20>Folder</e20>
+<e21>Provider</e21>
+<e22>Taxes</e22>
+<e23>Amount</e23>
+<e24>Date</e24>
+<e25>Order</e25>
+<e26>Purchases</e26>
+<e27>Wind</e27>
+</AllTax>
+<Paiement_salaire>
+<e1>Scheduled Payments</e1>
+<e2>Paid</e2>
+<e3>Payment</e3>
+<e4>Period</e4>
+<e6>Amount</e6>
+<e7>Select</e7>
+<e8>Account</e8>
+<e9>the company accounts</e9>
+<e10>Currency</e10>
+<e11>Staff Information</e11>
+<e12>Salary</e12>
+<e13>Period</e13>
+<e14>Account now</e14>
+<e15>Date</e15>
+<e16>Physical payment</e16>
+<e17>All</e17>
+<e18>TOTAL</e18>
+<e19>sauvgardement</e19>
+<e20>Salary</e20>
+<e21>Salary en</e21>
+<e22>Period</e22>
+<e23>Amount</e23>
+<e24>Date</e24>
+<e25>Bank account</e25>
+<e26>Physical Payment</e26>
+<e27>Staff</e27>
+<e28>Creates a Transfer List</e28>
+</Paiement_salaire>
+<Ajouterfrais>
+<e1>Currency</e1>
+<e2>Variable</e2>
+<e3>transaction type</e3>
+<e4>value</e4>
+<e5>Ocean Export</e5>
+<e6>Export Road</e6>
+<e7>Air Import</e7>
+<e8>Ocean Import</e8>
+<e9>Road Import</e9>
+<e10>Cost Description</e10>
+<e11>Add</e11>
+</Ajouterfrais>
+<AjouterOceanExport>
+<e1>Cargo</e1>
+<e2>Shipping Term</e2>
+<e3>Commercial Invoice</e3>
+<e4>Customs Formalities</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>Client Reference</e7>
+<e8>Purpose</e8>
+<e9>size</e9>
+<e10>Weight</e10>
+<e11>object type</e11>
+<e12>No. TC</e12>
+<e13>Purpose</e13>
+<e14>Weight loadable</e14>
+<e15>room</e15>
+<e16>Destination</e16>
+<e17>Origin</e17>
+<e18>BL</e18>
+<e19>Date Estimated start</e19>
+<e20>Estimated date of arrival</e20>
+<e21>Invoiced value</e21>
+<e22>Currency</e22>
+<e23>Currency rates</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Currency rates</e26>
+<e27>Provider</e27>
+<e28>Reference</e28>
+<e29>Product Name</e29>
+<e30>Temporary</e30>
+<e31>re-export</e31>
+<e32>Final</e32>
+<e33>Declaration EXP</e33>
+<e34>Declaration IMP</e34>
+<e35>manual insertion</e35>
+<e36>Statement IMP</e36>
+<e37>Final</e37>
+<e38>Exoneration</e38>
+<e39>not</e39>
+<e40>yes</e40>
+<e41>Declaration of exemption or breaks</e41>
+<e42>Clearance</e42>
+<e43>Declaration of Clearance</e43>
+<e44>Export Type</e44>
+<e45>Information tracking</e45>
+<e46>Select a customer</e46>
+<e47>Tracking</e47>
+<e48>Transmission Line</e48>
+<e49>Save</e49>
+<e50>Number part</e50>
+<e51>Save</e51>
+</AjouterOceanExport>
+<AjouterOceanImport>
+<e1>Cargo</e1>
+<e2>shipping of Term</e2>
+<e3>Commercial Invoice</e3>
+<e4>Customs Formalities</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>Client Reference</e7>
+<e8>Purpose</e8>
+<e9>size</e9>
+<e10>Weight</e10>
+<e11>object type</e11>
+<e12>No. TC</e12>
+<e13>Purpose</e13>
+<e14>Weight loadable</e14>
+<e15>room</e15>
+<e16>Destination</e16>
+<e17>Origin</e17>
+<e18>BL</e18>
+<e19>Estimated Start Date</e19>
+<e20>Estimated date of arrival</e20>
+<e21>invoice value</e21>
+<e22>Currency</e22>
+<e23>Currency rates</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Currency rates</e26>
+<e27>Provider</e27>
+<e28>Reference</e28>
+<e29>Product Name</e29>
+<e30>Disclaimer</e30>
+<e31>dimension values ??always numbers</e31>
+<e32>Removal Direct</e32>
+<e33>type of exemption or breaks</e33>
+<e34>type declaration</e34>
+<e35>declaration discharging</e35>
+<e36>Consomable</e36>
+<e37>Temporary Admission</e37>
+<e38>not</e38>
+<e39>yes</e39>
+<e45>Information tracking</e45>
+<e46>Select a customer</e46>
+<e47>Tracking</e47>
+<e48>Transmission Line</e48>
+<e49>Save</e49>
+<e50>Number part</e50>
+</AjouterOceanImport>
+<AjouterRoadExport>
+<e1>Cargo</e1>
+<e2>Shipping Term</e2>
+<e3>Commercial Invoice</e3>
+<e4>Customs Formalities</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>Client Reference</e7>
+<e8>Purpose</e8>
+<e9>size</e9>
+<e10>Weight</e10>
+<e11>object type</e11>
+<e12>No. TC</e12>
+<e13>Purpose</e13>
+<e14>Weight loadable</e14>
+<e15>room</e15>
+<e16>Destination</e16>
+<e17>Origin</e17>
+<e18>RMC</e18>
+<e19>Date Estimated start</e19>
+<e20>Estimated date of arrival</e20>
+<e21>Invoiced value</e21>
+<e22>Currency</e22>
+<e23>Currency rates</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Currency rates</e26>
+<e27>Provider</e27>
+<e28>Reference</e28>
+<e29>Product Name</e29>
+<e30>Temporary</e30>
+<e31>re-export</e31>
+<e32>Final</e32>
+<e33>Declaration EXP</e33>
+<e34>Declaration IMP</e34>
+<e35>manual insertion</e35>
+<e36>Statement IMP</e36>
+<e37>Final</e37>
+<e38>Exoneration</e38>
+<e39>not</e39>
+<e40>yes</e40>
+<e41>Declaration of exemption or breaks</e41>
+<e42>Clearance</e42>
+<e43>Declaration of Clearance</e43>
+<e44>Export Type</e44>
+<e45>Information tracking</e45>
+<e46>Select a customer</e46>
+<e47>Tracking</e47>
+<e48>Transmission Line</e48>
+<e49>Save</e49>
+<e50>Number part</e50>
+<e51>Save</e51>
+</AjouterRoadExport>
+<AjouterRoadImport>
+<e1>Cargo</e1>
+<e2>shipping of Term</e2>
+<e3>Commercial Invoice</e3>
+<e4>Customs Formalities</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>Client Reference</e7>
+<e8>Purpose</e8>
+<e9>size</e9>
+<e10>Weight</e10>
+<e11>object type</e11>
+<e12>No. TC</e12>
+<e13>Purpose</e13>
+<e14>Weight loadable</e14>
+<e15>room</e15>
+<e16>Destination</e16>
+<e17>Origin</e17>
+<e18>RMC</e18>
+<e19>Estimated Start Date</e19>
+<e20>Estimated date of arrival</e20>
+<e21>invoice value</e21>
+<e22>Currency</e22>
+<e23>Currency rates</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Currency rates</e26>
+<e27>Provider</e27>
+<e28>Reference</e28>
+<e29>Product Name</e29>
+<e30>Disclaimer</e30>
+<e31>dimension values ??always numbers</e31>
+<e32>Removal Direct</e32>
+<e33>type of exemption or breaks</e33>
+<e34>type declaration</e34>
+<e35>declaration discharging</e35>
+<e36>Consomable</e36>
+<e37>Temporary Admission</e37>
+<e38>not</e38>
+<e39>yes</e39>
+<e45>Information tracking</e45>
+<e46>Select a customer</e46>
+<e47>Tracking</e47>
+<e48>Transmission Line</e48>
+<e49>Save</e49>
+<e50>Number pieces</e50>
+</AjouterRoadImport>
+<AjouterTaxe>
+<e1>Add Tax</e1>
+<e2>tax value</e2>
+<e3>Apliquer on</e3>
+<e4>provider</e4>
+<e5>Client</e5>
+<e6>Save</e6>
+<e7>Turnover</e7>
+<e8>Profit</e8>
+<e9>Accounting Code</e9>
+<e10>Other</e10>
+</AjouterTaxe>
+<AjouterUser>
+<e1>confirmation error</e1>
+<e2>Save</e2>
+<e3>Email</e3>
+<e4>Password</e4>
+<e5>password Cofirmation</e5>
+<e6>Access type</e6>
+<e7>CIN</e7>
+<e8>Phone Number</e8>
+<e9>Administrator</e9>
+<e10>Finance Officer</e10>
+<e11>Agent of opeartion</e11>
+<e12>Full Name</e12>
+<e13>Address</e13>
+</AjouterUser>
+<Allclient>
+<e1>Client</e1>
+<e2>Contact</e2>
+<e3>Email address</e3>
+<e4>Phone</e4>
+<e5>Actions</e5>
+<e6>line (s) from the line number</e6>
+<e7>Edit customer information</e7>
+<e8>Edit</e8>
+<e9>Delete</e9>
+<e10>Customer details</e10>
+<e11>Retail</e11>
+<e12>an invoice for the customer</e12>
+<e13>type of business</e13>
+<e14>filter</e14>
+<e15>bottom</e15>
+<e16>down</e16>
+<e17>All</e17>
+<e18>Country</e18>
+<e19>Customer Statement of Account</e19>
+<e20>detail</e20>
+<e21>in detail</e21>
+<e22>Type</e22>
+<e23>Send SOA</e23>
+<e24>Send Mail</e24>
+<e25>All Opération of  :</e25>
+<e26>All invoices of   :</e26>
+<e27>all offers of   :</e27>
+</Allclient>
+<Financ_periode>
+<e1>NO</e1>
+<e2>Date beginning of period</e2>
+<e3>Date period end</e3>
+<e4>Status</e4>
+<e5>Actions</e5>
+<e6>Status</e6>
+<e7>Add a period</e7>
+<e8>Date start</e8>
+<e9>End Date</e9>
+<e10>Save</e10>
+<e11>start date Always lower the end date</e11>
+<e12>Period Update</e12>
+<e13>Delete</e13>
+<e14>Edit</e14>
+<e15>bottom</e15>
+<e16>down</e16>
+<e17>All</e17>
+<e18>Activate a period</e18>
+<e19>Edit</e19>
+</Financ_periode>
+<updatePeriode>
+<e7>Updated period</e7>
+<e8>Date start</e8>
+<e9>End Date</e9>
+<e10>Update</e10>
+<e11>start date Always lower the end date</e11>
+</updatePeriode>
+<AjouterPeriode>
+<e7>Updated period</e7>
+<e8>Date start</e8>
+<e9>End Date</e9>
+<e10>Save</e10>
+<e11>start date Always lower the end date</e11>
+</AjouterPeriode>
+<DeletePeriode>
+<e1>List periods</e1>
+</DeletePeriode>
+<AllCommande>
+<e1>filter</e1>
+<e2>bottom</e2>
+<e3>down</e3>
+<e4>Order #</e4>
+<e5>Provider</e5>
+<e6>Creation Date</e6>
+<e7>Date Reception</e7>
+<e8>Past due</e8>
+<e9>Due Date</e9>
+<e10>Shipping</e10>
+<e11>Payment</e11>
+<e12>Actions</e12>
+<e13>Yes</e13>
+<e14>No</e14>
+<e15>paid</e15>
+<e16>unpaid</e16>
+<e17>Delete</e17>
+<e18>Change Purchase Order</e18>
+<e19>for</e19>
+<e20>send a message</e20>
+<e21>Edit</e21>
+<e22>Waiting</e22>
+<e23>Delivered</e23>
+<e24>Undelivered</e24>
+<e25>Paid</e25>
+<e26>Not Paid</e26>
+<e27>payment of orders</e27>
+<e28>Receiving</e28>
+<e29>Total</e29>
+<e30>details of the order</e30>
+<e31>details</e31>
+</AllCommande>
+<CommandeFournisseur>
+<e1>filter</e1>
+<e2>bottom</e2>
+<e3>down</e3>
+<e4>Order #</e4>
+<e5>Provider</e5>
+<e6>Creation Date</e6>
+<e7>Date Reception</e7>
+<e8>Past due</e8>
+<e9>Due Date</e9>
+<e10>Shipping</e10>
+<e11>Payment</e11>
+<e12>Actions</e12>
+<e13>Yes</e13>
+<e14>No</e14>
+<e15>paid</e15>
+<e16>unpaid</e16>
+<e17>Delete</e17>
+<e18>Change Purchase Order</e18>
+<e19>for</e19>
+<e20>send a message</e20>
+<e21>Edit</e21>
+<e22>Waiting</e22>
+<e23>Delivered</e23>
+<e24>Undelivered</e24>
+<e25>Paid</e25>
+<e26>Not Paid</e26>
+<e27>payment of orders</e27>
+<e28>Receiving</e28>
+<e29>Total</e29>
+<e30>details of the order</e30>
+<e31>details</e31>
+</CommandeFournisseur>
+<Command_operation>
+<e1>filter</e1>
+<e2>bottom</e2>
+<e3>down</e3>
+<e4>Order #</e4>
+<e5>Provider</e5>
+<e6>Creation Date</e6>
+<e7>Date Reception</e7>
+<e8>Past due</e8>
+<e9>Due Date</e9>
+<e10>Shipping</e10>
+<e11>Payment</e11>
+<e12>Actions</e12>
+<e13>Yes</e13>
+<e14>No</e14>
+<e15>paid</e15>
+<e16>unpaid</e16>
+<e17>Delete</e17>
+<e18>Change Purchase Order</e18>
+<e19>for</e19>
+<e20>send a message</e20>
+<e21>Edit</e21>
+<e22>Waiting</e22>
+<e23>Delivered</e23>
+<e24>Undelivered</e24>
+<e25>Paid</e25>
+<e26>Not Paid</e26>
+<e27>payment of orders</e27>
+<e28>Receiving</e28>
+<e29>Total</e29>
+<e30>details of the order</e30>
+<e31>details</e31>
+</Command_operation>
+<reception_factures>
+<e1>Invoice #</e1>
+<e2>Order number</e2>
+<e3>Total</e3>
+<e4>Date received</e4>
+<e5>Receptione</e5>
+<e6>Creation Date</e6>
+<e7>Date received</e7>
+<e8>sauvgardement</e8>
+<e9>invoice file</e9>
+<e10>Uploader</e10>
+<e11>No Result correspond to the specified search words</e11>
+<e12>Try spelling</e12>
+<e13>comande Purchase Invoice reception No.</e13>
+</reception_factures>
+<AllBesoins>
+<e1>filter</e1>
+<e2>bottom</e2>
+<e3>down</e3>
+<e4>Order #</e4>
+<e5>Provider</e5>
+<e6>Creation Date</e6>
+<e7>Date received</e7>
+<e8>Past due</e8>
+<e9>Payment Date</e9>
+<e10>Shipping</e10>
+<e11>Payment</e11>
+<e12>Actions</e12>
+<e13>Yes</e13>
+<e14>No</e14>
+<e15>paid</e15>
+<e16>unpaid</e16>
+<e17>Delete</e17>
+<e18>Change Purchase Order</e18>
+<e19>for</e19>
+<e20>send a message</e20>
+<e21>Edit</e21>
+ <e22>Waiting</e22>
+<e23>Delivered</e23>
+<e24>Undelivered</e24>
+<e25>Paid</e25>
+<e26>Not Paid</e26>
+<e27>payment of orders</e27>
+<e28>Receiving</e28>
+<e29>Total</e29>
+<e30>details of the order</e30>
+<e31>details</e31>
+</AllBesoins>
+<AllCommandeNonConfirmer>
+<e1>Status</e1>
+<e2>Ref Order</e2>
+<e3>Provider</e3>
+<e4>Order</e4>
+<e5>Provider</e5>
+<e6>Files</e6>
+<e7>Description</e7>
+<e8>Date cmd</e8>
+<e9>Maturity</e9>
+<e10>Advanced</e10>
+<e11>Delete</e11>
+<e12>Actions</e12>
+<e13>All</e13>
+<e14>Total</e14>
+<e15>Change Purchase Order</e15>
+<e16>Edit</e16>
+<e17>details of the order</e17>
+<e18>details</e18>
+<e19>Waiting</e19>
+<e20>Decline</e20>
+</AllCommandeNonConfirmer>
+<AllCompte>
+<e1>The Accounts</e1>
+<e2>Account Number</e2>
+<e3>bank</e3>
+<e4>Bank Account</e4>
+<e5>Banking Group</e5>
+<e6>Money Process</e6>
+<e7>Last Trade</e7>
+<e8>Balance</e8>
+<e9>Actions</e9>
+<e10>Silver entry for the</e10>
+<e11>Add money</e11>
+<e12>Silver out of apartir</e12>
+<e13>withdraw money</e13>
+<e14>Transfer</e14>
+<e15>Update Account</e15>
+<e16>Edit</e16>
+<e17>Delete</e17>
+<e18>No Account</e18>
+<e19>Payments Issued</e19>
+<e20>Payments received</e20>
+<e21>Transfer</e21>
+<e22>id #</e22>
+<e23>Description</e23>
+<e24>Date</e24>
+<e25>Banks</e25>
+<e26>Client</e26>
+<e27>Provider</e27>
+<e28>Amount</e28>
+<e29>Origin</e29>
+<e30>Destination</e30>
+<e31>Flow</e31>
+<e32>Credit</e32>
+<e33>Discovered</e33>
+</AllCompte>
+<AllDossier>
+<e1>Filter</e1>
+<e2>Reference, Customer, ETFs, State</e2>
+<e3>State</e3>
+<e4>Id #</e4>
+<e5>Client</e5>
+<e6>Flow</e6>
+<e7>Credit</e7>
+<e8>P / L</e8>
+<e9>Actions</e9>
+<e10>Close profitably</e10>
+<e11>Close lossy</e11>
+<e12>No transaction</e12>
+<e13>Open profitably</e13>
+<e14>Open lossy</e14>
+<e15>Changing the folder</e15>
+<e16>Delete imposible because this folder contains operations</e16>
+<e17>Delete</e17>
+<e18>Close</e18>
+<e19>Edit</e19>
+<e20>Open</e20>
+<e21>Close</e21>
+<e22>All</e22>
+<e23>do you really want this folder Origin Lock</e23>
+<e24>do you really want this folder UNLOCK</e24>
+<e25>Estimated Costs</e25>
+<e26>State</e26>
+<e27>detail</e27>
+<e28>Folder detail</e28>
+<e29>in detail</e29>
+</AllDossier>
+ <AllDossierEntreprise>
+<e1>Filter</e1>
+<e2>Reference, Customer, ETFs, State</e2>
+<e3>State</e3>
+<e4>Id #</e4>
+<e5>Client</e5>
+<e6>Flow</e6>
+<e7>Credit</e7>
+<e8>P / L</e8>
+<e9>Actions</e9>
+<e10>Close profitably</e10>
+<e11>Close lossy</e11>
+<e12>No transaction</e12>
+<e13>Open profitably</e13>
+<e14>Open lossy</e14>
+<e15>Changing the folder</e15>
+<e16>Delete imposible because this folder contains operations</e16>
+<e17>Delete</e17>
+<e18>Close</e18>
+<e19>Edit</e19>
+<e20>Open</e20>
+<e21>Close</e21>
+<e22>All</e22>
+<e23>do you really want this folder Origin Lock</e23>
+<e24>do you really want this folder UNLOCK</e24>
+<e25>Estimated Costs</e25>
+<e26>State</e26>
+<e27>detail</e27>
+<e28>Folder detail</e28>
+<e29>in detail</e29>
+ </AllDossierEntreprise>
+  <AllFacture>
+<e1>your payment has been successfully</e1>
+<e2>failure of payment</e2>
+<e3>filter</e3>
+<e4>Invoice #</e4>
+<e5>Client</e5>
+<e6>Ref.Client</e6>
+<e7>Amount</e7>
+<e8>State</e8>
+<e9>Date paiemnt</e9>
+<e10>expired</e10>
+<e11>Waiting</e11>
+<e12>Retail Invoice</e12>
+<e13>banking accounts</e13>
+<e14>paid</e14>
+<e15>No pay</e15>
+<e16>Edit</e16>
+<e17>Delete</e17>
+<e18>send the invoice mail</e18>
+<e19>Email</e19>
+<e20>invoice</e20>
+<e21>Invoice #</e21>
+<e22>Decline</e22>
+<e23>Litigation</e23>
+<e24>OK</e24>
+<e25>unpaid</e25>
+<e26>Draft</e26>
+<e27>Creativity summary invoice</e27>
+<e28>Change on the bill</e28>
+<e29>Customer information</e29>
+<e30>Retail</e30>
+<e31>Actions</e31>
+ </AllFacture>
+ <Facture_operation>
+<e1>your payment has been successfully</e1>
+<e2>failure of payment</e2>
+<e3>filter</e3>
+<e4>Invoice #</e4>
+<e5>Client</e5>
+<e6>Ref.Client</e6>
+<e7>Amount</e7>
+<e8>State</e8>
+<e9>Date paiemnt</e9>
+<e10>expired</e10>
+<e11>Waiting</e11>
+<e12>Retail Invoice</e12>
+<e13>banking accounts</e13>
+<e14>paid</e14>
+<e15>No pay</e15>
+<e16>Edit</e16>
+<e17>Delete</e17>
+<e18>send the invoice mail</e18>
+<e19>Email</e19>
+<e20>invoice</e20>
+<e21>Invoice #</e21>
+<e22>Decline</e22>
+<e23>Litigation</e23>
+<e24>OK</e24>
+<e25>unpaid</e25>
+<e26>Draft</e26>
+<e27>Creativity summary invoice</e27>
+<e28>Change on the bill</e28>
+<e29>Customer information</e29>
+<e30>Retail</e30>
+<e31>Actions</e31>
+  </Facture_operation>
+   <AllMAILEnvoiyer>
+<e3>filter</e3>
+<e4>Mail</e4>
+<e5>CC</e5>
+<e6>Purpose</e6>
+<e7>Date</e7>
+   </AllMAILEnvoiyer>
+    <finalstatementclient>
+<e3>Country</e3>
+<e4>City</e4>
+<e5>Address</e5>
+<e6>Phone</e6>
+<e7>Fax</e7>
+<e8>Email</e8>
+<e9>Website</e9>
+<e10>Client</e10>
+<e11>Code</e11>
+<e12>Launch Date</e12>
+<e13>Date of Payment</e13>
+<e14>expired</e14>
+<e15>Currency</e15>
+<e16>Amount</e16>
+<e17>DUE THIS MONTH</e17>
+<e18>TOTAL RECEIVABLE IN</e18>
+<e19>NOT DUE</e19>
+<e20>TOTAL PAYABLE IN</e20>
+<e21>STATEMENT OF ACCOUNT</e21>
+    </finalstatementclient>
+<finalCommande>
+<e3>Country</e3>
+<e4>City</e4>
+<e5>Address</e5>
+<e6>Phone</e6>
+<e7>Fax</e7>
+<e8>Email</e8>
+<e9>Website</e9>
+<e10>Date Order</e10>
+<e11>Date Maturity</e11>
+<e12>Control Number</e12>
+<e13>Reference</e13>
+<e14>Description</e14>
+<e15>Quantity</e15>
+<e16>Price</e16>
+<e17>Net</e17>
+<e18>VAT</e18>
+<e19>Folder</e19>
+<e20>Provider</e20>
+<e21>Summary</e21>
+<e22>ORDER</e22>
+</finalCommande>
+<finalFacture>
+<e3>Country</e3>
+<e4>City</e4>
+<e5>Address</e5>
+<e6>Phone</e6>
+<e7>Fax</e7>
+<e8>Email</e8>
+<e9>Website</e9>
+<e10>Invoice Date</e10>
+<e11>Date Maturity</e11>
+<e12>No. Invoice</e12>
+<e13>Reference</e13>
+<e14>Description</e14>
+<e15>Quantity</e15>
+<e16>Price</e16>
+<e17>Net</e17>
+<e18>VAT</e18>
+<e19>Folder</e19>
+<e20>Client</e20>
+<e21>Summary</e21>
+<e22>INVOICE</e22>
+</finalFacture>
+<Virement_Salaire>
+<e3>Country</e3>
+<e4>City</e4>
+<e5>Address</e5>
+<e6>Phone</e6>
+<e7>Fax</e7>
+<e8>Email</e8>
+<e9>Website</e9>
+<e10>BANK</e10>
+<e11>WORKER</e11>
+<e12>Amount</e12>
+<e13>Recipient Account</e13>
+<e14>Account Source</e14>
+<e15>EMPLOYEE SALARIES Transfer</e15>
+<e16>Price</e16>
+<e17>Net</e17>
+<e18>VAT</e18>
+<e19>Folder</e19>
+<e20>Client</e20>
+<e21>BANK</e21>
+<e22>INVOICE</e22>
+</Virement_Salaire>
+<finalOffre>
+<e3>Country</e3>
+<e4>City</e4>
+<e5>Address</e5>
+<e6>Phone</e6>
+<e7>Fax</e7>
+<e8>Email</e8>
+<e9>Website</e9>
+<e10>Date Offer</e10>
+<e11>Date Maturity</e11>
+<e12>No Offer</e12>
+<e13>Reference</e13>
+<e14>Description</e14>
+<e15>Quantity</e15>
+<e16>Price</e16>
+<e17>Net</e17>
+<e18>VAT</e18>
+<e19>Folder</e19>
+<e20>Client</e20>
+<e21>Summary</e21>
+<e22>OFFER</e22>
+</finalOffre>
+<dettails>
+<e1>id</e1>
+<e2>file</e2>
+<e3>transaction</e3>
+<e4>Amount paid</e4>
+<e5>The customer information</e5>
+<e6>Payment Date</e6>
+<e7>Creation Date</e7>
+<e8>Reference</e8>
+<e9>Elements</e9>
+<e10>Description</e10>
+<e11>QT</e11>
+<e12>PU</e12>
+<e13>NET</e13>
+<e14>TAX</e14>
+<e15>TOTAL</e15>
+<e16>Company</e16>
+<e17>telephone1</e17>
+<e18>Address</e18>
+<e19>City</e19>
+<e20>Country</e20>
+<e21>Email</e21>
+<e22>Detail</e22>
+</dettails>
+	 <dettailsOffre>
+<e2>file</e2>
+<e3>transaction</e3>
+<e4>Amount paid</e4>
+<e5>The customer information</e5>
+<e6>Payment Date</e6>
+<e7>Creation Date</e7>
+<e8>Reference</e8>
+<e9>Elements of supply</e9>
+<e10>Description</e10>
+<e11>QT</e11>
+<e12>PU</e12>
+<e13>NET</e13>
+<e14>TAX</e14>
+<e15>TOTAL</e15>
+<e16>Company</e16>
+<e17>telephone1</e17>
+<e18>Address</e18>
+<e19>City</e19>
+<e20>Country</e20>
+<e21>Email</e21>
+<e22>Offer detail</e22>
+	 </dettailsOffre>
+	 <dettailsCommand>
+<e1>id</e1>
+<e2>file</e2>
+<e3>transaction</e3>
+<e4>Amount paid</e4>
+<e5>Client</e5>
+<e6>Payment Date</e6>
+<e7>Creation Date</e7>
+<e8>Reference</e8>
+<e9>Elements</e9>
+<e10>Description</e10>
+<e11>QT</e11>
+<e12>PU</e12>
+<e13>NET</e13>
+<e14>TAX</e14>
+<e15>TOTAL</e15>
+<e16>you really want to confirm this command</e16>
+<e17>Delete</e17>
+<e18>name</e18>
+<e19>Order Detail</e19>
+<e20>Manufacturer Detail</e20>
+<e21>Email</e21>
+<e22>Phone</e22>
+<e23>Address</e23>
+<e24>City</e24>
+<e25>Country</e25>
+<e26>Name</e26>
+<e27>Decline</e27>
+<e28>Delete</e28>
+<e29>Confirm</e29>
+<e30>PDF</e30>
+<e31>Edit</e31>
+<e32>shipping on orders</e32>
+<e33>payment confirmation</e33>
+<e34>Edit</e34>
+<e35>Edit</e35>
+</dettailsCommand>
+<AllOffre>
+<e1>invoice</e1>
+<e2>Invoice</e2>
+<e3>PDF</e3>
+<e4>Ref.offre</e4>
+<e5>Client</e5>
+<e6>Ref.Client</e6>
+<e7>Amount</e7>
+<e8>Validation</e8>
+<e9>Creation Date</e9>
+<e10>Description</e10>
+<e11>Actions</e11>
+<e12>Retail Offer</e12>
+<e13>banking accounts</e13>
+<e14>Confirm</e14>
+<e15>No validate</e15>
+<e16>Edit</e16>
+<e17>Delete</e17>
+<e18>Invoicing this offer</e18>
+<e19>Email</e19>
+<e20>offer for</e20>
+<e21>No supply</e21>
+<e22>Delete</e22>
+<e23>down</e23>
+<e24>validate</e24>
+<e25>No validate</e25>
+<e26>All</e26>
+<e27>Changing the supply</e27>
+<e28>Edit</e28>
+<e29>Customer information</e29>
+<e30>Detail</e30>
+</AllOffre>
+<OffreClient>
+<e1>invoice</e1>
+<e2>Invoice</e2>
+<e3>PDF</e3>
+<e4>Ref.offre</e4>
+<e5>Client</e5>
+<e6>Ref.Client</e6>
+<e7>Amount</e7>
+<e8>Validation</e8>
+<e9>Creation Date</e9>
+<e10>Description</e10>
+<e11>Actions</e11>
+<e12>Retail Offer</e12>
+<e13>banking accounts</e13>
+<e14>Confirm</e14>
+<e15>No validate</e15>
+<e16>Edit</e16>
+<e17>Delete</e17>
+<e18>Invoicing this offer</e18>
+<e19>Email</e19>
+<e20>offer for</e20>
+<e21>No supply</e21>
+<e22>Delete</e22>
+<e23>down</e23>
+<e24>validate</e24>
+<e25>No validate</e25>
+<e26>All</e26>
+<e27>Changing the supply</e27>
+<e28>Edit</e28>
+<e29>Customer information</e29>
+<e30>Detail</e30>
+</OffreClient>
+<allocate_argent>
+<e1>Please tick this box to confirm payment</e1>
+<e2>Unpaid bills of</e2>
+<e3>Invoice #</e3>
+<e4>Client</e4>
+<e5>Ref.Client</e5>
+<e6>Amount</e6>
+<e7>Amount Unpaid</e7>
+<e8>Allocated Payment</e8>
+<e9>currency</e9>
+<e10>The amount received by the customer</e10>
+<e11>Operation #</e11>
+<e12>Description</e12>
+<e13>Date</e13>
+<e14>Bank</e14>
+<e15>Account Number</e15>
+<e16>Amount</e16>
+<e17>Silver Unallocated</e17>
+<e18>Confirm</e18>
+<e19>the amount withdrawn</e19>
+<e20>unpaid purchase orders</e20>
+<e29>Customer information</e29>
+<e30>Retail</e30>
+<e29>Confirm</e29>
+<e30>PDF</e30>
+<e31>Edit</e31>
+<e32>shipping on orders</e32>
+<e33>payment confirmation</e33>
+<e34>Edit</e34>
+</allocate_argent>
+<allocate_argent_BC>
+<e1>the unpaid amount for the provider</e1>
+<e2>id</e2>
+<e3>Sales</e3>
+<e4>Allocation</e4>
+<e5>Description</e5>
+<e6>Date</e6>
+<e7>Amount</e7>
+<e8>impeye invoices with</e8>
+<e9>impayer all invoices</e9>
+<e10>unpaid Assets</e10>
+<e11>unpaid Controls</e11>
+<e12>invoiced amount</e12>
+<e13>Amount paid</e13>
+<e14>there is no invoice</e14>
+<e15>Payment</e15>
+<e16>Bank</e16>
+<e17>amount withdrawn</e17>
+<e18>Difference (- / +)</e18>
+<e19>Complete the payment order</e19>
+<e20>Complete the payment</e20>
+<e21>unpaid</e21>
+<e22>Currency</e22>
+<e35>Edit</e35>
+</allocate_argent_BC>
+<AllOperation>
+<e1>Billing</e1>
+<e2>Ref, File, Client, ETA, ETD, Orig, Dest, LTA</e2>
+<e3>all</e3>
+<e4>ref</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>AWB / BL / AWB</e7>
+<e8>ETA</e8>
+<e9>ETD</e9>
+<e10>Origin</e10>
+<e11>Destination</e11>
+<e12>Type</e12>
+<e13>Actions</e13>
+<e14>No billed</e14>
+<e15>detail</e15>
+<e16>Tracking</e16>
+<e17>Edit</e17>
+<e18>Delete</e18>
+<e19>Retail</e19>
+<e20>creative prints</e20>
+<e21>Aside the day of operation</e21>
+<e22>decrease</e22>
+<e23>Thrive in</e23>
+<e24>Yes</e24>
+<e25>No</e25>
+<e26>All</e26>
+<e27>not</e27>
+<e28>yes</e28>
+<e29>models Exported</e29>
+<e30>Edit</e30>
+<e31>detail</e31>
+</AllOperation>
+ <operation_client>
+ <e1>Billing</e1>
+<e2>Ref, File, Client, ETA, ETD, Orig, Dest, LTA</e2>
+<e3>all</e3>
+<e4>ref</e4>
+<e5>Folder</e5>
+<e6>Client</e6>
+<e7>AWB / BL / AWB</e7>
+<e8>ETA</e8>
+<e9>ETD</e9>
+<e10>Origin</e10>
+<e11>Destination</e11>
+<e12>Type</e12>
+<e13>Actions</e13>
+<e14>No billed</e14>
+<e15>detail</e15>
+<e16>Tracking</e16>
+<e17>Edit</e17>
+<e18>Delete</e18>
+<e19>Retail</e19>
+<e20>creative prints</e20>
+<e21>Aside the day of operation</e21>
+<e22>decrease</e22>
+<e23>Thrive in</e23>
+<e24>Yes</e24>
+<e25>No</e25>
+<e26>All</e26>
+<e27>not</e27>
+<e28>yes</e28>
+<e29>models Exported</e29>
+<e30>Edit</e30>
+<e31>detail</e31>
+<e32> you really want invoiced this operation </e32>
+<e33>invoices of   </e33>
+  <e34>purchase order of </e34>
+ </operation_client>
+ <AllUser>
+<e1>Permissions</e1>
+<e2>Email</e2>
+<e3>Phone</e3>
+<e4>Full Name</e4>
+<e5>Access type</e5>
+<e6>Address</e6>
+<e7>Actions</e7>
+<e8>Edit User</e8>
+<e9>Edit</e9>
+<e10>Delete</e10>
+<e11>Change password</e11>
+<e12>Add New User</e12>
+<e13>Edit permissions</e13>
+ </AllUser>
+  <Permission>
+<e1>Services</e1>
+<e2>Enable</e2>
+<e3>Update</e3>
+<e4>Records Management</e4>
+<e5>View Financial statistics records</e5>
+<e6>Operations Management</e6>
+<e7>Purchase Order Management</e7>
+<e8>Client Management</e8>
+<e9>Offers Management</e9>
+<e10>Price Management</e10>
+<e11>Billing Management</e11>
+<e12>personels Management</e12>
+<e13>Payment of Wages</e13>
+<e14>Administration</e14>
+<e15>User Management</e15>
+<e16>Funds Management</e16>
+<e17>Taxes Management</e17>
+<e18>Expenses Management</e18>
+<e19>Supplier Management</e19>
+<e20>Property Management</e20>
+<e21>Equipments Management</e21>
+<e22>Reports</e22>
+<e23>Share on orders Management</e23>
+<e24> KPI </e24>
+   <e25> Total vant Impeyée </e25>
+   <e26> Total Achats Impeyée </e26>
+   <e27> Argent reçu </e27>
+   <e28> Argent Emis </e28>
+   <e29> Vents </e29>
+   <e30> Achats </e30>
+   <e31> encaisse </e31>
+   <e32> Rapport des offres </e32>
+   <e33> List of non confirmed commande </e33>
+   <e34> Activer paiment will </e34>
+   <e35> Database donnes </e35>
+   <e36> Etat </e36>
+  </Permission>
+   <ArgentEntre>
+ <e1>your payment has been successfully</e1>
+<e2>failure of payment</e2>
+<e3>Explain the reception</e3>
+<e4>Account</e4>
+<e5>Money value</e5>
+<e6>Date</e6>
+<e7>Payment method</e7>
+<e8>Species</e8>
+<e9>check</e9>
+<e10>Transfer</e10>
+<e11>Code</e11>
+<e12>Account</e12>
+<e13>Client</e13>
+<e14>Description</e14>
+<e15>Add money</e15>
+<e16>Bank account</e16>
+<e17>money value</e17>
+<e18>Silver entry for the</e18>
+<e19>explain</e19>
+<e20>Finish</e20>
+   </ArgentEntre>
+   <ArgentSortie>
+ <e1>your payment has been successfully</e1>
+<e2>failure of payment</e2>
+<e3>Explain the payment</e3>
+<e4>Account</e4>
+<e5>Money value</e5>
+<e6>Date</e6>
+<e7>Payment method</e7>
+<e8>Species</e8>
+<e9>check</e9>
+<e10>Transfer</e10>
+<e11>Code</e11>
+<e12>Account</e12>
+<e13>Provider</e13>
+<e14>Description</e14>
+<e15>Removed money</e15>
+<e16>Bank account</e16>
+<e17>money value</e17>
+<e18>remove a Some money from the account after</e18>
+<e19>explain</e19>
+<e20>Finish</e20>
+   </ArgentSortie>
+   <attacher>
+<e1>upload file</e1>
+<e2>update</e2>
+ </attacher>
+ <changerPassword>
+<e1>confirmation error</e1>
+<e2>Update</e2>
+<e3>Password</e3>
+<e4>password Cofimation</e4>
+ </changerPassword>
+  <Codes>
+<e1>All codes</e1>
+<e2>Add code</e2>
+<e3>Name</e3>
+<e4>Code</e4>
+<e5>Statement</e5>
+<e6>Account</e6>
+<e7>Sales</e7>
+<e8>Purchases</e8>
+<e9>Budgets</e9>
+<e10>Actions</e10>
+<e11>Delete</e11>
+<e12>Update</e12>
+<e13>Add code</e13>
+<e14>Account Name</e14>
+<e15>Code</e15>
+<e16>Statement</e16>
+<e17>Account type</e17>
+<e18>Show in Sales</e18>
+<e19>Show in Purchasing</e19>
+<e20>View in the budget</e20>
+<e21>Add Group</e21>
+<e22>Group Name</e22>
+<e23>Type</e23>
+<e24>Save</e24>
+<e25>income</e25>
+<e26>Restaurants</e26>
+<e27>save</e27>
+<e28>Software update</e28>
+<e29>Password</e29>
+<e30>Restore application settings to the default values.</e30>
+<e31>This action will remove all the system settings</e31>
+<e32>If you want Restore Application thank you to enter the administrator password</e32>
+<e33>Parameter Default</e33>
+<e34>Restore</e34>
+<e35>You can save your application configurations to a file on your computer.</e35>
+<e36>Update</e36>
+<e37>You can update your accounting accounts using your saved files csv (semicolon separator)</e37>
+<e38>.csv file location:</e38>
+<e39>File to import</e39>
+<e40>Save</e40>
+<e41>must load a csv file type (semicolon separator)</e41>
+  </Codes>
+  <Gestion_Cat>
+<e1>All Categories</e1>
+<e2>Add category</e2>
+<e3>Type</e3>
+<e4>Prefix</e4>
+<e5>Company</e5>
+<e6>// Account</e6>
+<e7>// Operation</e7>
+<e8>Logistics</e8>
+<e9>Operation</e9>
+<e10>Actions</e10>
+<e11>Delete</e11>
+<e12>Update</e12>
+<e13>Add Category</e13>
+<e14>Category Name</e14>
+<e15>prefix</e15>
+<e16>Statement</e16>
+<e17>Account type</e17>
+<e18>Show in company records</e18>
+<e19>Show in logistics records</e19>
+<e20>Show in operations records</e20>
+<e21>Add Group</e21>
+<e22>Group Name</e22>
+<e23>Type</e23>
+<e24>Save</e24>
+<e25>The category can not display in Enterprise and the other at the same time</e25>
+  </Gestion_Cat>
+  <Configuration_Profil>
+<e1>Currency</e1>
+<e2>Postage</e2>
+<e3>fixed costs</e3>
+<e4>Company</e4>
+<e5>Currency Configuration</e5>
+<e6>Currency Management</e6>
+<e7>Default Currency</e7>
+<e8>Taxes</e8>
+<e9>filter</e9>
+<e10>Name Tax</e10>
+<e11>value</e11>
+<e12>Apply On</e12>
+<e13>Actions</e13>
+<e14>Edit tax</e14>
+<e15>Edit</e15>
+<e16>Delete</e16>
+<e17>Add Tax</e17>
+<e18>Add new tax</e18>
+<e19>Tax Name</e19>
+<e20>Number</e20>
+<e21>Description</e21>
+<e22>Currency</e22>
+<e23>Variable</e23>
+<e24>Add fixed costs</e24>
+<e25>Add fresh</e25>
+<e26>Name Company</e26>
+<e27>Address</e27>
+<e28>Phone</e28>
+<e29>Fax</e29>
+<e30>Email</e30>
+<e31>Website</e31>
+<e32>Short name</e32>
+<e33>Add</e33>
+<e34>type</e34>
+<e35>Edit Fixed costs</e35>
+<e36>All</e36>
+<e37>Cost</e37>
+<e38>City</e38>
+<e39>Country</e39>
+<e40>Footer</e40>
+<e45>Method Security</e45>
+<e46>Port</e46>
+<e47>Email address</e47>
+<e48>Password</e48>
+<e49>Outbox</e49>
+<e50>sauvgardement</e50>
+<e51>accepted Connection</e51>
+<e52>connection failed</e52>
+<e53>Provider</e53>
+<e54>Client</e54>
+<e55>Turnover</e55>
+<e56>Profit</e56>
+<e57>Apply</e57>
+<e58>No</e58>
+<e59>ver Currency</e59>
+<e60>Abreviation_Monnai</e60>
+<e61>Currency</e61>
+<e62>prefixes</e62>
+<e63>Variables</e63>
+<e64>Assets</e64>
+<e65>Order forms</e65>
+<e66>Component</e66>
+<e67>Jobs</e67>
+<e68>Silver Emis</e68>
+<e69>Payment of wages</e69>
+<e70>Money received</e70>
+<e71>Tax Payment</e71>
+<e72>Transfer</e72>
+<e73>value</e73>
+<e74>Add currency</e74>
+<e75>Code</e75>
+<e76>Full Name</e76>
+</Configuration_Profil>
+<Gestion_rapport_Tax>
+<e1>Tax on purchase and sales</e1>
+<e2>Tax Comparison</e2>
+<e3>fixed costs</e3>
+<e4>Select period financial</e4>
+<e5>to</e5>
+<e6>Join unpaid bills</e6>
+<e7>Choosing a Tax</e7>
+<e8>Taxes</e8>
+<e9>Discover</e9>
+</Gestion_rapport_Tax>
+<Gestion_rapport_operation>
+<e1>Operations Report</e1>
+<e3>Fixed costs</e3>
+<e4>All files</e4>
+<e5>Up</e5>
+<e8>Taxes</e8>
+<e9>Discover</e9>
+<e10>Customs Report</e10>
+<e11>audit</e11>
+<e12>All</e12>
+<e13>No audit</e13>
+</Gestion_rapport_operation>
+<DefaultSetting>
+<e1>Restaurants</e1>
+<e2>save</e2>
+<e3>Software update</e3>
+<e4>Password</e4>
+<e5>Restore application settings to the default values.</e5>
+<e6>This action will remove all the system settings</e6>
+<e7>If you want Restore Application thank you to enter the administrator password</e7>
+<e8>Parameter Default</e8>
+<e9>Restore</e9>
+<e10>You can save your application configurations to a file on your computer.</e10>
+<e11>Update</e11>
+<e12>Updating your application settings. You can update your settings using your saved files sql</e12>
+<e13>fichier.sql location:</e13>
+<e14>File to import</e14>
+<e15>Save</e15>
+</DefaultSetting>
+<detaille_paiement>
+<e1>Payment</e1>
+<e2>Reference</e2>
+<e3>customer / supplier</e3>
+<e4>Amount</e4>
+<e5>Date</e5>
+<e6>Good to commaande</e6>
+<e7>Order</e7>
+<e8>Amount</e8>
+<e9>Total</e9>
+<e10>Component</e10>
+<e11>invoice</e11>
+<e12>Amount</e12>
+<e13>the balance</e13>
+<e14>Billing Total</e14>
+<e15>Total Order Form</e15>
+<e16>Amount peyee by the bank</e16>
+</detaille_paiement>
+<detailleClient>
+<e1>Basic Information</e1>
+<e2>Other Information</e2>
+<e3>Customs</e3>
+<e4>preset Information</e4>
+<e5>Fresh by default</e5>
+<e6>Retail</e6>
+<e7>Client</e7>
+<e8>ID</e8>
+<e9>Email address</e9>
+<e10>Phone (1)</e10>
+<e11>Phone (2)</e11>
+<e12>Business Type</e12>
+<e13>VAT</e13>
+<e14>Business Number</e14>
+<e15>Skype</e15>
+<e16>Website</e16>
+<e17>Fax</e17>
+<e18>Archive</e18>
+<e19>Client Act</e19>
+<e20>Exempt</e20>
+<e21>Client is a</e21>
+<e22>Project default</e22>
+<e23>use</e23>
+<e24>Description</e24>
+<e25>type</e25>
+<e26>Currency</e26>
+<e27>Amount</e27>
+<e28>Update</e28>
+</detailleClient>
+<detailleDossier>
+<e1>Folder detail</e1>
+<e2>transaction</e2>
+<e3>Flow</e3>
+<e4>Credit</e4>
+<e5>Amount P / L</e5>
+<e6>TOTAL</e6>
+<e7>there is no operation for this file</e7>
+</detailleDossier>
+  <detailleFournisseur>
+<e1>Basic Information</e1>
+<e2>Other Information</e2>
+<e3>Customs</e3>
+<e4>Retail</e4>
+<e5>Provider</e5>
+<e6>ID</e6>
+<e7>Email address</e7>
+<e8>Phone (1)</e8>
+<e9>Telephone (2)</e9>
+<e10>Business Type</e10>
+<e11>VAT</e11>
+<e12>Business Number</e12>
+<e13>Skype</e13>
+<e14>Website</e14>
+<e15>Fax</e15>
+<e16>Provider Act</e16>
+  </detailleFournisseur>
+  <detaillenotif>
+<e1>Emai</e1>
+<e2>Notification Content</e2>
+<e3>Date and Time</e3>
+<e4>Actions</e4>
+<e5>Delete</e5>
+  </detaillenotif>
+   <detailleoperation>
+ <e1>General</e1>
+<e2>Cargo</e2>
+<e3>Shipping term</e3>
+<e4>Commercial Invoice</e4>
+<e5>Customs Formalities</e5>
+<e6>Tracking</e6>
+<e7>File attachers</e7>
+<e8>Descriotion shipping</e8>
+<e9>Folder Reference</e9>
+<e10>Customer reference</e10>
+<e11>Client</e11>
+<e12>Date</e12>
+<e13>Weight</e13>
+<e14>Dimensions</e14>
+<e15>object type</e15>
+<e16>Item number</e16>
+<e17>Origin</e17>
+<e18>Destination</e18>
+<e19>ETD</e19>
+<e20>ETA</e20>
+<e21>LTA number</e21>
+<e22>Transport Line</e22>
+<e23>Value billed</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Provider</e26>
+<e27>Reference</e27>
+<e28>Product Name</e28>
+<e29>Folder</e29>
+<e30>Client</e30>
+<e31>Client Reference</e31>
+<e32>Weight</e32>
+<e33>Dimensions</e33>
+<e34>object type</e34>
+<e35>No. TC</e35>
+<e36>Quantity</e36>
+<e37>Destination</e37>
+<e38>Origin</e38>
+<e39>AWB / BL / AWB</e39>
+<e45>Date Departure estimated</e45>
+<e46>Date estimated to come</e46>
+<e47>Transport Line</e47>
+<e48>invoice value</e48>
+<e49>Currency</e49>
+<e50>Rate</e50>
+<e51>Transport value</e51>
+<e52>Rate</e52>
+<e53>provider</e53>
+<e54>Reference</e54>
+<e55>Product Name</e55>
+<e56>Exonor</e56>
+<e57>such exemption or breaks</e57>
+<e58>Billing</e58>
+<e59>Removal Direct</e59>
+<e60>Temporary Admission</e60>
+<e61>Consomable</e61>
+<e62>not</e62>
+<e63>yes</e63>
+<e64>declaration number</e64>
+<e65>declaration discharging</e65>
+<e66>Date</e66>
+<e67>Exonor</e67>
+<e68>Billing</e68>
+<e69>Customs declaration number</e69>
+<e70>delivery</e70>
+<e71>Information tracking</e71>
+<e72>Add an invoice for shipping:</e72>
+<e73>Subject</e73>
+<e74>transaction</e74>
+<e75>new tracking information</e75>
+<e76>Removal</e76>
+<e77>Customs output</e77>
+<e78>Shipped</e78>
+<e79>Arriving</e79>
+<e80>Customs Enter</e80>
+<e81>Update</e81>
+<e82>Update and Email</e82>
+<e83>Declaration Customs</e83>
+<e84>Invoice Local</e84>
+<e85>Clearance</e85>
+<e86>House Commercial</e86>
+<e87>City</e87>
+<e88>port Invoice</e88>
+<e89>Free Customs</e89>
+<e90>Exonor View</e90>
+<e91>Delivery note</e91>
+<e92>Operating Details</e92>
+<e93>RMC</e93>
+<e94>LTA</e94>
+<e95>status</e95>
+<e96>Weight loadable</e96>
+<e97>imported items</e97>
+<e98>Renewal Date</e98>
+<e99>the temporary admission of this operation was expired</e99>
+<e100>Date Time</e100>
+<e101>Event</e101>
+<e102>URL</e102>
+<e103>Send email</e103>
+</detailleoperation>
+<DetailOperationExport>
+ <e1>General</e1>
+<e2>Cargo</e2>
+<e3>Shipping term</e3>
+<e4>Commercial Invoice</e4>
+<e5>Customs Formalities</e5>
+<e6>Tracking</e6>
+<e7>File attachers</e7>
+<e8>Descriotion shipping</e8>
+<e9>Folder Reference</e9>
+<e10>Customer reference</e10>
+<e11>Client</e11>
+<e12>Date</e12>
+<e13>Weight</e13>
+<e14>Dimensions</e14>
+<e15>object type</e15>
+<e16>Item number</e16>
+<e17>Origin</e17>
+<e18>Destination</e18>
+<e19>ETD</e19>
+<e20>ETA</e20>
+<e21>LTA number</e21>
+<e22>Transport Line</e22>
+<e23>Value billed</e23>
+<e24>Carrying value</e24>
+<e25>Currency</e25>
+<e26>Provider</e26>
+<e27>Reference</e27>
+<e28>Product Name</e28>
+<e29>Folder</e29>
+<e30>Client</e30>
+<e31>Client Reference</e31>
+<e32>Weight</e32>
+<e33>Dimensions</e33>
+<e34>object type</e34>
+<e35>NO</e35>
+<e36>Quantity</e36>
+<e37>Destination</e37>
+<e38>Origin</e38>
+<e39>AWB / BL / AWB</e39>
+<e45>Date Departure estimated</e45>
+<e46>Date estimated to come</e46>
+<e47>Transport Line</e47>
+<e48>invoice value</e48>
+<e49>Currency</e49>
+<e50>Rate invoice value</e50>
+<e51>Transport value</e51>
+<e52>Currency rates</e52>
+<e53>provider</e53>
+<e54>Reference</e54>
+<e55>Product Name</e55>
+<e56>Exonor</e56>
+<e57>Billing</e57>
+<e58>Customs Declaration Number</e58>
+<e59>not</e59>
+<e60>yes</e60>
+<e61>Statement clearance</e61>
+<e62>Export</e62>
+<e63>Export Type</e63>
+<e64>re-export</e64>
+<e65>Add an invoice for shipping:</e65>
+<e66>invoice</e66>
+<e67>Not Invoiced</e67>
+<e68>Subject</e68>
+<e69>transaction</e69>
+<e70>new information</e70>
+<e71>Shipping</e71>
+<e72>Removal</e72>
+<e73>Customs output</e73>
+<e74>Shipped</e74>
+<e75>Arriving</e75>
+<e76>Customs Enter</e76>
+<e77>Save</e77>
+<e78>Backup and Email</e78>
+<e79>Date Time</e79>
+<e80>Event</e80>
+<e81>URL</e81>
+<e82>House Commercial</e82>
+<e83>City</e83>
+<e84>port Invoice</e84>
+<e85>Customs Fees</e85>
+<e86>Delivery note</e86>
+<e87>Exonor View</e87>
+<e88>status</e88>
+<e89>weight loadable</e89>
+<e90>No. Container</e90>
+<e91>elements export</e91>
+<e92>Send email</e92>
+</DetailOperationExport>
+<EditDossier>
+<e1>Reference</e1>
+<e2>Category</e2>
+<e12>Description</e12>
+<e13>value</e13>
+<e14>Currency</e14>
+<e17>currency to</e17>
+<e33>Client</e33>
+<e34>Folder List</e34>
+<e35>Status Folder</e35>
+<e36>Open</e36>
+<e37>close</e37>
+<e38>Launch Date</e38>
+<e39>End Date</e39>
+<e40>Date Estimated End</e40>
+<e41>Edit</e41>
+<e42>Add item</e42>
+</EditDossier>
+<EnvoyerMail>
+<e1>destination</e1>
+<e2>Subject</e2>
+<e3>Message</e3>
+<e4>Send</e4>
+</EnvoyerMail>
+<etat_groupe>
+<e1>Council regulation</e1>
+<e2>General Management</e2>
+<e3>wage payment State</e3>
+<e4>Full Name</e4>
+<e5>Function</e5>
+<e6>Sal Base</e6>
+<e7>Augmantation</e7>
+<e8>prime enc</e8>
+<e9>Duty allowance</e9>
+<e10>Housing Allowance</e10>
+<e11>Transportation allowance</e11>
+<e12>Indemnity water and electricity</e12>
+<e13>Risk Allowance</e13>
+<e14>PRIM EXCEPTION</e14>
+<e15>Total Gross</e15>
+<e16>C NLEs</e16>
+<e17>Amount Impot</e17>
+<e18>ITS</e18>
+<e19>Total Ret</e19>
+<e20>Advance</e20>
+<e21>Salary</e21>
+<e22>Index</e22>
+<e23>CNSS</e23>
+<e24>CNAM</e24>
+<e25>Abbat ITS</e25>
+<e26>Chief Administrative and Financial Service</e26>
+<e27>The CEO</e27>
+<e28>President</e28>
+<e29>Print this page</e29>
+</etat_groupe>
+  <formulaire_salaire>
+ <e1>Full Name</e1>
+<e2>Function</e2>
+<e3>Base Salary</e3>
+<e4>Salary Augmantation</e4>
+<e5>Duty allowance</e5>
+<e6>Housing Allowance</e6>
+<e7>Transportation allowance</e7>
+<e8>Indemnity water and electricity</e8>
+<e9>Prime Exception</e9>
+<e10>Risk Allowance</e10>
+<e11>CNSS</e11>
+<e12>CNAM</e12>
+<e13>Total Gross</e13>
+<e14>Amount Impot</e14>
+<e15>ITS</e15>
+<e16>Total Retained</e16>
+<e17>Advance</e17>
+<e18>NET Salary</e18>
+<e19>Year</e19>
+<e20>Month</e20>
+<e21>OK</e21>
+<e22>Employee Account Number</e22>
+<e23>Corporate Bank Account</e23>
+<e24>Money and Bank of payment</e24>
+  </formulaire_salaire>
+    <formulaire_trans>
+<e1>different models</e1>
+<e2>Release (Adms.Temp)</e2>
+<e3>Release (Consomable)</e3>
+<e4>Removal Direct</e4>
+<e5>Order of Transite</e5>
+<e6>Delivery Note</e6>
+<e7>BL</e7>
+<e8>AWB</e8>
+<e9>RMC</e9>
+    </formulaire_trans>
+	 <Fournisseur>
+<e1>filter</e1>
+<e2>Provider</e2>
+<e3>Contact</e3>
+<e4>Email address</e4>
+<e5>Phone</e5>
+<e6>Actions</e6>
+<e7>Delete</e7>
+<e8>Retail</e8>
+<e9>Order :</e9>
+<e10>Edit Provider Information</e10>
+<e11>supplier details</e11>
+<e12>All</e12>
+<e13>Provider Account statement</e13>
+<e14>Type</e14>
+<e15>detail</e15>
+<e16>in detail</e16>
+	 </Fournisseur>
+<Modif_elm_com>
+<e1>Change information of an element of order Now</e1>
+<e2>Name</e2>
+<e3>Reference</e3>
+<e4>Quantity</e4>
+<e5>Price</e5>
+<e6>Currency</e6>
+<e7>Currency</e7>
+<e8>VAT</e8>
+<e9>Accounting Code</e9>
+<e10>Designation</e10>
+<e11>Put a day</e11>
+</Modif_elm_com>
+  <ModifCommande>
+ <e1>Files</e1>
+<e2>Date</e2>
+<e3>Past due</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Payment</e22>
+<e23>Text Summary</e23>
+<e24>Paid</e24>
+<e25>State</e25>
+<e26>Delivered</e26>
+<e27>Undelivered</e27>
+<e28>Confirm</e28>
+<e29>No Confirm</e29>
+<e30>The date of the Order still below the date Past due</e30>
+<e31>Edit</e31>
+<e32>The Order date always higher than the start date period</e32>
+<e33>Date Order Still less at the date of closure</e33>
+<e34>List of invoices</e34>
+<e35>Save</e35>
+  </ModifCommande>
+  <ModifierClient>
+ <e1>Basic Information</e1>
+<e2>Other Information</e2>
+<e3>Customs</e3>
+<e4>basic information</e4>
+<e5>Client</e5>
+<e6>Title</e6>
+<e7>Name</e7>
+<e8>First Name</e8>
+<e9>Email address</e9>
+<e10>Phone 1</e10>
+<e11>Phone 2</e11>
+<e12>Other Information</e12>
+<e13>Business Type</e13>
+<e14>Default</e14>
+<e15>single operator</e15>
+<e16>Company</e16>
+<e17>Partner</e17>
+<e18>trust</e18>
+<e19>VAT</e19>
+<e20>Business Number</e20>
+<e21>User Name Skype</e21>
+<e22>Website</e22>
+<e23>Fax</e23>
+<e24>Archive</e24>
+<e25>yes</e25>
+<e26>No</e26>
+<e27>Update</e27>
+<e28>custom</e28>
+<e29>Client Act</e29>
+<e30>Client</e30>
+<e31>Default</e31>
+<e32>No exemption</e32>
+<e33>exemption</e33>
+<e34>Update</e34>
+<e35>Fixed price</e35>
+<e36>City</e36>
+<e37>Country</e37>
+<e38>Address</e38>
+<e39>Client</e39>
+<e40>use</e40>
+<e41>Description</e41>
+<e42>type</e42>
+<e43>Currency</e43>
+<e44>Amount</e44>
+<e45>Update</e45>
+<e46>Account statement</e46>
+<e47>Offer</e47>
+<e48>Type</e48>
+<e49>Other</e49>
+
+  </ModifierClient>
+  <ModifierCompte>
+  <e1>Bank Account</e1>
+<e2>Bank Name</e2>
+<e3>Account Number</e3>
+<e4>Balance</e4>
+<e5>Currency Account</e5>
+<e6>Methods of Payment</e6>
+<e7>Species</e7>
+<e8>Gift</e8>
+<e9>Transfer</e9>
+<e10>Update</e10>
+<e11>Discovered</e11>
+<e12>Save</e12>
+  </ModifierCompte>
+  <ModifierFacture>
+<e1>Files</e1>
+<e2>Date</e2>
+<e3>Payment</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>Paid</e24>
+<e25>State</e25>
+<e26>Waiting</e26>
+<e27>Litigation</e27>
+<e28>Decline</e28>
+<e29>Save</e29>
+<e30>The date of the invoice still below the Payment Date</e30>
+<e31>Edit</e31>
+<e32>The invoice date always higher than the start date period</e32>
+<e33>The date of invoice Still less at the date of closure</e33>
+<e34>List of invoices</e34>
+<e35>Draft</e35>
+  </ModifierFacture>
+  <ModifierOffre>
+  <e1>Files</e1>
+<e2>Date</e2>
+<e3>Payment</e3>
+<e4>Reference</e4>
+<e5>New Folder</e5>
+<e6>Clients</e6>
+<e7>Currency</e7>
+<e8>Rate</e8>
+<e9>Operation</e9>
+<e10>New Client</e10>
+<e11>cost</e11>
+<e12>Description</e12>
+<e13>Qty</e13>
+<e14>P.U</e14>
+<e15>currency</e15>
+<e16>VAT</e16>
+<e17>Account</e17>
+<e18>Add item</e18>
+<e19>NET</e19>
+<e20>VAT</e20>
+<e21>TOTAL</e21>
+<e22>Other Currency</e22>
+<e23>Text Summary</e23>
+<e24>paid after</e24>
+<e25>Thanks For Your Company</e25>
+<e26>Confirm</e26>
+  </ModifierOffre>
+    <ModifierFournisseur>
+<e1>Basic Information</e1>
+<e2>Other Information</e2>
+<e3>Customs</e3>
+<e4>basic information</e4>
+<e5>Provider</e5>
+<e6>Title</e6>
+<e7>Name</e7>
+<e8>First Name</e8>
+<e9>Email address</e9>
+<e10>Phone 1</e10>
+<e11>Phone 2</e11>
+<e12>Other Information</e12>
+<e13>Business Type</e13>
+<e14>Default</e14>
+<e15>single operator</e15>
+<e16>Company</e16>
+<e17>Partner</e17>
+<e18>trust</e18>
+<e19>VAT</e19>
+<e20>Business Number</e20>
+<e21>User Name Skype</e21>
+<e22>Website</e22>
+<e23>Fax</e23>
+<e24>custom</e24>
+<e25>Provider Act</e25>
+<e26>Update</e26>
+<e27>Vendor List</e27>
+<e28>Address</e28>
+<e29>City</e29>
+<e30>Country</e30>
+<e31>Type</e31>
+<e32>Other</e32>
+<e33> Full Name </e33>
+   <e34> Phone </e34>
+   <e35> Email </e35>
+   <e36> Function </e36>
+   <e37> Action </e37>
+   <e38> Delete </e38>
+   <e39> Edit </e39>
+   <e40> Contact </e40>
+   <e41> Edit Contact </e41>
+   <e42> Add Contact </e42>
+    </ModifierFournisseur>
+	 <Notify>
+<e1>Filter</e1>
+<e2>Email</e2>
+<e3>Notification Content</e3>
+<e4>Date and Time</e4>
+<e5>Actions</e5>
+<e6>detail</e6>
+<e7>Delete</e7>
+	 </Notify>
+	 <historic>
+<e1>User</e1>
+<e2>Action</e2>
+<e3>Date</e3>
+	 </historic>
+	 <payee_commande>
+<e1>Explain the payment</e1>
+<e2>Account</e2>
+<e3>Provider</e3>
+<e4>Date</e4>
+<e5>payment method</e5>
+<e6>here</e6>
+<e7>check</e7>
+<e8>Transfer</e8>
+<e9>Code</e9>
+<e10>Balance</e10>
+<e11>Total payment</e11>
+<e12>Balance after payment</e12>
+<e13>order status after the payment</e13>
+<e14>PO Paid</e14>
+<e15>Bank account</e15>
+<e16>Date</e16>
+<e17>provider</e17>
+<e18>explain</e18>
+	 </payee_commande>
+	 <payee_Tax>
+	 <e1>An Order for the payment of the Tax:</e1>
+<e2>It is forbidden to choose a payment of no value in part (-)</e2>
+<e3>Fdd</e3>
+<e4>Date</e4>
+<e5>payment method</e5>
+<e6>here</e6>
+<e7>check</e7>
+<e8>Transfer</e8>
+<e9>Code</e9>
+<e10>ended</e10>
+<e11>Total payment</e11>
+<e12>ended after the payment</e12>
+<e13>order status after the payment</e13>
+<e14>PO Paid</e14>
+<e15>Bank account</e15>
+<e16>Date</e16>
+<e17>provider</e17>
+<e18>explain</e18>
+<e19>Provider</e19>
+<e20>Confirm payment</e20>
+	 </payee_Tax>
+	 <payee_Salaire>
+	 <e1>Staff</e1>
+<e2>Period</e2>
+<e3>Account</e3>
+<e4>Amount PEYE</e4>
+<e5>Currency</e5>
+<e6>Payment</e6>
+<e7>Pass</e7>
+<e8>Failed</e8>
+<e9>Code</e9>
+<e10>ended</e10>
+<e11>Total payment</e11>
+<e12>ended after the payment</e12>
+<e13>order status after the payment</e13>
+<e14>PO Paid</e14>
+<e15>Bank account</e15>
+<e16>Date</e16>
+<e17>provider</e17>
+<e18>explain</e18>
+<e19>Provider</e19>
+<e20>Confirm payment</e20>
+	 </payee_Salaire>
+<paiement_bancaire>
+<e1>line (s) from the line number</e1>
+<e2>recipe</e2>
+<e3>expense</e3>
+<e4>Transfer</e4>
+<e5>Operating Reference</e5>
+<e6>Description</e6>
+<e7>Date</e7>
+<e8>Bank</e8>
+<e9>Account Number</e9>
+<e10>Client</e10>
+<e11>Client</e11>
+<e12>Amount</e12>
+<e13>Silver Unallocated</e13>
+<e14>Actions</e14>
+<e15>bank</e15>
+</paiement_bancaire>
+   <payment_bancaire>
+   <e1>line (s) from the line number</e1>
+<e2>Reference</e2>
+<e3>Customer / Supplier</e3>
+<e4>Date</e4>
+<e5>Amount paid by the bank</e5>
+<e6>Actions</e6>
+<e7>Complete the payment</e7>
+<e8>Retail Payment</e8>
+<e9>no money out</e9>
+<e10>Payment of purchase orders</e10>
+   </payment_bancaire>
+   <payyer_bon_commande>
+<e1>payment</e1>
+<e2>with unpaid bills</e2>
+<e3>Invoice</e3>
+<e4>Supplier / Customer</e4>
+<e5>Total Amount</e5>
+<e6>decommissioned Amount</e6>
+<e7>Amount paid</e7>
+<e8>Complete payment</e8>
+   </payyer_bon_commande>
+    <payyer_com>
+<e1>there are no selected command</e1>
+<e2>Command List</e2>
+<e3>Files</e3>
+<e4>Total payment</e4>
+<e5>state</e5>
+    </payyer_com>
+	  <Salaire>
+<e11>Add Salary</e11>
+<e12>Period</e12>
+<e13>Add</e13>
+<e14>Payment</e14>
+<e15>Yes</e15>
+<e16>No</e16>
+<e17>Base Salary</e17>
+<e18>Total Gross</e18>
+<e19>Total Retained</e19>
+<e20>Advance</e20>
+<e21>Salary Withheld</e21>
+<e22>Action</e22>
+<e23>Salary Bulletin</e23>
+	  </Salaire>
+	  <SendChange>
+<e1>Recipients</e1>
+<e2>Purpose</e2>
+<e3>Content / Tracking</e3>
+<e4>Send</e4>
+	  </SendChange>
+	  <SendChange2>
+<e1>Recipients</e1>
+<e2>Purpose</e2>
+<e3>Content / Tracking</e3>
+<e4>Send</e4>
+	  </SendChange2>
+	  <SendMail2>
+<e1>Purpose</e1>
+<e2>Message</e2>
+<e3>Attach File</e3>
+<e4>Clear</e4>
+<e5>Send</e5>
+	  </SendMail2>
+	   <Transactionbancaire>
+<e1>Allocation</e1>
+<e2>detail</e2>
+<e3>expense</e3>
+<e4>All</e4>
+<e5>Id #</e5>
+<e6>Description</e6>
+<e7>Date</e7>
+<e8>Bank</e8>
+<e9>Bank</e9>
+<e10>Client</e10>
+<e11>Client</e11>
+<e12>Amount</e12>
+<e13>Unallocated</e13>
+<e14>Actions</e14>
+<e15>bank</e15>
+<e16>Add to fund</e16>
+<e17>Add you really want the unallocated amount in cash</e17>
+	   </Transactionbancaire>
+	   <updateFrais>
+<e1>Currency</e1>
+<e2>Variable</e2>
+<e3>transaction type</e3>
+<e4>value</e4>
+<e5>Ocean Export</e5>
+<e6>Export Road</e6>
+<e7>Air Import</e7>
+<e8>Ocean Import</e8>
+<e9>Road Import</e9>
+<e10>Fresh Description</e10>
+<e11>Save</e11>
+	   </updateFrais>
+	   <updateoperationimport>
+	   <e1>old information</e1>
+<e2>new information</e2>
+<e3>on</e3>
+<e4>Save</e4>
+<e5>Backup and Email</e5>
+<e6>old information</e6>
+<e7>new information</e7>
+<e8>on</e8>
+<e9>Save</e9>
+<e10>Backup and Email</e10>
+<e11>old information</e11>
+<e12>new information</e12>
+<e13>on</e13>
+<e14>Save</e14>
+<e15>Backup and Email</e15>
+	   </updateoperationimport>
+	   <UpdateOpExport>
+<e1>Folder</e1>
+<e2>Client</e2>
+<e3>Client Reference</e3>
+<e4>Date</e4>
+<e5>Date ETA</e5>
+<e6>Date ETD</e6>
+<e7>Operation Term</e7>
+<e8>Origin</e8>
+<e9>Destination</e9>
+<e10>Service origin</e10>
+<e11>International transport</e11>
+<e12>Local Service</e12>
+<e13>Weight</e13>
+<e14>AWB / BL / CMR</e14>
+<e15>Export</e15>
+<e16>Export</e16>
+<e17>Re-export</e17>
+<e18>Export</e18>
+<e19>Re-export</e19>
+<e20>Exonor</e20>
+<e21>Statement</e21>
+<e22>Clearance Number</e22>
+<e23>not</e23>
+<e24>yes</e24>
+<e25>not</e25>
+<e26>yes</e26>
+<e27>Shipping_Ligne</e27>
+<e28>Provider</e28>
+<e29>Commercial Designation</e29>
+<e30>object_type</e30>
+<e31>Number Piece</e31>
+<e32>Billing</e32>
+<e33>not</e33>
+<e34>yes</e34>
+<e35>not</e35>
+<e36>yes</e36>
+<e37>Update</e37>
+	   </UpdateOpExport>
+<updateSalaire>
+<e1>Full Name</e1>
+<e2>Function</e2>
+<e3>Base Salary</e3>
+<e4>Salary increase</e4>
+<e5>Duty allowance</e5>
+<e6>Housing Allowance</e6>
+<e7>Transportation allowance</e7>
+<e8>Indemnity Water and Electricity</e8>
+<e9>Prime Exception</e9>
+<e10>Risk Allowance</e10>
+<e11>CNSS</e11>
+<e12>CNAM</e12>
+<e13>Total Gross</e13>
+<e14>Amount Tax</e14>
+<e15>ITS</e15>
+<e16>Total Retained</e16>
+<e17>Advance</e17>
+<e18>NET Salary</e18>
+<e19>Year</e19>
+<e20>Month</e20>
+<e21>used to Bank Account</e21>
+<e22>Account Number used</e22>
+<e23>Corporate Bank Account</e23>
+<e24>Money and Bank of payment</e24>
+<e25>Save</e25>
+</updateSalaire>
+  <updateTaxe>
+<e1>Tax Name</e1>
+<e2>tax value</e2>
+<e3>Apply</e3>
+<e4>Client</e4>
+<e5>provider</e5>
+<e6>Update</e6>
+<e7>Turnover</e7>
+<e8>Profit</e8>
+<e9>Account Accountant</e9>
+  </updateTaxe>
+   <updateUser>
+   <e1>Email</e1>
+<e2>Access type</e2>
+<e3>Administrator</e3>
+<e4>Administrator</e4>
+<e5>Finance Officer</e5>
+<e6>Finance Officer</e6>
+<e7>Operating Officer</e7>
+<e8>Operation Officer</e8>
+<e9>Full Name</e9>
+<e10>CIN</e10>
+<e11>Phone Number</e11>
+<e12>Address</e12>
+<e13>Update</e13>
+   </updateUser>
+   <virement>
+   <e1>currency</e1>
+<e2>Transfer</e2>
+<e3>Money value</e3>
+<e4>Transfer</e4>
+<e5>payment method</e5>
+<e6>Transfer</e6>
+<e7>Date</e7>
+<e8>Description</e8>
+<e9>Money Transfer</e9>
+<e10>Bank account</e10>
+<e11>money value</e11>
+<e12>Description</e12>
+<e13>Date</e13>
+<e14>Finish</e14>
+   </virement>
+   <attacherexport>
+   <e1>Update</e1>
+<e2>Back</e2>
+   </attacherexport>
+    <detaille_payement>
+<e1>Payment</e1>
+<e2>ID</e2>
+<e3>customer / supplier</e3>
+<e4>Amount</e4>
+<e5>Date</e5>
+<e6>Good to commaande</e6>
+<e7>Flow</e7>
+<e8>Credit</e8>
+<e9>Amount P / L</e9>
+<e10>TOTAL</e10>
+<e11>invoice</e11>
+<e12>Amount</e12>
+<e13>the balance</e13>
+<e14>Billing Total</e14>
+<e15>Total Order Form</e15>
+<e16>Amount peyee by the bank</e16>
+    </detaille_payement>
+<AllCommandePretApeye>
+<e1>filter</e1>
+<e2>bottom</e2>
+<e3>down</e3>
+<e4>Order</e4>
+<e5>Provider</e5>
+<e6>Creation Date</e6>
+<e7>Date Reception</e7>
+<e8>expired</e8>
+<e9>Payment Date</e9>
+<e10>Shipping</e10>
+<e11>Payment</e11>
+<e12>Actions</e12>
+<e13>Service accepted</e13>
+<e14>th order not yet accepted</e14>
+<e15>paid</e15>
+<e16>Click to paid this command</e16>
+<e17></e17>
+<e18>Change Purchase Order</e18>
+<e19>for</e19>
+<e20>send a message</e20>
+<e21>Edit</e21>
+<e22>All</e22>
+<e23>Delivered</e23>
+<e24>Undelivered</e24>
+<e25>Paid</e25>
+<e26>Not Paid</e26>
+<e27>payment of orders</e27>
+<e28>Receiving</e28>
+<e29>Total</e29>
+<e30>details</e30>
+</AllCommandePretApeye>
+<AjouterPersonel>
+<e1>confirmation error</e1>
+<e2>Save</e2>
+<e3>Email</e3>
+<e4>Gender</e4>
+<e5>Function</e5>
+<e6>Access type</e6>
+<e7>CIN</e7>
+<e8>Phone Number</e8>
+<e9>Men</e9>
+<e10>Women</e10>
+<e11>Bank Account</e11>
+<e12>Full Name</e12>
+<e13>Address</e13>
+<e14>Add</e14>
+</AjouterPersonel>
+<AjouterContact>
+<e1>Contact</e1>
+<e2>Save</e2>
+<e3>Email</e3>
+<e4>Gender</e4>
+<e5>Function</e5>
+<e6>Access type</e6>
+<e7>CIN</e7>
+<e8>Phone Number</e8>
+<e9>Men</e9>
+<e10>Women</e10>
+<e11>Bank Account</e11>
+<e12>Full Name</e12>
+<e13>Address</e13>
+<e14>Add</e14>
+</AjouterContact>
+ <ListePersonels>
+   <e1>Wages</e1>
+<e2>CIN</e2>
+<e3>Full Name</e3>
+<e4>Gender</e4>
+<e5>Function</e5>
+<e6>Phone</e6>
+<e7>Email</e7>
+<e8>Bank</e8>
+<e9>Edit</e9>
+<e10>Delete</e10>
+<e11>Action</e11>
+<e13>All</e13>
+<e14>Edit information of a personel</e14>
+<e15>Wages</e15>
+ </ListePersonels>
+  <updatePersonel>
+  <e1>confirmation error</e1>
+<e2>Save</e2>
+<e3>Email</e3>
+<e4>Gender</e4>
+<e5>Function</e5>
+<e6>Access type</e6>
+<e7>CIN</e7>
+<e8>Phone Number</e8>
+<e9>Men</e9>
+<e10>Women</e10>
+<e11>Bank Account</e11>
+<e12>Full Name</e12>
+<e13>Address</e13>
+<e14>Sauvgerder</e14>
+  </updatePersonel>
+  <updateContact>
+  <e1>Contact</e1>
+<e2>Save</e2>
+<e3>Email</e3>
+<e4>Gender</e4>
+<e5>Function</e5>
+<e6>Access type</e6>
+<e7>CIN</e7>
+<e8>Phone Number</e8>
+<e9>Men</e9>
+<e10>Women</e10>
+<e11>Bank Account</e11>
+<e12>Full Name</e12>
+<e13>Address</e13>
+<e14>Sauvgerder</e14>
+  </updateContact>  
+  
+   <Statement>
+ <e1>Account statement</e1>
+<e2>Code</e2>
+<e3>Launch Date</e3>
+<e4>Date of Payment</e4>
+<e5>Expired</e5>
+<e6>Currency</e6>
+<e7>Amount</e7>
+<e8>Send SOA</e8>
+<e9>Currency</e9>
+<e10>Total Expired</e10>
+<e11>Total</e11>
+   </Statement>
+    <Statement2>
+<e1>Account statement</e1>
+<e2>Code</e2>
+<e3>Launch Date</e3>
+<e4>Date of Payment</e4>
+<e5>Expired</e5>
+<e6>Currency</e6>
+<e7>Amount</e7>
+<e8>Send SOA</e8>
+<e9>Currency</e9>
+<e10>Total Expired</e10>
+<e11>Total</e11>
+    </Statement2>
+   
+</employees>
