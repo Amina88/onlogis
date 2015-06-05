@@ -29,7 +29,7 @@ $tel2=$_POST['tel2'];
 //
 $typeEnt=$_POST['typeEnt'];
 $NumEnt=$_POST['numero'];
-$comptef=$_POST['comptec'];
+$comptec=$_POST['comptec'];
 $skype=$_POST['skype'];
 $site=$_POST['siteweb'];
 $fax=$_POST['fax'];
