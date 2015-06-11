@@ -40,7 +40,22 @@ $V19 = $employee->getElementsByTagName( "e19" );
   $N30 = $V30->item(0)->nodeValue;$V31 = $employee->getElementsByTagName( "e31" ); 
   $N31 = $V31->item(0)->nodeValue;$V32 = $employee->getElementsByTagName( "e32" ); 
   $N32 = $V32->item(0)->nodeValue;$V33 = $employee->getElementsByTagName( "e33" ); 
-  $N33 = $V33->item(0)->nodeValue;
+  $N33 = $V33->item(0)->nodeValue;$V34 = $employee->getElementsByTagName( "e34" ); 
+  $N34 = $V34->item(0)->nodeValue;$V35 = $employee->getElementsByTagName( "e35" ); 
+  $N35 = $V35->item(0)->nodeValue;$V36 = $employee->getElementsByTagName( "e36" ); 
+  $N36 = $V36->item(0)->nodeValue;$V37 = $employee->getElementsByTagName( "e37" ); 
+  $N37= $V37->item(0)->nodeValue; $V38 = $employee->getElementsByTagName( "e38" ); 
+  $N38 = $V38->item(0)->nodeValue;$V39 = $employee->getElementsByTagName( "e39" ); 
+  $N39 = $V39->item(0)->nodeValue;$V40 = $employee->getElementsByTagName( "e40" ); 
+  $N40 = $V40->item(0)->nodeValue;$V41 = $employee->getElementsByTagName( "e41" ); 
+  $N41 = $V41->item(0)->nodeValue;$V42 = $employee->getElementsByTagName( "e42" ); 
+  $N42 = $V42->item(0)->nodeValue;$V43 = $employee->getElementsByTagName( "e43" ); 
+  $N43 = $V43->item(0)->nodeValue;$V44 = $employee->getElementsByTagName( "e44" ); 
+  $N44 = $V44->item(0)->nodeValue;$V45 = $employee->getElementsByTagName( "e45" ); 
+  $N45 = $V45->item(0)->nodeValue;$V46 = $employee->getElementsByTagName( "e46" ); 
+  $N46 = $V46->item(0)->nodeValue;$V47 = $employee->getElementsByTagName( "e47" ); 
+  $N47 = $V47->item(0)->nodeValue;$V48 = $employee->getElementsByTagName( "e48" ); 
+  $N48 = $V48->item(0)->nodeValue;
 }
 include ("Connection.php");
 $headertab=array();;
@@ -49,6 +64,7 @@ $contrent2="";
 $contrent3="";
 $contrent4="";
 $contrent5="";
+$Contra6="";
 if(isset($_POST['periode1'])){
 $prd1=$_POST['periode1'];
 $prd2=$_POST['periode2'];
@@ -89,7 +105,7 @@ $contrente5="Date_paiment like '%$m2%-%$date2%-%'";
 $headertab[0]="$date1-$m1";
 $headertab[1]="$date2-$m2";
 }
-
+$dte1=$_POST['dt1'];
 $a=false;
 $b=false;
 $c=false;
@@ -879,6 +895,56 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 										</div>
 									</div>
 									<div class="tab-pane <?php echo $f1; ?>" id="tab_6">
+									<div class="table-scrollable">
+								
+<table class="table table-striped  table-bordered "    >
+										
+															<tr style="background-color:#CEE3F6;height:20px;">
+																<td align="right" widtd="30%">
+																	
+																</td>
+																
+																<td align="right">
+																<font size="1"><b>		 <?php  echo $N35;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N36;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N37;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N38;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N39;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N40;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N41;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N42;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N43;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N44;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N45;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N46;  ?></font>
+																</td><td align="right">
+																<font size="1"><b>		 <?php  echo $N32;  ?></font>
+																</td>
+																<td align="right">
+																<font size="1"><b>		 <?php  echo $N47;  ?></font>
+																</td>
+															</tr>
+															<tbody>
+															
+			<?php 
+		include "views/viewrapport6.php"
+?>
+</tbody>
+															</table></div>
+										
+										
+<?php  /*
 									<div class="label label-sm label-success">	
 															<?php echo $N18; ?>	&nbsp;&nbsp;&nbsp;&nbsp;</div><br>
 															<br>
@@ -1191,7 +1257,7 @@ $Diff=0;
     					</tr>
 </tbody>
 															</table>
-										
+				*/ ?>						
 										
 										</div>
 										

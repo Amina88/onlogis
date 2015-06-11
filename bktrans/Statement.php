@@ -97,7 +97,7 @@ $etat_existe=0;
 				 <?php } if($etat_existe>2){ ?>
 					<td><a href="finalstatementTOTAL.php?cli=<?php echo $NomSoc;?>" target="_link">
 					
-								<font size="2">	<?php echo $N14; ?>&nbsp;</font>
+								<font size="2">	<?php echo $N15; ?>&nbsp;</font>
 								
 					
 					</td>

@@ -80,9 +80,6 @@ document.getElementById("dim1"+j).value= 1358;
 document.getElementById("dim2"+j).value= 234.7;
 document.getElementById("dim3"+j).value= 269;
 document.getElementById("CP"+j).value= 29600;
-document.getElementById("dim1"+j).readOnly= true;
-document.getElementById("dim2"+j).readOnly= true;
-document.getElementById("dim3"+j).readOnly= true;
 document.getElementById("Num"+j).style.backgroundColor='ffffff';
 }else if(d=='Conteneur 20 Reefer'){
 
@@ -91,9 +88,6 @@ document.getElementById("dim1"+j).value= 542.8;
 document.getElementById("dim2"+j).value= 226;
 document.getElementById("dim3"+j).value= 224;
 document.getElementById("CP"+j).value= 28390;
-document.getElementById("dim1"+j).readOnly= true;
-document.getElementById("dim2"+j).readOnly= true;
-document.getElementById("dim3"+j).readOnly= true;
 document.getElementById("Num"+j).style.backgroundColor='ffffff';
 }else if(d=='Conteneur 40 Reefer'){
 document.getElementById("Num"+j).readOnly= false;
@@ -109,9 +103,6 @@ document.getElementById("dim1"+j).value= 5919;
 document.getElementById("dim2"+j).value= 234;
 document.getElementById("dim3"+j).value= 2286;
 document.getElementById("CP"+j).value= 21826 ;
-document.getElementById("dim1"+j).readOnly= true;
-document.getElementById("dim2"+j).readOnly= true;
-document.getElementById("dim3"+j).readOnly= true;
 document.getElementById("Num"+j).style.backgroundColor='ffffff';
 }else if(d=='Conteneur 40 Open Top'){
 document.getElementById("Num"+j).readOnly= false;
@@ -120,13 +111,8 @@ document.getElementById("dim2"+j).value= 234;
 document.getElementById("dim3"+j).value= 2272;
 document.getElementById("CP"+j).value= 25181 ;
 document.getElementById("Num"+j).style.backgroundColor='ffffff';
-document.getElementById("dim1"+j).readOnly= true;
-document.getElementById("dim2"+j).readOnly= true;
-document.getElementById("dim3"+j).readOnly= true;
+
 }else{
-document.getElementById("dim1"+j).readOnly= false;
-document.getElementById("dim2"+j).readOnly= false;
-document.getElementById("dim3"+j).readOnly= false;
 document.getElementById("Num"+j).style.backgroundColor='dbe0e0';
 document.getElementById("Num"+j).readOnly= true;
 document.getElementById("CP"+j).value= "" ;
@@ -140,7 +126,7 @@ document.getElementById("dim3"+j).value= "";
 
 }
 function calculpch(j){
-
+alert();
 a=document.getElementById("dim1"+j).value;
 b=document.getElementById("dim2"+j).value;
 c=document.getElementById("dim3"+j).value;
@@ -149,7 +135,6 @@ d=document.getElementById("Objet"+j).value;
 pt=document.getElementById("PT"+j).value;
 qt=document.getElementById("QT"+j).value;
 tt=document.getElementById("TT"+j).value;
-if(d=='piece'){
 if(!isNaN(a) && !isNaN(b) && !isNaN(c)){
 vm=a*b*c/1000000;
 pd=vm/0.006;
@@ -159,15 +144,15 @@ document.getElementById("CP"+j).value=pt*qt;
 
 }else{
 document.getElementById("CP"+j).value=pd*qt;
+document.getElementById("PT"+j).value=pd*qt;
 }
 document.getElementById("TT"+j).value=pt*qt;
 }else{
 document.getElementById("dim1"+j).value="";
 document.getElementById("dim2"+j).value="";
 document.getElementById("dim3"+j).value="";
-document.getElementById("test").innerHTML="<font size='2' color='red'><?php echo $N31; ?></font>";
 
-}
+
 }
 
 }
@@ -226,7 +211,9 @@ document.getElementById('div'+j).className='class';
 <option value=""></option>
 <option value="piece">
 <?php echo $N46; ?></option>
+
 <option value="Conteneur 20 Dry">Conteneur 20'Dry</option><option value="Conteneur 40 Dry">Conteneur 40' Dry</option><option value="Conteneur 45 High Cube Dry">Conteneur 45' High Cube Dry </option><option value="Conteneur 20 Reefer">Conteneur 20' Reefer</option><option value="Conteneur 40 Reefer">Conteneur 40' Reefer </option><option value="Conteneur 20 Open Top">Conteneur 20' Open Top </option><option value="Conteneur 40 Open Top">Conteneur 40' Open Top </option>
+</div>
 </select>
 
 </div>
@@ -256,7 +243,7 @@ document.getElementById('div'+j).className='class';
 											<div class="input-icon right">
 											<i class="fa"></i>
 											
-												<input type="number" class="form-control" id="QT0"  name="QT0" min="0" />
+												<input type="number" class="form-control" id="QT0"  name="QT0" min="0" value="1" />
 											</div>
 										</div></td>
 										<td>

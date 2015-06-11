@@ -126,21 +126,22 @@ c=document.getElementById("3").checked;
 d=document.getElementById("4").checked; 
 e=document.getElementById("5").checked; 
 f=document.getElementById("6").checked; 
+dt1=document.getElementById("dt1").value;
 if(h || b || c || d || e || f){
 if(document.getElementById("periode1")){
 pr1=document.getElementById("periode1").value;
 pr2=document.getElementById("periode2").value;
-SRCHE.send("advenced="+a+"&a="+h+"&b="+b+"&c="+c+"&d="+d+"&e="+e+"&f="+f+"&periode1="+pr1+"&periode2="+pr2);
+SRCHE.send("advenced="+a+"&a="+h+"&b="+b+"&c="+c+"&d="+d+"&e="+e+"&f="+f+"&periode1="+pr1+"&periode2="+pr2+"&dt1="+dt1);
 }else if(document.getElementById("date1")){
 pr1=document.getElementById("date1").value;
 pr2=document.getElementById("date2").value;
-SRCHE.send("advenced="+a+"&a="+h+"&b="+b+"&c="+c+"&d="+d+"&e="+e+"&f="+f+"&date1="+pr1+"&date2="+pr2);
+SRCHE.send("advenced="+a+"&a="+h+"&b="+b+"&c="+c+"&d="+d+"&e="+e+"&f="+f+"&date1="+pr1+"&date2="+pr2+"&dt1="+dt1);
 }else{
 pr1=document.getElementById("datee1").value;
 pr2=document.getElementById("datee2").value;
 m1=document.getElementById("m1").value;
 m2=document.getElementById("m2").value;
-SRCHE.send("advenced="+a+"&a="+h+"&b="+b+"&c="+c+"&d="+d+"&e="+e+"&f="+f+"&datee1="+pr1+"&datee2="+pr2+"&m1="+m1+"&m2="+m2);
+SRCHE.send("advenced="+a+"&a="+h+"&b="+b+"&c="+c+"&d="+d+"&e="+e+"&f="+f+"&datee1="+pr1+"&datee2="+pr2+"&m1="+m1+"&m2="+m2+"&dt1="+dt1);
 
 }
 }  
@@ -215,8 +216,27 @@ include ("Connection.php");
 										</select>
 									</div></td>
 									</tr>
+									
 									</table>
-			
+			<table>
+			<tr>
+									<td><label>&nbsp;&nbsp; <?php echo "Date &nbsp;".$N18; ?> &nbsp;&nbsp;</label></td>
+									<td><div class="form-group">
+										<select class="form-control input-miduim" name="dt1" id="dt1">
+										<?php  
+									$AN=date("Y");
+										for ($i=$AN-10;$i<=$AN;$i++){
+										?>
+										<option value="<?php  echo $i; ?>" <?php  if($i==$AN)echo "selected";  ?>><?php echo $i; ?></option>
+											
+									<?php	}
+										?>
+                                        
+										
+										</select>
+									</div></td>
+									</tr>
+									</table>
    						</div>
 								
 						

@@ -34,7 +34,6 @@ $default_monnaie=mysql_fetch_array($monnaie);
 
 <script type="text/javascript">
 
-
 //--------------------------------------------------//
 //calcul                                            //
 //--------------------------------------------------//
@@ -410,11 +409,23 @@ clt=document.getElementById("client").value ;
     }
 	
 function 	Changemnt_typ(a){
-//alert(a.value); ;
+alert(a.value); ;
 	if(a.value == "LC" || a.value == "MG" || a.value == "LS"  ){
 document.getElementById("changement_type").style.visibility="hidden"; 
 	}else{
-document.getElementById("changement_type").style.visibility="visible";
+	document.getElementById("changement_type").style.visibility="visible";
+
+	if(a.value=="Air Import" || a.value=="Air Export"){
+	
+	etat_show=false;
+	document.getElementById("section").style.visibility="hidden"; 
+	
+	}else{
+	alert();
+		etat_show=true;
+		document.getElementById("section").style.visibility="visible"; 
+	
+	}
 
 	}
 	

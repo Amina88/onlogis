@@ -328,11 +328,11 @@ function confirmLink(theLink)
     var name = data.query.results.row.name;
     var rate = parseFloat(data.query.results.row.rate, 10);
 	document.getElementById(ident).value=rate;
+	
    
 
   }
   function getDesvise(orig,dest,spaceaff){
-
  ident=spaceaff; 
   getRate(orig, dest);
  

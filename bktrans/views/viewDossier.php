@@ -1,4 +1,9 @@
-
+<?php 
+										 $defMN= mysql_query("SELECT Abreviation_Monnai FROM currency where Monnaie_utliser='1'");
+                                                    $MN = mysql_fetch_array($defMN);
+                                                   
+										
+										?>
 <script  src="javascript/jquery.min.js"></script>      
 <script type="text/javascript">
 $(function() {
@@ -8,7 +13,7 @@ var j=document.getElementById("fieldsCount").value;
 var i =(1*j)+1;
 
 $('#addNew').live('click', function() {
-$('<tr ><td><div class="form-group last"> <div class="col-md-9"><textarea class="form-control" name="Description'+i+'"  id="Description'+i+'" required="required" rows="1" data-error-container="#editor2_error"  ></textarea><div id="editor2_error"></div></div></div></td><td><div class="form-group"><div class="col-md-9"><div class="input-icon right"> <i class="fa"></i><input type="number" class="form-control" style="width:120px;"  name="qt'+i+'" id="qt'+i+'" required="required" /> </div></div> </div></td> <td><div class="form-group"><div class="col-md-11"><select class="form-control select2me" name="monnaie'+i+'" id="monnaie'+i+'" required="required" ><option></option><?php while($mon=mysql_fetch_array($Mn)){$def = mysql_query("SELECT Abreviation_Monnai FROM currency where Monnaie_utliser='1'");$def_monnaie = mysql_fetch_array($def);  if($def_monnaie[0]==$mon[0]){   ?> <option selected value="<?php echo $mon[0];?>"><?php echo $mon[0];?></option>  <?php }else{?>   <option  value="<?php echo $mon[0];?>"><?php echo $mon[0];?></option><?php }}?></select></div></div></td><td><div class="form-group"><div class="col-md-9"><div class="input-icon right"><i class="fa"></i><input type="number" class="form-control" style="width:120px;" name="devise'+i+'" id="devise'+i+'" required="required" /></div></div></div></td><td><a href="#" id="remNew" title="suprimer"><button class="btn btn-sm red filter-cancel"><i class="fa fa-times"></i></button></a></td></tr>').appendTo(addDiv);                                     
+$('<tr ><td><div class="form-group last"> <div class="col-md-9"><textarea class="form-control" name="Description'+i+'"  id="Description'+i+'" required="required" rows="1" data-error-container="#editor2_error"  ></textarea><div id="editor2_error"></div></div></div></td><td><div class="form-group"><div class="col-md-9"><div class="input-icon right"> <i class="fa"></i><input type="number" class="form-control" style="width:120px;"  name="qt'+i+'" id="qt'+i+'" required="required" /> </div></div> </div></td> <td><div class="form-group"><div class="col-md-11"><select class="form-control select2me" name="monnaie'+i+'" id="monnaie'+i+'" required="required" onchange=getDesvise(this.value,"<?php echo $MN[0]; ?>","devise'+i+'");  ><option></option><?php while($mon=mysql_fetch_array($Mn)){$def = mysql_query("SELECT Abreviation_Monnai FROM currency where Monnaie_utliser='1'");$def_monnaie = mysql_fetch_array($def);  if($def_monnaie[0]==$mon[0]){   ?> <option selected value="<?php echo $mon[0];?>"><?php echo $mon[0];?></option>  <?php }else{?>   <option  value="<?php echo $mon[0];?>"><?php echo $mon[0];?></option><?php }}?></select></div></div></td><td><div class="form-group"><div class="col-md-9"><div class="input-icon right"><i class="fa"></i><input type="number" class="form-control" style="width:120px;" name="devise'+i+'" id="devise'+i+'" required="required" /></div></div></div></td><td><a href="#" id="remNew" title="suprimer"><button class="btn btn-sm red filter-cancel"><i class="fa fa-times"></i></button></a></td></tr>').appendTo(addDiv);                                     
 document.getElementById("fieldsCount").value=i;
 i++;
 
@@ -170,7 +175,13 @@ return false;
 									  <div class="form-group">
 										
 										<div class="col-md-11">
-											<select class="form-control select2me" name="monnaie1" id="monnaie1"  required>
+										<?php 
+										 $def = mysql_query("SELECT Abreviation_Monnai FROM currency where Monnaie_utliser='1'");
+                                                    $def_monnaie = mysql_fetch_array($def);
+                                                   
+										
+										?>
+											<select class="form-control select2me" name="monnaie1" id="monnaie1"  onchange="getDesvise(this.value,'<?php echo $def_monnaie[0]; ?>','devise1');"   required>
 										
 											<option></option>
 											
