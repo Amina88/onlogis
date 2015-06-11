@@ -127,7 +127,7 @@ $Tot=mysql_query("select *  from salaire_payer where  id_payment='$TTC1[0]' ")or
 while($Tot_S=mysql_fetch_array($Tot)){
 $Currncy=mysql_query("select Valeur_Devise from currency where Abreviation_Monnai='$Tot_S[4]'");
 $MNTemp=mysql_fetch_array($Currncy);
-$$ttsal=($Tot_S[2]*$MNTemp[0]/$Tot_S[5]);
+$$ttsal=$$ttsal+($Tot_S[2]*$MNTemp[0]/$Tot_S[5]);
 
 }
 
@@ -159,19 +159,25 @@ $ttotsal =$ttotsal+$$ttsal;
 
 <!--   -->
 <tr role="row" class="filter"  style="background-color:#ececec;height:20px;">
-<td><font size="1"><?php  echo $N5;  ?></td>
-<?php
-$Net1=$Net1-$TTP1;
-$Net2=$Net2-$TTP2;
-  ?>
-<td align="left"><font size="1" <?php if($Net1<0 ){ echo "color=red";}?>><?php echo number_format(abs($Net1), 2, ',', ' ').' '.$MN[0];; ?></td> 
+<td><font size="1"><?php  echo $N6;  ?></td>
+<td align="left"><font size="1" <?php if(($inv1-$com1-$dep1-$sal1)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv1-$com1-$dep1-$sal1), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv2-$com2-$dep2-$sal2)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv2-$com2-$dep2-$sal2), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv3-$com3-$dep3-$sal3)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv3-$com3-$dep3-$sal3), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv4-$com4-$dep4-$sal4)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv4-$com4-$dep4-$sal4), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv5-$com5-$dep5-$sal5)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv5-$com5-$dep5-$sal5), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv6-$com6-$dep6-$sal6)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv6-$com6-$dep6-$sal6), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv7-$com7-$dep7-$sal7)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv7-$com7-$dep7-$sal7), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv8-$com8-$dep8-$sal8)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv8-$com8-$dep8-$sal8), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv9-$com9-$dep9-$sal9)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv9-$com9-$dep9-$sal9), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv10-$com10-$dep10-$sal10)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv10-$com10-$dep10-$sal10), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv11-$com11-$dep11-$sal11)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv11-$com11-$dep11-$sal11), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($inv12-$com12-$dep12-$sal12)<0 ){ echo "color=red";}?>><?php echo number_format(abs($inv12-$com12-$dep12-$sal12), 2, ',', ' ').' '.$MN[0]; ?></td> 
+<td align="left"><font size="1" <?php if(($ttotinv-$ttotcom-$ttotdep-$ttotsal)<0 ){ echo "color=red";}?>><?php echo number_format(abs($ttotinv-$ttotcom-$ttotdep-$ttotsal), 2, ',', ' ').' '.$MN[0]; ?></td> 
 					
-<?php if("$headertab[0]" != "$headertab[1]"){ ?>
-<td align="left"><font size="1" <?php if($Net2<0 ){ echo "color=red";}?>><?php echo number_format(abs($Net2), 2, ',', ' ').' '.$MN[0];; ?></td> 
-					
-<?php } ?>
-<td><a><i class="icon-bar-chart"></i></a>	</td>	
+<td><a><i class="icon-bar-chart"></i></a>	</td>
 </tr>
+</tr>
+<?php  /*
 <tr role="row" class="filter"  style="background-color:#ececec;height:20px;">
 <td><font size="1"><?php  echo $N6;  ?></td>
 <?php
@@ -189,3 +195,5 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 <?php } ?>
 <td><a><a><i class="icon-bar-chart"></i></a>	</a></td>	
 </tr>
+
+*/  ?>
