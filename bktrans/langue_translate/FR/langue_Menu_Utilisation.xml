@@ -14,7 +14,7 @@
 <e11>Bons de Commande</e11>
 <e12>Les Commandes Aprouvées</e12>
 <e13>Les Commandes Non Aprouvées</e13>
-<e14>Commerciale</e14>
+<e14>Commercial</e14>
 <e15>Clients</e15>
 <e16>Ajouter un client</e16>
 <e17>Liste Clients</e17>
@@ -42,7 +42,7 @@
 <e39>Codes</e39>
 <e40>Notification</e40>
 <e41>Ajouter une Commande</e41>
-<e42>Tous les droits resérvés  © </e42>
+<e42>Tous droits resérvés  © </e42>
 <e43>voulez-vous vraiment supprimer cet élément</e43>
 <e44>Tableau de Bord</e44>
 <e45>Ajouter un bon de commande</e45>
@@ -78,7 +78,7 @@
 <e75>Les taxes</e75>
 <e76>Rapport des taxes</e76>
 <e77>Périodes financières</e77>
-<e78>Gestion des périodes finaciers</e78>
+<e78>Gestion des périodes financières</e78>
 <e79>Logistique</e79>
 <e80>Ajouter</e80>
 <e81>Location</e81>
@@ -92,8 +92,8 @@
 <e89>location des équipements</e89>
 <e90>Liste de magasinage</e90>
 <e91>Liste des services logistiques</e91>
-<e92>l'opération a été  faite avec succés</e92>
-<e93>l'opération a échouée</e93>
+<e92>l'opération a été  réalisée avec succés</e92>
+<e93>l'opération a échoué</e93>
 <e94>Bienvenue dans notre systéme pour la gestion de chaines logistiques</e94>
 <e95>Voulez-vous vraiment verouiller ce dossier?</e95>
 <e96>Voulez-vous vraiment créer une copie de cet élément</e96>
@@ -104,11 +104,11 @@
 <e101> Les Personnels </e101>
 <e102> Rapport des opérations  </e102>
 <e103> Gestion Des Prix</e103>
-<e104> Les Prix Fixe </e104>
+<e104> Les Prix Fixes </e104>
 <e105> le paiement des bons de commande </e105>
 <e106> a été supprimé avec succès.</e106>
-<e107> a été Ajouté avec succés. </e107>
-<e108> a été Modifié avec succés.  </e108>
+<e107> a été ajouté avec succés. </e107>
+<e108> a été modifié avec succés.  </e108>
 <e109> a été verouillé.   </e109>
 <e110> a été déverouillé.   </e110>
 <e111>Envoyer un mail  </e111>
@@ -116,7 +116,7 @@
 <e113>Boite d'envoi  </e113>
 <e114>Votre message a bien été envoyé  </e114>
 <e115>Salaires</e115>
-<e116>Paiement de salaires</e116>
+<e116>Paiement des salaires</e116>
 <e117>KPIS</e117>
 <e118>Statistiques</e118>
 <e119>Pérmissions</e119>
@@ -124,37 +124,37 @@
 <e121>Profil</e121>
 <e122>Historique</e122>
 <e123>Veuillez activer Une Periode SVP</e123>
-<e124>Il faut tout d'abord supprimer toutes les opértions  de ce client</e124>
-<e125>SOA a été envoyé avec succés au le client</e125>
+<e124>Il faut d'abord supprimer toutes les opérations  de ce client</e124>
+<e125>SOA a été envoyé avec succés au client</e125>
 <e126> a été supprimé(e) pour la raison suivante :</e126>
 <e127> a été décliné(e) pour la raison suivante: </e127>
 <e128>a été Confirmé(e) </e128>
 <e129>a été Confirmé(e) pour le Paiement  </e129>
 <e130>a été Livré(e) </e130>
 <e131> a été Facturé(e) avec succés  </e131>
-<e132> Son Mot de passe à été changé avec succès </e132>
-<e133> Sa Permission à été changée avec succès </e133>
-<e134> Paiement Emis</e134>
-<e135> Paiement Reçus </e135>
+<e132> Son Mot de passe a été changé avec succès </e132>
+<e133> Sa Permission a été changée avec succès </e133>
+<e134> Paiements Emis</e134>
+<e135> Paiements Reçus </e135>
 <e136> Virements </e136>
 <e137>des allocations ont été appliquées sur le Paiement</e137>
-<e138>Ajouter le monatant non alloué de : </e138>
+<e138>Ajouter le montant non alloué de : </e138>
 <e139>à la caisse N°</e139>
 <e140>a été Activé avec succés </e140>
 <e141>Paiement sur les bons de commande et les factures :  </e141>
-<e142>Il'ya un problème dans le paiement, verifier votre compte bancaire  </e142>
+<e142>Il y'a un problème dans le paiement, verifiez votre compte bancaire  </e142>
 <e143>Paiement des taxes par bons de commande :</e143>
-<e144>Le paiement de salaire pour l'employé de Numéro :</e144>
+<e144>Le paiement de salaire pour l'employé  Numéro :</e144>
 <e145>a été Configuré avec succés</e145>
 <e146>Entreprise</e146>
 <e147>Les prefixes ont été Configurés avec succés </e147>
-<e148>Le devise à été Configuré avec succés </e148>
+<e148>La devise à été Configurée avec succés </e148>
 <e149>Monnaie</e149>
 <e150>Taxe</e150>
 <e151>Dossiers d'entreprise</e151>
 <e152>Taxe</e152>
 <e153>le paiement n'a pas été efféctué </e153>
-<e154>La date de réception devrait être supérieure à la date de création </e154>
+<e154>La date de récèption devrait être supérieure à la date de création </e154>
 <e155>Le Journal</e155>
 <e156>Grand-livre des comptes</e156>
 <e157>Balance des comptes</e157>

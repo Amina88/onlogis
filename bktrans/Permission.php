@@ -121,7 +121,8 @@ $V41 = $employee->getElementsByTagName( "e41" );$N41 = $V41->item(0)->nodeValue;
 $V42 = $employee->getElementsByTagName( "e42" );$N42 = $V42->item(0)->nodeValue;
 $V43 = $employee->getElementsByTagName( "e43" );$N43 = $V43->item(0)->nodeValue;
 $V44 = $employee->getElementsByTagName( "e44" );$N44 = $V44->item(0)->nodeValue;
-$service=array("$N4","$N5","$N6","$N7","$N8","$N9","$N10","$N11","$N12","$N13","$N14","$N15","$N16","$N17","$N18","$N19","$N20","$N21","$N22","$N23","$N24","$N25","$N26","$N27","$N28","$N29","$N30","$N31","$N32","$N33","$N34","$N37","$N38","$N39","$N40","$N41","$N42","$N44");
+$V45 = $employee->getElementsByTagName( "e45" );$N45 = $V45->item(0)->nodeValue;
+$service=array("$N4","$N5","$N6","$N7","$N8","$N9","$N10","$N11","$N12","$N13","$N14","$N15","$N16","$N17","$N18","$N19","$N20","$N21","$N22","$N23","$N24","$N25","$N26","$N27","$N28","$N29","$N30","$N31","$N32","$N33","$N34","$N37","$N38","$N39","$N40","$N41","$N42","$N44","$N45");
 
 ?>
 <script type="text/javascript"> 

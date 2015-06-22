@@ -4,6 +4,7 @@ session_start();
 $doc = new DOMDocument();  
 $doc->load($_SESSION['lang']); 
 $employees= $doc->getElementsByTagName("view_webmanegement"); 
+
 foreach( $employees as $employee ) 
 { 
                                   $V1 = $employee->getElementsByTagName("e1"); 
@@ -55,8 +56,12 @@ $V19 = $employee->getElementsByTagName( "e19" );
   $N45 = $V45->item(0)->nodeValue;$V46 = $employee->getElementsByTagName( "e46" ); 
   $N46 = $V46->item(0)->nodeValue;$V47 = $employee->getElementsByTagName( "e47" ); 
   $N47 = $V47->item(0)->nodeValue;$V48 = $employee->getElementsByTagName( "e48" ); 
-  $N48 = $V48->item(0)->nodeValue;
+  $N48 = $V48->item(0)->nodeValue;$V49 = $employee->getElementsByTagName( "e49" ); 
+  $N49 = $V49->item(0)->nodeValue;$V50 = $employee->getElementsByTagName( "e50" ); 
+  $N50 = $V50->item(0)->nodeValue;$V51 = $employee->getElementsByTagName( "e51" ); 
+  $N51 = $V51->item(0)->nodeValue;
 }
+$url=$N49.".".$N50;
 include ("Connection.php");
 $headertab=array();;
 $contrente="";
@@ -283,11 +288,11 @@ $tt2=0;
 foreach($code[$key] as $Cle){
 $TTP1=0;
 $TTP2=0;
-$P1=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente2  and code='$Cle'  and draft='1'")or die(mysql_error());
-$P2=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente3 and code='$Cle'  and draft='1'")or die(mysql_error());
+$P1=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente2  and code='$Cle'  and draft='1'")or die(mysql_error());
+$P2=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente3 and code='$Cle'  and draft='1'")or die(mysql_error());
 
-$C1=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente2  and code='$Cle' and OperationCommande!='' and  Livraison=1")or die(mysql_error());
-$C2=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente3 and code='$Cle' and OperationCommande!='' and  Livraison=1 ")or die(mysql_error());
+$C1=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente2  and code='$Cle' and OperationCommande!='' and  Livraison=1")or die(mysql_error());
+$C2=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente3 and code='$Cle' and OperationCommande!='' and  Livraison=1 ")or die(mysql_error());
 
 $TTP=mysql_fetch_array($P1);
 $TTP3=mysql_fetch_array($P2);
@@ -371,8 +376,8 @@ $Net2=$Net2+$tt2;
 <?php
 $TTP1=0;
 $TTP2=0;
-$C1=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente2   and OperationCommande='' and  Livraison=1")or die(mysql_error());
-$C2=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente3  and OperationCommande='' and  Livraison=1 ")or die(mysql_error());
+$C1=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente2   and OperationCommande='' and  Livraison=1")or die(mysql_error());
+$C2=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente3  and OperationCommande='' and  Livraison=1 ")or die(mysql_error());
 $TTC1=mysql_fetch_array($C1);
 $TTC2=mysql_fetch_array($C2);
 $TTP1=$TTC1[0];
@@ -590,8 +595,8 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 <?php
 $TTP1=0;
 $TTP2=0;
-$P1=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente2  and draft=1 ")or die(mysql_error());
-$P2=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente3 and draft=1")or die(mysql_error());
+$P1=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente2  and draft=1 ")or die(mysql_error());
+$P2=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente3 and draft=1")or die(mysql_error());
 
 $TTP=mysql_fetch_array($P1);
 $TTP3=mysql_fetch_array($P2);
@@ -634,8 +639,8 @@ $dif2=0;
 $TTP1=0;
 $TTP2=0;
 
-$C21=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente2    and  Livraison=1")or die(mysql_error());
-$C22=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente3   and  Livraison=1 ")or die(mysql_error());
+$C21=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente2    and  Livraison=1")or die(mysql_error());
+$C22=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente3   and  Livraison=1 ")or die(mysql_error());
 
 $TTC21=mysql_fetch_array($C21);
 $TTC22=mysql_fetch_array($C22);
@@ -811,10 +816,10 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 											$date =date("Y-m-d");
 											$inv=mysql_query("select DISTINCT `ClientFacture` from finalinvoice where Pay=0   and draft='1'  ");
 											while($cust=mysql_fetch_array($inv)){
-											$P10=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where date_p<= CURDATE()  and ClientFacture='$cust[0]'  and draft='1'")or die(mysql_error());
-											$P11=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where date_p<= CURDATE()+30 and date_p > CURDATE()  and ClientFacture='$cust[0]' and draft='1'")or die(mysql_error());
-											$P12=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where date_p<= CURDATE()+60 and date_p > CURDATE()+30   and ClientFacture='$cust[0]'  and draft='1'")or die(mysql_error());
-											$P13=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where  date_p > CURDATE()+60   and ClientFacture='$cust[0]'  and draft='1'")or die(mysql_error());
+											$P10=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where date_p<= CURDATE()  and ClientFacture='$cust[0]'  and draft='1'")or die(mysql_error());
+											$P11=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where date_p<= CURDATE()+30 and date_p > CURDATE()  and ClientFacture='$cust[0]' and draft='1'")or die(mysql_error());
+											$P12=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where date_p<= CURDATE()+60 and date_p > CURDATE()+30   and ClientFacture='$cust[0]'  and draft='1'")or die(mysql_error());
+											$P13=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where  date_p > CURDATE()+60   and ClientFacture='$cust[0]'  and draft='1'")or die(mysql_error());
 											$P0=mysql_fetch_array($P10);
 											$P1=mysql_fetch_array($P11);
 											$P2=mysql_fetch_array($P12);
@@ -845,7 +850,7 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 											<table class="table table-striped table-bordered table-hover" id="datatable_shipment">
 											<thead>
 											<tr style="background-color:#CEE3F6;height:20px;">
-												<td widtd="5%">
+												<td widtd="3%">
 													<font size="1">
 												</td>
 												<td widtd="15%">
@@ -866,16 +871,24 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 											</tr>
 											<?php   
 											$date =date("Y-m-d");
-											$inv=mysql_query("select DISTINCT `FournisseurCommande` from finalpurchase where Pay=0   and Livraison='1'  ");
+											$t0=0;
+											$t1=0;
+											$t2=0;
+											$t3=0;
+											$inv=mysql_query("select DISTINCT `FournisseurCommande` from finalpurchase where Pay=0   and Livraison='1' and OperationCommande!=''  ");
 											while($cust=mysql_fetch_array($inv)){
-											$P10=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where date_p<= CURDATE()  and FournisseurCommande='$cust[0]'")or die(mysql_error());
-											$P11=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where date_p<= CURDATE()+30 and date_p > CURDATE()  and FournisseurCommande='$cust[0]'")or die(mysql_error());
-											$P12=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where date_p<= CURDATE()+60 and date_p > CURDATE()+30   and FournisseurCommande='$cust[0]'")or die(mysql_error());
-											$P13=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where  date_p > CURDATE()+60   and FournisseurCommande='$cust[0]'")or die(mysql_error());
+											$P10=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where date_p<= CURDATE()  and FournisseurCommande='$cust[0]' and Pay=0  and Livraison='1'  and OperationCommande!='' ")or die(mysql_error());
+											$P11=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where date_p<= CURDATE()+30 and date_p > CURDATE()  and FournisseurCommande='$cust[0]' and Pay=0 and Livraison='1'  and OperationCommande!=''")or die(mysql_error());
+											$P12=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where date_p<= CURDATE()+60 and date_p > CURDATE()+30   and FournisseurCommande='$cust[0]' and Pay=0 and Livraison='1' and OperationCommande!=''")or die(mysql_error());
+											$P13=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where  date_p > CURDATE()+60   and FournisseurCommande='$cust[0]' and Pay=0 and Livraison='1' and OperationCommande!=''")or die(mysql_error());
 											$P0=mysql_fetch_array($P10);
 											$P1=mysql_fetch_array($P11);
 											$P2=mysql_fetch_array($P12);
 											$P3=mysql_fetch_array($P13);
+											$t0=$t0+$P0[0];
+											$t1=$t1+$P1[0];
+											$t2=$t2+$P2[0];
+											$t3=$t3+$P3[0];
 											?>
 											<tr role="row" class="filter">
 												<td><font size="1"> <?php echo $cust[0] ; ?></td>
@@ -883,11 +896,21 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 												<td><?php if($P1[0]==0){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($P1[0], 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
 												<td><?php if($P2[0]==0){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($P2[0], 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
 												<td><?php if($P3[0]==0){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($P3[0], 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
-												<td></td>
+												<td><?php if($P0[0]==0 && $P1[0]==0 && $P2[0]==0 && $P3[0]==0 ){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($P0[0]+$P1[0]+$P2[0]+$P3[0], 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
+												
+												
+											</tr><?php } ?>
+											<tr role="row" class="filter">
+												<td><font size="1"> <?php echo $cust[0] ; ?></td>
+												<td><?php if($t0==0){ ?><font size="1">-<?php }else{ ?><font size="1"> <?php echo number_format($t0, 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
+												<td><?php if($t1==0){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($t1, 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
+												<td><?php if($t2==0){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($t2, 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
+												<td><?php if($t3==0){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($t3, 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
+												<td><?php if($t0==0 && $t1[0]==0 && $t2[0]==0 && $t3[0]==0 ){ ?><font size="1">-<?php }else{ ?><font size="1"> <font size="1"> <?php echo number_format($t0+$t1+$t2+$t3, 2, ',', ' ')."&nbsp;$MN[0]"; ?><?php } ?></td>
 												
 												
 											</tr>
-											<?php } ?>
+											
 											</thead>
 											<tbody>
 											</tbody>
@@ -895,8 +918,11 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 										</div>
 									</div>
 									<div class="tab-pane <?php echo $f1; ?>" id="tab_6">
-									<div class="table-scrollable">
-								
+									<form action="MenuUtilisation.php" id="form" method="GET" target="_blank">
+									<div class="label label-sm label-success">	
+															<?php echo $N18; ?>	&nbsp;&nbsp;&nbsp;&nbsp;</div><br>
+															<br><div class="table-scrollable">
+									
 <table class="table table-striped  table-bordered "    >
 										
 															<tr style="background-color:#CEE3F6;height:20px;">
@@ -931,20 +957,24 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 																</td><td align="right">
 																<font size="1"><b>		 <?php  echo $N32;  ?></font>
 																</td>
-																<td align="right">
+																<td align="right" class="noimprime">
 																<font size="1"><b>		 <?php  echo $N47;  ?></font>
 																</td>
 															</tr>
 															<tbody>
 															
 			<?php 
-		include "views/viewrapport6.php"
+		include "views/viewrapport6.php";
+		
+	
 ?>
 </tbody>
 															</table></div>
 										
 										
-<?php  /*
+<?php
+
+  /*
 									<div class="label label-sm label-success">	
 															<?php echo $N18; ?>	&nbsp;&nbsp;&nbsp;&nbsp;</div><br>
 															<br>
@@ -983,10 +1013,10 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 <?php
 $TTP1=0;
 $TTP2=0;
-$P1=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente2  and draft=1 ")or die(mysql_error());
-$P2=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente3 and draft=1")or die(mysql_error());
-$C1=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente2   and OperationCommande!='' and  Livraison=1")or die(mysql_error());
-$C2=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente3  and OperationCommande!='' and  Livraison=1 ")or die(mysql_error());
+$P1=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente2  and draft=1 ")or die(mysql_error());
+$P2=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente3 and draft=1")or die(mysql_error());
+$C1=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente2   and OperationCommande!='' and  Livraison=1")or die(mysql_error());
+$C2=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente3  and OperationCommande!='' and  Livraison=1 ")or die(mysql_error());
 
 $TTP=mysql_fetch_array($P1);
 $TTP3=mysql_fetch_array($P2);
@@ -1012,8 +1042,8 @@ $Net2=$TTP3[0]-$TTC2[0];
 <?php
 $TTP1=0;
 $TTP2=0;
-$C1=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente2   and OperationCommande='' and  Livraison=1")or die(mysql_error());
-$C2=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente3  and OperationCommande='' and  Livraison=1 ")or die(mysql_error());
+$C1=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente2   and OperationCommande='' and  Livraison=1")or die(mysql_error());
+$C2=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente3  and OperationCommande='' and  Livraison=1 ")or die(mysql_error());
 $TTC1=mysql_fetch_array($C1);
 $TTC2=mysql_fetch_array($C2);
 $TTP1=$TTC1[0];
@@ -1090,10 +1120,10 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 $TTP1=0;
 $TTP2=0;
 
-$P1=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente2 and draft=1 ")or die(mysql_error());
-$P2=mysql_query("select  SUM(Net*taux*devise ) as Total from finalinvoice where $contrente3 and draft=1")or die(mysql_error());
-$C21=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente2    and  Livraison=1")or die(mysql_error());
-$C22=mysql_query("select  SUM(Net_Paye*taux*DeviseElement ) as Total from finalpurchase where $contrente3   and  Livraison=1 ")or die(mysql_error());
+$P1=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente2 and draft=1 ")or die(mysql_error());
+$P2=mysql_query("select  SUM(TotalElement*taux ) as Total from finalinvoice where $contrente3 and draft=1")or die(mysql_error());
+$C21=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente2    and  Livraison=1")or die(mysql_error());
+$C22=mysql_query("select  SUM(Total*taux ) as Total from finalpurchase where $contrente3   and  Livraison=1 ")or die(mysql_error());
 
 $TTP=mysql_fetch_array($P1);
 $TTP3=mysql_fetch_array($P2);
@@ -1224,8 +1254,8 @@ $Diff=0;
     				<td  align="left"><font size="1"><?php  echo $N30;  ?></td> 
 					<?php
 					
-					$f1=mysql_query("select AVG(Somme) from (select  SUM(Net*taux*devise ) as Somme  from finalinvoice where $contrente2 and draft=1 group by facture )x ")or die(mysql_error());
-                    $f2=mysql_query("select AVG(Somme) from (select  SUM(Net*taux*devise ) as Somme  from finalinvoice where $contrente3 and draft=1 group by facture )y ")or die(mysql_error());
+					$f1=mysql_query("select AVG(Somme) from (select  SUM(TotalElement*taux ) as Somme  from finalinvoice where $contrente2 and draft=1 group by facture )x ")or die(mysql_error());
+                    $f2=mysql_query("select AVG(Somme) from (select  SUM(TotalElement*taux ) as Somme  from finalinvoice where $contrente3 and draft=1 group by facture )y ")or die(mysql_error());
 				            $NBF1=mysql_fetch_array($f1);
                     $NBF2=mysql_fetch_array($f2);
 					?>
@@ -1257,11 +1287,21 @@ $Diff=0;
     					</tr>
 </tbody>
 															</table>
-				*/ ?>						
-										
+				*/ 
+				
+				
+				?>	
+<div class="actions">
+								<button type="submit" class="btn btn-circle btn-default">
+								<a><i class="icon-bar-chart"></i></a>
+								<span class="hidden-480">
+								Graphique</span>
+								</button>
+							</div>				
+						</form>				
 										</div>
 										
 									
 							</div>
 						</div>
-				
+		

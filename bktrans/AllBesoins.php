@@ -105,6 +105,7 @@ $MN1=mysql_fetch_array($MN);
 			$trmp= mysql_query("SELECT terme_paiement  from  `supplier` where Nom_Soc='$admin[1]'");
 			 $trmpfour=mysql_fetch_array($trmp);
 			$get_tot = mysql_query("SELECT * FROM  `vuepurchasetotale` where BonCommande='$admin[0]'");
+			
                $tot=mysql_fetch_array($get_tot);
 			   $tot1=$tot[3];
 			   $client = str_replace('&','%26',$admin[1]);

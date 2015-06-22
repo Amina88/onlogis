@@ -6,7 +6,7 @@
 <dashboard>
 <e1>Ventes</e1>
 <e2>Achats</e2>
-<e3>Total Impayé</e3>
+<e3>Total Impayés</e3>
 <e4>Ajouter client</e4>
 <e5>Ajouter Facture</e5>
 <e6>Factures</e6>
@@ -28,8 +28,8 @@
 <e22>Encaissés</e22>
 <e23>Rapport des offres</e23>
 <e24>Total</e24>
-<e25>Accepter</e25>
-<e26>Décliner</e26>
+<e25>Acceptée</e25>
+<e26>Déclinée</e26>
 <e27>Client</e27>
 <e28>Montant</e28>
 <e29>Détails</e29>
@@ -43,16 +43,16 @@
 <e37>cette semaine</e37>
 <e38>ce mois-ci</e38>
 <e39>Nombre Total des opérations</e39>
-<e40>Non Facturée</e40>
-<e41>Facturée</e41>
+<e40>Non Facturées</e40>
+<e41>Facturées</e41>
 <e42>Nombre Total des Dossiers</e42>
-<e43>Fermé</e43>
-<e44>Ouvert</e44>
+<e43>Fermés</e43>
+<e44>Ouverts</e44>
 <e45>Nombre Total des Offres</e45>
-<e46>Décliner</e46>
-<e47>Accepter</e47>
+<e46>Déclinées</e46>
+<e47>Acceptées</e47>
 <e48>Ventes/Achats</e48>
-<e49>Ventes/Achats Impayé</e49>
+<e49>Ventes/Achats Impayés</e49>
 <e50>Argent REÇU/ÉMIS</e50>
 <e51>TOTAL PROFIT</e51>
 <e52>Nombre Total des Clients</e52>
@@ -64,7 +64,7 @@
 <e58>Fournisseur</e58>
 <e59>Commande</e59>
 <e60>Total</e60>
-<e61>détails sur bon de commande</e61>
+<e61>détails sur les bons de commande</e61>
 <e62>détails</e62>
 <e63>Liste Des Commandes Non Confirmées</e63>
 <e64>le paiement des bons de commande</e64>
@@ -88,9 +88,9 @@
 <e13>Mettre à jour</e13>
 <e14>Infos Personnelles</e14>
 <e15>Photo de Profil</e15>
-<e16>Modifier Password</e16>
+<e16>Modifier le mot de passe</e16>
 <e17>Profil</e17>
-<e18>Occupation</e18>
+<e18>Fonction</e18>
 <e19>Mot de passe actuel</e19>
 <e20>Nouveau mot de passe</e20>
 <e21>Confirmer Votre mot de passe</e21>
@@ -107,7 +107,7 @@
 <e2>Nombre Total des Offres </e2>
 <e3>Offres Acceptées (%) </e3>
 <e4>Nombre Total des Clients</e4>
-<e5>Nombre des Nouveaux Clients </e5>
+<e5>Nombre de Nouveaux Clients </e5>
 <e6>OPERATION</e6>
 <e7>Nombre Total Des Opérations</e7>
 <e8>Opérations Facturées (%) </e8>
@@ -120,34 +120,6 @@
 <e15>Dossiers Ouverts(%)</e15>
 <e16>Profit</e16>
 </Gestion_Kpi>
-<Accueil>
-<e1>Ventes et Clients</e1>
-<e2>Achats et Bons de commandes</e2>
-<e3>factures impayées</e3>
-<e4>Ajouter client</e4>
-<e5>Ajouter Facture</e5>
-<e6>Factures</e6>
-<e7>Clients</e7>
-<e8>Commandes impayées</e8>
-<e9>Ajouter Commande</e9>
-<e10>Ajouter Fournisseur</e10>
-<e11>Commandes</e11>
-<e12>Fournisseurs</e12>
-<e13>Paiement sortant</e13>
-<e14>Mois en cours</e14>
-<e15>Mois passé</e15>
-<e16>Paiments reçus</e16>
-<e17>Les ventes</e17>
-<e18>Les achats</e18>
-<e19>Statut</e19>
-<e20>croissant</e20>
-<e21>décroissant</e21>
-<e22>Encaisse</e22>
-<e23>Rapport des offres</e23>
-<e24>Total des offres</e24>
-<e25>Le nombre des offres acceptées</e25>
-<e26>Le nombre des offres déclinées</e26>
-</Accueil>
 <AjouterAirExport>
 <e1>Cargaison</e1>
 <e2>Terme d'expédition</e2>
@@ -158,7 +130,7 @@
 <e7>Référence Client</e7>
 <e8> Objet</e8>
 <e9>Dimension</e9>
-<e10>Poidss</e10>
+<e10>Poids</e10>
 <e11>Type d'objet</e11>
 <e12>N° TC </e12>
 <e13>Objet</e13>
@@ -169,10 +141,10 @@
 <e18>AWB/LTA</e18>
 <e19>Date Estimée  de départ</e19>
 <e20>Date Estimée d'arrivée</e20>
-<e21>Valeur Facturée</e21>
+<e21>Valeure Facturée</e21>
 <e22>Monnaie</e22>
 <e23>Taux de change</e23>
-<e24>Valeur de transport</e24>
+<e24>Valeure de transport</e24>
 <e25>Monnaie</e25>
 <e26>Taux de change</e26>
 <e27>Fournisseur</e27>
@@ -186,10 +158,10 @@
 <e35>Insertion manuelle</e35>
 <e36>Déclaration IMP</e36>
 <e37>Définitif</e37>
-<e38>Exoneration</e38>
+<e38>Exonération</e38>
 <e39>Non</e39>
 <e40>Oui</e40>
-<e41>Déclaration d'exonoration</e41>
+<e41>Déclaration d'exonération</e41>
 <e42>Apurement</e42>
 <e43>Déclaration d'Apurement</e43>
 <e44>Type d'exportation</e44>
@@ -198,12 +170,12 @@
 <e47>Tracking</e47>
 <e48>Ligne  de transport</e48>
 <e49>Sauvegarder</e49>
-<e50>Nbre de pièce</e50>
+<e50>Nbre de pièces</e50>
 <e51>Sauvegarder</e51>
 </AjouterAirExport>
 <AjouterAirImport>
 <e1>Cargaison</e1>
-<e2>Terme d'expedition</e2>
+<e2>Terme d'expédition</e2>
 <e3>Facture Commerciale</e3>
 <e4>Formalité de douane</e4>
 <e5>Dossier</e5>
@@ -211,7 +183,7 @@
 <e7>Référence Client</e7>
 <e8>Objet</e8>
 <e9>Dimension</e9>
-<e10>Poidss</e10>
+<e10>Poids</e10>
 <e11>Type d'objet</e11>
 <e12>N° TC </e12>
 <e13>Objet</e13>
@@ -222,7 +194,7 @@
 <e18>LTA/AWB</e18>
 <e19>Date Estimée de départ</e19>
 <e20>Date Estimée d'arrivée</e20>
-<e21>Valeur Facturée</e21>
+<e21>Valeure Facturée</e21>
 <e22>Monnaie</e22>
 <e23>Taux de change</e23>
 <e24>valeur de transport</e24>
@@ -232,12 +204,12 @@
 <e28>Référence</e28>
 <e29>Désignation Commerciale</e29>
 <e30>Exonération</e30>
-<e31>les valeurs de dimension sont devrait être des numéros</e31>
+<e31>les valeurs de dimension devraient être des numéros</e31>
 <e32>Enlevement Direct</e32>
-<e33>Type d'exonoration</e33>
+<e33>Type d'exonération</e33>
 <e34>Type de Déclaration</e34>
 <e35>Déclaration d'apurement </e35>
-<e36>Consomable</e36>
+<e36>Consommable</e36>
 <e37>Admission Temporaire</e37>
 <e38>Non</e38>
 <e39>Oui</e39>
@@ -246,36 +218,8 @@
 <e47>Tracking</e47>
 <e48>Ligne  de transport</e48>
 <e49>Sauvegarder</e49>
-<e50>Nbre piéce</e50>
+<e50>Nbre piéces</e50>
 </AjouterAirImport>
-<form_BL>
-<e5>Waybill N°</e5>
-<e6>Export Référence</e6>
-<e7>Forwarding Agent Référence</e7>
-<e8>Pre-caririage by</e8>
-<e9>Vessel &amp; Voyage N°</e9>
-<e10>Port of Loading</e10>
-<e11>Port of Discharge</e11>
-<e12>Place of Delivery</e12>
-<e13>Place of Recceipt</e13>
-<e14>For Delivry please apply to</e14>
-<e15>Shopper</e15>
-<e16>Consignee</e16>
-<e17>Notify Party</e17>
-<e18>Container Nos;Seal Nos;Marks and Nos</e18>
-<e19>Packages</e19>
-<e20>Description of Goods</e20>
-<e21>Gross Weight</e21>
-<e22>Monnaie</e22>
-<e23>Taux de change</e23>
-<e24>valeur de transport</e24>
-<e25>Monnaie</e25>
-<e26>Taux de change</e26>
-<e27>Fournisseur</e27>
-<e28>Référence</e28>
-<e29>Désignation Commerciale</e29>
-<e30>Exonération</e30>
-</form_BL>
 <AjouterBonComm>
 <e1>Dossiers</e1>
 <e2>Date</e2>
@@ -287,7 +231,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>Couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>Qte</e13>
 <e14>P.U</e14>
@@ -299,17 +243,17 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
-<e25>Nous vous remercions pour votre confiance</e25>
+<e25>Nous vous remercions de votre confiance</e25>
 <e26>fichier(s) Non attaché</e26>
 <e27>fichier</e27>
 <e28>Brouillon</e28>
 <e29>Sauvegarder</e29>
-<e30>La date de la commande devrait être inférieure à la date d'échéance</e30>
+<e30>La date de la commande devrait être antérieure à la date d'échéance</e30>
 <e31>Ajouter un Bon de commande</e31>
-<e32>La date de commande devrait être supérieure à la date  début de période</e32>
-<e33>La date de commande devrait être inférieure à la date  fin de période</e33>
+<e32>La date de commande devrait être postérieure à la date de début de période</e32>
+<e33>La date de commande devrait être antérieure à la date de fin de période</e33>
 <e34>Liste des bons de commande</e34>
 </AjouterBonComm>
 <AjouterBesoin>
@@ -323,7 +267,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>Qte</e13>
 <e14>P.U</e14>
@@ -335,17 +279,17 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
-<e25>Nous vous remercions pour votre confiance</e25>
+<e25>Nous vous remercions de votre confiance</e25>
 <e26>fichier(s) Non attaché</e26>
 <e27>fichier</e27>
 <e28>Brouillon</e28>
 <e29>Sauvegarder</e29>
-<e30>La date de la commande devrait être inférieure à la date d'échéance</e30>
+<e30>La date de la commande devrait être antérieure à la date d'échéance</e30>
 <e31>Ajouter un Bon de commande</e31>
-<e32>La date de commande devrait être supérieure à la date  début de période</e32>
-<e33>La date de commande devrait être inférieure à la date  fin de période</e33>
+<e32>La date de commande devrait être postérieure à la date de début de période</e32>
+<e33>La date de commande devrait être antérieure à la date de fin de période</e33>
 <e34>Liste des bons de commande</e34>
 </AjouterBesoin>
 <AjouterAvoirFour>
@@ -359,7 +303,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>Qte</e13>
 <e14>P.U</e14>
@@ -371,17 +315,17 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
-<e25>Nous vous remercions pour votre confiance</e25>
+<e25>Nous vous remercions de votre confiance</e25>
 <e26>fichier(s) Non attaché</e26>
 <e27>fichier</e27>
 <e28>Brouillon</e28>
 <e29>Sauvegarder</e29>
-<e30>La date de la commande devrait être inférieure à la date d'échéance</e30>
+<e30>La date de la commande devrait être antérieure à la date d'échéance</e30>
 <e31>Ajouter un avoir pour un fournisseur</e31>
-<e32>La date de commande devrait être supérieure  à la date  début de période</e32>
-<e33>La date de commande devrait être supérieure à la date  fin de période</e33>
+<e32>La date de commande devrait être postérieure  à la date de début de période</e32>
+<e33>La date de commande devrait être postérieure à la date  de fin de période</e33>
 <e34>Liste des bons de commande Non Confirmés</e34>
 </AjouterAvoirFour>
 <AjouterClient>
@@ -413,17 +357,17 @@
 <e27>NIF</e27>
 <e28>Non Exonéré</e28>
 <e29>Exonéré</e29>
-<e30>Client est-un</e30>
+<e30>Client est un</e30>
 <e31>Client</e31>
 <e32>Client et partenaire</e32>
 <e33>Projet par defaut</e33>
-<e34>Sauvgarder</e34>
+<e34>Sauvegarder</e34>
 <e35>Adresse</e35>
 <e36>Ville</e36>
 <e37>Pays</e37>
 <e38>Catégorie</e38>
 <e39>Autre</e39>
-<e40>Conditions dur le paiement(jours) </e40>
+<e40>Terme de  paiement(jours) </e40>
 </AjouterClient>
 <AjouterCompte>
 <e1>Compte Bancaire</e1>
@@ -441,7 +385,7 @@
 </AjouterCompte>
 <AjouterDossier>
 <e1>Catégorie</e1>
-<e2>Nom de dossier </e2>
+<e2>Nom du dossier </e2>
 <e3>Client</e3>
 <e4>Partenaire</e4>
 <e5>Afficher pour</e5>
@@ -450,9 +394,9 @@
 <e8>Ocean Import</e8>
 <e9>Road Import</e9>
 <e10>Choisir un client</e10>
-<e11>Estimation des couts</e11>
+<e11>Estimation des coûts</e11>
 <e12>Description</e12>
-<e13>Valeur</e13>
+<e13>Valeure</e13>
 <e14>Monnaie</e14>
 <e15>Ajouter élément</e15>
 <e16>Modifier</e16>
@@ -472,7 +416,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>Qte</e13>
 <e14>P.U</e14>
@@ -484,17 +428,17 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
 <e25>Nous vous remercions de votre confiance</e25>
 <e26>fichier(s) Non attaché</e26>
 <e27>fichier</e27>
 <e28>Brouillon</e28>
 <e29>Sauvegarder</e29>
-<e30>La date de la facture devrait être inférieure à la date paiement </e30>
+<e30>La date de la facture devrait être antérieure à la date paiement </e30>
 <e31>Ajouter une Facture</e31>
-<e32>La date de facture devrait être supérieure à la date  début de période</e32>
-<e33>La date de facture devrait être inférieure à la date  fin de période</e33>
+<e32>La date de facture devrait être postérieure à la date de début de période</e32>
+<e33>La date de facture devrait être antérieure à la date  de fin de période</e33>
 <e34>Liste des factures</e34>
 </AjouterFacture>
 <AjouterAvoir>
@@ -508,7 +452,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>Qte</e13>
 <e14>P.U</e14>
@@ -520,17 +464,17 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
 <e25>Nous vous remercions de votre confiance!</e25>
 <e26>Brouillon</e26>
 <e27>fichier</e27>
 <e28>Ajouter des fichiers</e28>
 <e29>Sauvegarder</e29>
-<e30>La date d'avoir devrait être inférieure à la date paiement </e30>
+<e30>La date d'avoir devrait être antérieure à la date de  paiement </e30>
 <e31>Ajouter un avoir</e31>
-<e32>La date d'avoir devrait être supérieure à la date  début de période</e32>
-<e33>La date d'avoir devrait être inférieure à la date  fin de période</e33>
+<e32>La date d'avoir devrait être postérieure à la date de début de période</e32>
+<e33>La date d'avoir devrait être antérieure à la date de fin de période</e33>
 <e34>Liste des factures</e34>
 </AjouterAvoir>
 <Ajouteroffre>
@@ -544,7 +488,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>QT</e13>
 <e14>P.U</e14>
@@ -556,7 +500,7 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
 <e25>Nous vous remercions de votre confiance!</e25>
 <e26>fichier(s) Non attaché</e26>
@@ -565,7 +509,7 @@
 <e29>Sauvegarder</e29>
 <e30>Référence Client</e30>
 <e31>Objet</e31>
-<e32>Dimenssion</e32>
+<e32>Dimension</e32>
 <e33>Qte</e33>
 <e34>Poids</e34>
 <e35>Poids Total</e35>
@@ -594,7 +538,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>QT</e13>
 <e14>P.U</e14>
@@ -606,7 +550,7 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
 <e25>Nous vous remercions de votre confiance!</e25>
 <e26>Confirmer</e26>
@@ -615,7 +559,7 @@
 <e29>Sauvegarder</e29>
 <e30>Référence Client</e30>
 <e31>Objet</e31>
-<e32>Dimenssion</e32>
+<e32>Dimension</e32>
 <e33>Qte</e33>
 <e34>Poids</e34>
 <e35>Poids Total</e35>
@@ -626,11 +570,11 @@
 <e40>Ligne de Transport</e40>
 <e41>Ajouter Elément</e41>
 <e42>Cargaison</e42>
-<e43>Térme d'expédition</e43>
+<e43>Terme d'expédition</e43>
 <e44>Les Prix </e44>
-<e45>Type d'Offre</e45>
+<e45>Type d'offre</e45>
 <e46>Piece</e46>
-<e47>Type de  Service </e47>
+<e47>Type de  service </e47>
 <e47>Etat d'offre</e47>
 </Editoffre>
 <AjouterFactureperiodique>
@@ -644,7 +588,7 @@
 <e8>Taux </e8>
 <e9>Opération</e9>
 <e10>Nouveau Client</e10>
-<e11>couts</e11>
+<e11>Coûts</e11>
 <e12>Description</e12>
 <e13>Qte</e13>
 <e14>P.U</e14>
@@ -656,7 +600,7 @@
 <e20>TVA</e20>
 <e21>TOTAL</e21>
 <e22>Autre Monnaie</e22>
-<e23>Text Résumé</e23>
+<e23>Texte Résumé</e23>
 <e24>payée après</e24>
 <e25>Nous vous remercions de votre confiance!</e25>
 <e26>Brouillon</e26>
@@ -664,12 +608,12 @@
 <e28>Ajouter des fichiers</e28>
 <e29>Sauvegarder</e29>
 <e30>Fréquence</e30>
-<e31>Occurrence</e31>
+<e31>Quantité</e31>
 <e32>jours</e32>
-<e33>La date de la facture devrait être inférieur à la date paiement </e33>
+<e33>La date de la facture devrait être antérieure à la date de paiement </e33>
 <e34>Ajouter une facture périodique</e34>
-<e35>La date de facture devrait être supérieur à la date  début de période</e35>
-<e36>La date de facture devrait être inférieur à la date  fin de période</e36>
+<e35>La date de facture devrait être postérieure à la date de  début de période</e35>
+<e36>La date de facture devrait être antérieure à la date de  fin de période</e36>
 <e37>Liste des factures</e37>
 </AjouterFactureperiodique>
 <AjouterFournisseur>
@@ -698,10 +642,10 @@
 <e25>oui</e25>
 <e26>Loi du fournisseur</e26>
 <e27>fournisseur</e27>
-<e30>fournisseur est-un</e30>
+<e30>fournisseur est un</e30>
 <e31>Sauvegarder</e31>
 <e32>fournisseur et partenaire</e32>
-<e33>Condition sur le paiment(jours)</e33>
+<e33>Terme du paiment(jours)</e33>
 <e34>Pas de projet</e34>
 <e35>Archives</e35>
 <e36>Liste des fournisseurs</e36>
@@ -735,9 +679,9 @@
 <e11>Description</e11>
 <e12>Sauvegarder</e12>
 <e13>Kilométrage de fin devrait être supérieure au kilométrage début</e13>
-<e14>Date fin de location  devrait être supérieure de la Date début</e14>
+<e14>Date fin de location  devrait être postérieure à la Date début</e14>
 <e15>Bon de Sortie</e15>
-<e16>Bon de Rentré</e16>
+<e16>Bon de Rentrée</e16>
 </AjouterLocation>
 <AjouterAuMagasin>
 <e1>Formulaire de magasinage </e1>
@@ -748,9 +692,9 @@
 <e10>Etat</e10>
 <e11>Description</e11>
 <e12>Sauvegarder</e12>
-<e14>Date fin de magasinage devrait être supérieure de la Date début</e14>
+<e14>Date de fin de magasinage devrait être postérieure à la Date début</e14>
 <e15>Bon de Sortie</e15>
-<e16>Bon de Rentré</e16>
+<e16>Bon de Rentrée</e16>
 </AjouterAuMagasin>
 <AjouterServiceLogistic>
 <e1>Formulaire de service logistique </e1>
@@ -759,8 +703,8 @@
 <e10>Etat</e10>
 <e11>Description</e11>
 <e12>Sauvegarder</e12>
-<e15>Service Active</e15>
-<e16>Service terminer</e16>
+<e15>Service Activé</e15>
+<e16>Service terminé</e16>
 </AjouterServiceLogistic>
 <UpdateLocation>
 <e1>Mise à jour d'allocation d'équipement </e1>
@@ -774,11 +718,11 @@
 <e9>Kilométrage fin (en KM)</e9>
 <e10>Etat</e10>
 <e11>Description</e11>
-<e12>Mettre àjour</e12>
+<e12>Mettre à jour</e12>
 <e13>Kilométrage de fin devrait être supérieur Au kilométrage début</e13>
-<e14>Date fin de location  devrait être supérieure de la Date début</e14>
+<e14>Date fin de location  devrait être postérieure à la Date début</e14>
 <e15>Bon de Sortie</e15>
-<e16>Bon de Rentré</e16>
+<e16>Bon de Rentrée</e16>
 <e17>l'équipement que vous avez choisi est déja loué</e17>
 <e18>Non</e18>
 <e19>Partiel</e19>
@@ -794,9 +738,9 @@
 <e10>Etat</e10>
 <e11>Description</e11>
 <e12>Mettre à jour</e12>
-<e14>Date fin de location devrait être supérieure de la Date début</e14>
+<e14>Date de fin de location devrait être postérieure à la Date début</e14>
 <e15>Bon de Sortie</e15>
-<e16>Bon de Rentré</e16>
+<e16>Bon de Rentrée</e16>
 <e17>Oui</e17>
 <e18>Non</e18>
 <e19>Partiel</e19>
@@ -809,7 +753,7 @@
 <e10>Etat</e10>
 <e11>Description</e11>
 <e12>Mettre à jour</e12>
-<e15>Service Actif</e15>
+<e15>Service Activé</e15>
 <e16>Service Terminé</e16>
 <e17>Oui</e17>
 <e18>Non</e18>
@@ -825,11 +769,11 @@
 <e10>Etat</e10>
 <e11>Description</e11>
 <e12>Mettre à jours</e12>
-<e13>Kilométrage fin devrait être supérieur au kilométrage début</e13>
+<e13>Kilométrage de fin devrait être supérieur au kilométrage du  début</e13>
 <e14>Liste des équipements </e14>
 <e15>Disponible </e15>
 <e16>Indisponible </e16>
-<e17>Sauvgarder </e17>
+<e17>Sauvegarder </e17>
 </UpdateEquipment>
 <AjouterEquipment>
 <e1>Formulaire de création d'équipement </e1>
@@ -840,11 +784,11 @@
 <e10>Etat</e10>
 <e11>Description</e11>
 <e12>Sauvegarder</e12>
-<e13>Kilométrage fin devrait être supérieur au kilométrage début</e13>
+<e13>Kilométrage de fin devrait être supérieur au kilométrage du début</e13>
 <e14>Liste des équipement </e14>
 <e15>disponible </e15>
 <e16>indisponible </e16>
-<e17>Sauvgarder </e17>
+<e17>Sauvegarder </e17>
 </AjouterEquipment>
 <UpdateMatriel>
 <e1>Modification du matriel N°: </e1>
@@ -853,7 +797,7 @@
 <e6>Nom</e6>
 <e7>type</e7>
 <e8>Date d'achat</e8>
-<e9>Valeur d'achat</e9>
+<e9>Valeure d'achat</e9>
 <e10>Durée de vie</e10>
 <e11>Description</e11>
 <e31>Mettre à jour</e31>
@@ -870,7 +814,7 @@
 <e11>Description</e11>
 <e12>Actions</e12>
 <e13>Supprimer</e13>
-<e14>Depreciation/Montant d'achat</e14>
+<e14>Dépréciation/Montant d'achat</e14>
 <e15>Modifier </e15>
 <e16>Date d'expiration</e16>
 <e17>Tout</e17>
@@ -896,11 +840,11 @@
 <e1>Référence </e1>
 <e2>Nature </e2>
 <e3>N° déclaration</e3>
-<e6>Exonoration</e6>
-<e7>Enlevement Direct</e7>
-<e8>N° appurment</e8>
-<e9>fiche d'appurement</e9>
-<e10>Il n'y a pas d'opération dans ce dossier</e10>
+<e6>Exonération</e6>
+<e7>Enlèvement Direct</e7>
+<e8>N° apurement</e8>
+<e9>fiche d'apurement</e9>
+<e10>Il n'y a pas d'opérations dans ce dossier</e10>
 <e11>équipement disponible</e11>
 <e12>Actions</e12>
 <e13>Supprimer</e13>
@@ -927,11 +871,11 @@
 <e18>Date fin</e18>
 <e19>Terminer</e19>
 <e20>Nouvelle location</e20>
-<e21>Service Actif</e21>
+<e21>Service Activé</e21>
 <e22>Service Terminé</e22>
 <e23>Modification sur la location</e23>
-<e24>DetailS</e24>
-<e25>Edit</e25>
+<e24>Details</e24>
+<e25>Modifier</e25>
 <e26>Détails</e26>
 </AllLocation>
 <AllMagasinage>
@@ -951,12 +895,12 @@
 <e17>Date début</e17>
 <e18>Date fin</e18>
 <e19>Terminer</e19>
-<e20>Nouvelle Magasinage</e20>
-<e21>Service Actif</e21>
+<e20>Nouveau Magasinage</e20>
+<e21>Service Activé</e21>
 <e22>Service Terminé</e22>
 <e23>Modification sur le Magasinage</e23>
-<e24>Détailss</e24>
-<e25>Edit</e25>
+<e24>Détails</e24>
+<e25>Modifier</e25>
 <e26>Détails</e26>
 </AllMagasinage>
 <Service_logistique>
@@ -975,28 +919,28 @@
 <e16>Tout</e16>
 <e19>Terminer</e19>
 <e20>Nouveau service</e20>
-<e21>Service Actif</e21>
+<e21>Service Activé</e21>
 <e22>Service Terminé</e22>
 <e23>Modification sur le Service</e23>
-<e24>Détailss</e24>
-<e25>Edit</e25>
+<e24>Détails</e24>
+<e25>Modifier</e25>
 <e26>Détails</e26>
 </Service_logistique>
 <AllTax>
 <e1>Impayées </e1>
-<e2>Payée</e2>
+<e2>Payées</e2>
 <e3>Paiment</e3>
-<e4>Tax</e4>
+<e4>Taxes</e4>
 <e6>Montant</e6>
 <e7>Selectionner</e7>
-<e8>Taxe sur les Factures</e8>
-<e9>Net à payyé</e9>
+<e8>Taxes sur les Factures</e8>
+<e9>Net à payé</e9>
 <e10>Montant Payé</e10>
-<e11>Taxe sur les commandes</e11>
+<e11>Taxes sur les commandes</e11>
 <e12>Actions</e12>
 <e13>Période Financière</e13>
 <e14>pour l'année financière</e14>
-<e15>Payer le  Taxe</e15>
+<e15>Payer la  Taxe</e15>
 <e16>Détails</e16>
 <e17>Tout</e17>
 <e18>TOTAL</e18>
@@ -1008,12 +952,12 @@
 <e24>Date</e24>
 <e25>Commande</e25>
 <e26>Achats</e26>
-<e27>Vents</e27>
+<e27>Ventes</e27>
 </AllTax>
 <Paiement_salaire>
 <e1>Les Paiements programmés</e1>
-<e2>Payée</e2>
-<e3>Paiment</e3>
+<e2>Payés</e2>
+<e3>Paiement</e3>
 <e4>Période</e4>
 <e6>Montant</e6>
 <e7>Selectionner</e7>
@@ -1028,14 +972,14 @@
 <e16>paiement physique</e16>
 <e17>Tout</e17>
 <e18>TOTAL</e18>
-<e19>Sauvgarder</e19>
+<e19>Sauvegarder</e19>
 <e20>Salaire </e20>
 <e21>Salaire en</e21>
   <e22>Période</e22>
   <e23>Montant</e23>
   <e24>Date</e24>
   <e25>Compte bancaire</e25>
-  <e26>Paiment physique</e26>
+  <e26>Paiement physique</e26>
   <e27>Pérsonel </e27>
   <e28>Créer une liste de virement</e28>
 </Paiement_salaire>
@@ -2184,7 +2128,7 @@
   <e42>Suppression de facrtures</e42>
   <e43>Etat</e43>
   <e44>Rapport de gestion</e44>
-  <e45>Etat</e45>
+  <e45>Modification de prix unitaire des factures</e45>
   <e46>Etat</e46>
   <e47>Etat</e47>
   <e48>Etat</e48>
@@ -2436,6 +2380,8 @@
 <e74>Ajouter une monnaie</e74>
 <e75>Code</e75>
 <e76>Nom complet</e76>
+<e77>Largeur</e77>
+<e78>Hauteur</e78>
 
 
   
@@ -2709,6 +2655,9 @@
 <e46>Décembre</e46>
 <e47>Graphe</e47>
 <e48>Achats</e48>
+<e49>Rapports  </e49>
+<e50>Rapport de gestion</e50>
+<e51>Récapitulation(Sommaire)</e51>
 
  </view_webmanegement>
   <detailleFournisseur>

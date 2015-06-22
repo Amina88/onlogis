@@ -5,11 +5,7 @@ if(!isset($_SESSION['login']) ||  !isset($_SESSION['pwd'])){
 document.location.href="../index.php";
   </script>
   <?php
-}
-?>
-
-	<?php 
-	 
+} 
 	 $titreforw=$N9;
 	 $urlforw=$N4.".".$N8.".".$N9;
 	 $urlcom=$N4.".".$N11.".";
@@ -91,6 +87,8 @@ document.location.href="../index.php";
   $V67 = $employee->getElementsByTagName( "e67" ); $N67 = $V67->item(0)->nodeValue; 
      
 	include ("Connection.php");
+	$curr=mysql_query("select * from currency where Monnaie_utliser='1'");
+$MN=mysql_fetch_array($curr);
 	//date_lancement
 //	date_commande
 	$Ann=date('Y');
@@ -132,15 +130,17 @@ $MP=sprintf("%02d",$MP);
 	$IPSM=mysql_query("select * from invoice WHERE  `date_lancement` >= CURDATE( ) -7 and Draft=1");
 	
 	
-	$PP=mysql_query("select * from purchase where  date_commande>='$Ann-$Mois-01' AND date_commande<'$Ann-$Mois-31' AND confirmation='1'  ");
-	$PPMP=mysql_query("select * from purchase where  date_commande>='$Annp-$MP-01' AND date_commande<'$Annp-$MP-31' AND confirmation='1'  ");
-	$PPAU=mysql_query("select * from purchase where  date_commande='$Annp-$Mois-$jour' AND confirmation='1'");
-	$PPSM=mysql_query("select * from purchase where `date_commande` >= CURDATE( ) -7 AND confirmation='1'");
+	$PP=mysql_query("select * from purchase where  date_commande>='$Ann-$Mois-01' AND date_commande<'$Ann-$Mois-31' AND etat_commande='1'  ");
+	$PPMP=mysql_query("select * from purchase where  date_commande>='$Annp-$MP-01' AND date_commande<'$Annp-$MP-31' AND etat_commande='1'  ");
+	$PPAU=mysql_query("select * from purchase where  date_commande='$Annp-$Mois-$jour' AND etat_commande='1'");
+	$PPSM=mysql_query("select * from purchase where `date_commande` >= CURDATE( ) -7 AND etat_commande='1'");
 	
 	$factur=mysql_query("select * from invoice where etat_payement=0 and Draft=1  ");
 	$fact=mysql_query("select * from invoice where etat_payement=0 and Draft=1  ");
-	$comm=mysql_query("select * from purchase where etat_paiement='0' AND confirmation='1' ");
-	$com=mysql_query("select * from purchase where etat_paiement='0' AND confirmation='1' ");
+	$client=mysql_query("select distinct client from invoice where etat_payement=0 and Draft=1   ");
+	
+	$comm=mysql_query("select * from purchase where etat_paiement='0' AND etat_commande='1' ");
+	$com=mysql_query("select * from purchase where etat_paiement='0' AND etat_commande='1' ");
 	$MN=mysql_query("select * from currency where Monnaie_utliser='1'");
     $MN1=mysql_fetch_array($MN);
  ?>
@@ -193,7 +193,7 @@ $forwardto=1;?>
 		  ?>
 		  <?php
 		  		$inprofit=mysql_query("select * from invoice where  date_lancement>='$p[2]' AND date_lancement<'$p[3]'  and Draft=1   ");
-				$pprofit=mysql_query("select * from purchase where  date_commande>='$p[2]' AND date_commande<'$p[3]' and confirmation=1  ");
+				$pprofit=mysql_query("select * from purchase where  date_commande>='$p[2]' AND date_commande<'$p[3]' and etat_commande=1  ");
 				$ttinprofit=0;
 					while($facture=mysql_fetch_array($inprofit)){
 $el=mysql_query("select * from vueinvoicetotale where facture='$facture[3]'");
@@ -202,8 +202,9 @@ $element=mysql_fetch_array($el);
 $TF=$element[3]*$facture[17];
 
 $ttinprofit=$ttinprofit+$TF;
+
 }
-				
+			
 				$ttpprofit=0;
 		while($command=mysql_fetch_array($pprofit)){
 $el=mysql_query("select * from vuepurchasetotale where BonCommande='$command[0]'");
@@ -213,37 +214,55 @@ $TTCNP=$element[3]*$command[9];
 $ttpprofit=$ttpprofit+$TTCNP;
 }
 				
-				$PSprofit=mysql_query("select * from  paiment_salaire  where  Date_paiment>='$p[2]' AND Date_paiment<'$p[3]'  ");
-
-				$ttpsprofit=0;
-				while($py=mysql_fetch_array($PSprofit)){
-     $cr=mysql_query("select Monnaie from `bank_account`  where Numero_Compte='$py[4]'"); 
-		$crf=mysql_fetch_array($cr);
-		$vcr=mysql_query("select Valeur_Devise from `currency`  where Abreviation_Monnai='$crf[0]'"); 
-		$vcrf=mysql_fetch_array($vcr);
-
-		$el=mysql_query("select Montant_peyye from paiment_salaire where id='$py[0]'");
-		$tt=mysql_fetch_array($el);
-$ttpsprofit=$ttpsprofit+($tt[0]*$vcrf[0]);
+$ttpsprofit=0;
+$C1=mysql_query("select  id   from paiment_salaire where Date_paiment>='$p[2]' AND Date_paiment<'$p[3]' ")or die(mysql_error());
+while($TTC1=mysql_fetch_array($C1)){
+$To=mysql_query("select *  from salaire_payer where  id_payment='$TTC1[0]' ")or die(mysql_error());
+while($Tot_S=mysql_fetch_array($To)){
+$Currncy=mysql_query("select Valeur_Devise from currency where Abreviation_Monnai='$Tot_S[4]'");
+$MNTemp=mysql_fetch_array($Currncy);
+$ttpsprofit=$ttpsprofit+($Tot_S[2]*$MNTemp[0]/$Tot_S[5]);
 
 }
+
+}
+
 $profit=($ttinprofit-($ttpprofit+$ttpsprofit));
-		  
 		  ?>
-		  
+		
+		<div class="portlet light"  id="charte" >
+								<div class="portlet-title">
+									
+									<div class="tools">
+										<a href="javascript:;" class="fullscreen">
+											</a>
+									</div>
+								</div>
+								<div class="portlet-body" >
+								<div>
+									<div id="chart_3" class="chart" style="height:500px;" >
+									</div>
+									</div>
+								</div>
+								
+							</div> 
 		  <div class="row margin-top-10">
+
 		  <?php if($v[11]!=0){?>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="dashboard-stat2">
 						<div class="display">
-						
+						<button onclick="return afficher_cacher('charte');">ssssssss</button>
+									
 						<?php if($profit >=$a[12]){ ?>
 							<div class="number">
 								<h4 class="font-green-sharp"><?php  echo number_format($profit,2,',','.'); ?>
 								<small class="font-green-sharp font-xs"><?php echo $MN1[0]; ?></small></h4>
 								<small><?php echo $N51 ;?></small>
+								
 							</div>
 							<?php }else{?>
+							
 							<div class="number">
 							<h4 class="font-green-sharp"><b><?php  echo number_format($profit,2,',','.'); ?></b>
 							<small class="font-green-sharp font-xs"><?php echo $MN1[0]; ?></small></h4>
@@ -251,6 +270,7 @@ $profit=($ttinprofit-($ttpprofit+$ttpsprofit));
 							</div>
 							<?php }?>
 						
+								
 						</div>
 					</div>
 				</div>
@@ -328,8 +348,20 @@ $TTC1tt=$TTC1aa+$TTC11aa;
 				<?php }?>
 				
 				<?php 
+				
+  function diffMois($dateDebut, $dateFin) {
+		$dtDeb = new DateTime($dateDebut);
+		$dtFin = new DateTime($dateFin);
+		$interval = $dtDeb->diff($dtFin);
+		$nbmonth= $interval->format('%m');
+		$nbyear = $interval->format('%y');
+		return 12 * $nbyear + $nbmonth;
+	}
 				$IPtt=mysql_query("select * from invoice where  date_lancement>='$p[2]' AND date_lancement<'$p[3]'  and Draft=1   ");
-				$PPtt=mysql_query("select * from purchase where  date_commande>='$p[2]' AND date_commande<'$p[3]' and confirmation=1 ");
+				$PPtt=mysql_query("select * from purchase where  date_commande>='$p[2]' AND date_commande<'$p[3]' and etat_commande=1 and operation!='' ");
+				$datedebut=explode("-","$p[2]");
+	//		echo diffMois($p[2], "2016-12-31");
+			
 				$TTCAU1aa=0;
 					while($facture=mysql_fetch_array($IPtt)){
 $el=mysql_query("select * from vueinvoicetotale where facture='$facture[3]'");
@@ -743,7 +775,11 @@ $forwardto=1;
 											</div>
 											<div class="number">
 											<div class="uppercase font-hg font-red-flamingo">
-										  <?php echo number_format($Tot,2,',','.') ;?> <span class="font-lg font-grey-mint"><?php  echo $MN1[0]; ?></span>
+										  <?php
+										    $el=mysql_query("select sum(TotalElement*taux)  from  finalinvoice where draft=1 and Pay=0 ");
+                               $element=mysql_fetch_array($el);
+								$Tot=$element[0];
+										  echo number_format($Tot,2,',','.') ;?> <span class="font-lg font-grey-mint"><?php  echo $MN1[0]; ?></span>
 									       </div>
 												
 											</div>
@@ -769,18 +805,17 @@ $forwardto=1;
 								</thead>
 								
 								<?php 
-								  while($facture=mysql_fetch_array($fact)){
-                                  $el=mysql_query("select * from vueinvoicetotale where facture='$facture[3]'");
-                                 $element=mysql_fetch_array($el);
-                                 $TTF=$element[3];
+								
+                                  $el=mysql_query("select sum(TotalElement*taux) ,ClientFacture from  finalinvoice where draft=1 and Pay=0 group by ClientFacture");
+                               while($element=mysql_fetch_array($el)){
 								 ?>
 								<tr>
 									<td>
-									<a href="MenuUtilisation.php?valeur=ModifierClient.php&NomSOC=<?php echo $facture[5];?>&titre=<?php echo $facture[5].' '; ?><?php echo $N30; ?>&url=<?php echo  $url.$N29 ; ?>&mdc=1" title="<?php echo $facture[5]; ?>"  >
-										<font size="2"><?php echo  substr ($facture[5] , 0,10 );?></font></a>
+									<a href="MenuUtilisation.php?valeur=ModifierClient.php&NomSOC=<?php echo $element[1];?>&titre=<?php echo $element[1].' '; ?><?php echo $N30; ?>&url=<?php echo  $url.$N29 ; ?>&mdc=1" title="<?php echo $element[1]; ?>"  >
+										<font size="2"><?php echo  substr ($element[1] , 0,10 );?></font></a>
 									</td>
 									<td>
-										<?php echo number_format($TTF,2,',','.'); ?>&nbsp;<?php echo $facture[9]; ?> 
+										<?php echo number_format($element[0],2,',','.'); ?>&nbsp;<?php echo $MN1[0]; ?> 
 									</td>
 									
 								</tr>
@@ -828,7 +863,12 @@ $forwardto=1;
 											</div>
 											<div class="number">
 											<div class="uppercase font-hg font-red-flamingo">
-										  <?php echo number_format($TTCim,2,',','.'); ?> <span class="font-lg font-grey-mint"><?php echo $MN1[0]; ?></span>
+										  <?php
+ $el=mysql_query("select sum(Total*taux)  from finalpurchase where Livraison=1 and Pay=0 and OperationCommande!='' ");
+                               $elemente=mysql_fetch_array($el);
+								$TTCim=$elemente[0];
+
+										  echo number_format($TTCim,2,',','.'); ?> <span class="font-lg font-grey-mint"><?php echo $MN1[0]; ?></span>
 									       </div>
 												
 											</div>
@@ -854,18 +894,18 @@ $forwardto=1;
 								</thead>
 								
 								<?php 
-		                        while($command=mysql_fetch_array($com)){
-                                $el=mysql_query("select * from vuepurchasetotale where BonCommande='$command[0]'");
-                                $Tot=0;
-                                $element=mysql_fetch_array($el);
-                                   ?>
+								
+                                  $el=mysql_query("select sum(Total*taux) ,FournisseurCommande from finalpurchase where Livraison=1 and Pay=0 and OperationCommande!='' group by FournisseurCommande");
+                              
+							  while($element=mysql_fetch_array($el)){
+								 ?>
 								<tr>
 									<td>
-									<a href="MenuUtilisation.php?valeur=ModifierFournisseur.php&NomSOC=<?php echo $command[1];?>&titre=<?php echo $command[1].' '; ?><?php echo $N30; ?>&url=<?php echo  $url2.".".$N29 ; ?>&mdf=1" title="<?php echo $command[1]; ?>">
-										<font size="2"><?php echo substr($command[1],0,10 );?></font></a>
+									<a href="MenuUtilisation.php?valeur=ModifierClient.php&NomSOC=<?php echo $element[1];?>&titre=<?php echo $element[1].' '; ?><?php echo $N30; ?>&url=<?php echo  $url.$N29 ; ?>&mdc=1" title="<?php echo $element[1]; ?>"  >
+										<font size="2"><?php echo  substr ($element[1] , 0,10 );?></font></a>
 									</td>
 									<td>
-										<?php echo number_format($element[3],2,',','.'); ?>&nbsp;<?php echo $command[7]; ?> 
+										<?php echo number_format($element[0],2,',','.'); ?>&nbsp;<?php echo $MN1[0]; ?> 
 									</td>
 									
 								</tr>
@@ -1687,7 +1727,7 @@ $forwardto=1;
 									<?php 
 			$MN=mysql_query("select * from currency where Monnaie_utliser='1'");
             $MN1=mysql_fetch_array($MN);
-			$s=mysql_query("select * from purchase where confirmation!=1 order by reference Desc ");
+			$s=mysql_query("select * from purchase where etat_commande!=1 order by reference Desc ");
 			while($admin=mysql_fetch_array($s)){
 			$get_tot = mysql_query("SELECT * FROM  `vuepurchasetotale` where BonCommande='$admin[0]'");
                $tot=mysql_fetch_array($get_tot);
@@ -1759,7 +1799,7 @@ $forwardto=1;
 									<?php 
 			$MN=mysql_query("select * from currency where Monnaie_utliser='1'");
             $MN1=mysql_fetch_array($MN);
-			$s=mysql_query("select * from purchase where confirmation=1  AND etat_paiement='0'  AND Date_reception!='' and etat_commande='1' and confirmation_paiment='0' order by reference DESC");
+			$s=mysql_query("select * from purchase where etat_commande=1  AND etat_paiement='0'  AND Date_reception!='' and etat_commande='1' and confirmation_paiment='0' order by reference DESC");
 			while($admin=mysql_fetch_array($s)){
 			$get_tot = mysql_query("SELECT * FROM  `vuepurchasetotale` where BonCommande='$admin[0]'");
                $tot=mysql_fetch_array($get_tot);
@@ -1806,16 +1846,272 @@ document.location.href="<?php echo $urlfor; ?>";
 			
 
 			<?php }?>
-			<!-- END PAGE CONTENT INNER -->
-		
-<!-- END CONTAINER -->
-<!-- BEGIN FOOTER -->
 
-<!-- END FOOTER -->
+<!-- BEGIN THEME STYLES -->
+<link href="../assets/global/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/admin/layout4/css/layout.css" rel="stylesheet" type="text/css"/>
+<link id="style_color" href="../assets/admin/layout4/css/themes/light.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/admin/layout4/css/custom.css" rel="stylesheet" type="text/css"/>
 
+			
+			<div class="row">
+				<div class="col-md-12">
+					
+					<!-- BEGIN PORTLET-->
+					<div class="portlet box blue">
+						<div class="portlet-title">
+							<div class="caption">
+								<i class="fa fa-gift"></i>Static Example
+							</div>
+							<div class="tools">
+								<a href="javascript:;" class="collapse">
+								</a>
+								<a href="javascript:;" class="reload">
+								</a>
+							</div>
+						</div>
+						<div class="portlet-body">
+							<table class="table table-hover table-striped table-bordered">
+							
+							<tr>
+								<td>
+									 Responsive
+								</td>
+								<td>
+									<a class="btn default" data-toggle="modal" href="#responsive">
+									View Demo </a>
+								</td>
+							</tr>
+							
+							</table>
+							
+							<div id="responsive" class="modal fade" tabindex="-1" aria-hidden="true">
+							<form action="b.html">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+											<h4 class="modal-title">Responsive & Scrollable</h4>
+										</div>
+										<div class="modal-body">
+											<div class="scroller" style="height:300px" data-always-visible="1" data-rail-visible1="1">
+												<div class="row">
+													<div class="col-md-6">
+														<h4>Some Input</h4>
+														<p>
+															<input type="number" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+													</div>
+													<div class="col-md-6">
+														<h4>Some More Input</h4>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+														<p>
+															<input type="text" class="col-md-12 form-control">
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="52" data-dismiss="modal" class="btn default">Close</button>
+											<button type="submit" class="btn green">Save changes</button>
+										</div>
+									</div>
+								</div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+					<!-- END PORTLET-->
+				</div>
+			</div>
+			
+							
+<script type="text/javascript">
+
+function afficher_cacher(id)
+{
+alert();
+    if(document.getElementById(id).style.display=="none")
+    {
+        document.getElementById(id).style.display="";
+		<SCRIPT language="JavaScript"> 
+window.location.reload() 
+
+    }
+    else
+    {
+        document.getElementById(id).style.display="none";
+    }
+    return true;
+}
+
+</script>
+		<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="../assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="../assets/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/amcharts/serial.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/amcharts/pie.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/amcharts/radar.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/amcharts/themes/patterns.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/amcharts/themes/chalk.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/ammap/ammap.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/amcharts/amstockcharts/amstock.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="../assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="../assets/admin/layout4/scripts/layout.js" type="text/javascript"></script>
+<script src="../assets/admin/layout4/scripts/demo.js" type="text/javascript"></script>
+
+<script>
+
+
+var ChartsAmcharts = function() {
+
+   
+    var initChartSample3 = function() {
+        var chart = AmCharts.makeChart("chart_3", {
+            "type": "serial",
+            "theme": "light",
+
+            "fontFamily": 'Open Sans',            
+            "color":    '#888888',
+            
+            "pathToImages": "../assets/global/plugins/amcharts/amcharts/images/",
+
+            "dataProvider": [{
+                "date": "Jan",
+                "duration": '<?php if(isset($_GET['inv1'])) echo $_GET['inv1'] ;  ?>'
+            }, {
+                "date": "Fev",
+                "duration": '<?php if(isset($_GET['inv2'])) echo ($_GET['inv2']);else echo 0;  ?>'
+            }, {
+                "date": "Mar",
+                "duration": '<?php if(isset($_GET['inv3'])) echo ($_GET['inv3']);else echo 0;    ?>'
+            }, {
+                "date": "Avr",
+                "duration": '<?php  if(isset($_GET['inv4'])) echo ($_GET['inv4']);else echo 0;    ?>'
+            }, {
+                "date": "Mai",
+                "duration": '<?php if(isset($_GET['inv5'])) echo ($_GET['inv5']);else echo 0;    ?>'
+            }, {
+                "date": "Juin",
+                "duration": '<?php if(isset($_GET['inv6'])) echo ($_GET['inv6']); else echo 0;   ?>'
+            }, {
+                "date": "Juill",
+                "duration": '<?php if(isset($_GET['inv7'])) echo ($_GET['inv7']); else echo 0;   ?>'
+            }, {
+                "date": "Aout",
+                "duration": '<?php if(isset($_GET['inv8'])) echo ($_GET['inv8']);else echo 0;    ?>',
+                 }, {
+                "date": "Sep",
+                "duration": '<?php if(isset($_GET['inv9'])) echo ($_GET['inv9']); else echo 0;   ?>'
+            }, {
+                "date": "Nov",
+                "duration": '<?php if(isset($_GET['inv10'])) echo ($_GET['inv10']); else echo 0;   ?>'
+            }, {
+                "date": "Oct",
+                "duration": '<?php if(isset($_GET['inv11'])) echo ($_GET['inv11']); else echo 0;   ?>'
+            }, {
+                "date": "Dec",
+                "duration": '<?php if(isset($_GET['inv12'])) echo ($_GET['inv12']);else echo 0;    ?>'
+            }],
+            "graphs": [{
+                "bullet": "square",
+                "bulletBorderAlpha": 1,
+                "bulletBorderThickness": 1,
+                "fillAlphas": 0.3,
+                "fillColorsField": "lineColor",
+                "legendValueText": "[[value]]",
+                "lineColorField": "lineColor",
+                "title": "duration",
+                "valueField": "duration"
+            }],
+            "chartScrollbar": {},
+            "chartCursor": {
+                "categoryBalloonDateFormat": "MMM",
+                "cursorAlpha": 0,
+                "zoomable": false,
+
+            },
+            "dataDateFormat": "MM",
+            "categoryField": "date"
+            
+        });
+
+        $('#chart_3').closest('.portlet').find('.fullscreen').click(function() {
+            chart.invalidateSize();
+        });
+    }          
+
+    return {
+        //main function to initiate the module
+
+        init: function() {
+            initChartSample3();
+            
+        }
+
+    };
+
+}();
+
+
+jQuery(document).ready(function() {       
+   ChartsAmcharts.init();
+});	
+</script>
 <!-- END PAGE LEVEL SCRIPTS -->
-
-<!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
 </html>

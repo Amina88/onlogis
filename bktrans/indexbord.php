@@ -281,6 +281,7 @@ display:none;
 <link href="../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
 <!-- END GLOBAL MANDATORY STYLES -->
+
 <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
 <link href="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css"/>
 <link href="../assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css"/>
@@ -1184,6 +1185,7 @@ $employees = $doc->getElementsByTagName($page[0]);
 <script src="../assets/admin/pages/scripts/index3.js" type="text/javascript"></script>
 <script src="../assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
 <script src="../assets/admin/pages/scripts/profile.js" type="text/javascript"></script>
+<script src="../assets/admin/pages/scripts/ui-extended-modals.js"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
 jQuery(document).ready(function() {    
@@ -1195,7 +1197,7 @@ jQuery(document).ready(function() {
 
  Tasks.initDashboardWidget(); 
  Profile.init(); // init tash dashboard widget  
-       
+         
 });
 </script>
 <!-- END JAVASCRIPTS -->

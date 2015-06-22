@@ -230,12 +230,12 @@ foreach( $Menu as $Menu_util )
   $permission=array();
 if($util){
 $permission[1]='Administrateur';
- for($i=2;$i<39;$i++){
+ for($i=2;$i<40;$i++){
 $permission[$i]=0;
 
 }
 }else{
- for($i=1;$i<=38;$i++){
+ for($i=1;$i<=39;$i++){
 $permission[$i]=0;
 
 }

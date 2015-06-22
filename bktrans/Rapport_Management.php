@@ -338,7 +338,7 @@ $Net2=$Net2-($Net2*$Tax[0]*0.01);;
 										
 										
 
-
+<?php
 
 $pdf->Output();
 
